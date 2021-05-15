@@ -142,7 +142,7 @@ const Layout = ({ children }: { children?: any }) => {
         <div>
           <SearchForm className={styles.searchForm} />
           <h2>
-            <Link href="/">Revised (v.3.5) System Reference Document</Link>
+            <Link href="/">개정판 (v.3.5) 시스템 참조 문서</Link>
           </h2>
         </div>
         <ul className={styles.groupList}>
