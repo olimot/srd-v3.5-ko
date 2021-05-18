@@ -3,7 +3,7 @@ import modifyHtmls from './modifyHtmls';
 import documentGroups from '../../public/document-groups.json';
 
 const collectAnchors = async () => {
-  const result = await modifyHtmls('./public/raw-html', './public/raw-html', () => {
+  const result = await modifyHtmls('./public/raw-html-ko', './public/raw-html-ko', () => {
     const [, groupName, pageName] = document.title.split(' / ');
     return Array.from(document.querySelectorAll('[id]'), element => {
       const headline = (element.tagName === 'SECTION'
