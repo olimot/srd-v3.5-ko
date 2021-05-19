@@ -1,0 +1,13 @@
+[
+  { "value": "END OF LICENSE", "filename": "Legal.html", "basename": "Legal" },
+  { "value": "ALTERNATIVE\nANIMAL COMPANIONS", "filename": "ClassesI.html", "basename": "ClassesI" },
+  { "value": "SCHOOL\nSPECIALIZATION", "filename": "ClassesII.html", "basename": "ClassesII" },
+  { "value": "FAMILIARS", "filename": "ClassesII.html", "basename": "ClassesII" },
+  { "value": "ARCANE\nSPELLS AND ARMOR", "filename": "ClassesII.html", "basename": "ClassesII" },
+  { "value": "INFLUENCING\nNPC ATTITUDES", "filename": "SkillsI.html", "basename": "SkillsI" },
+  { "value": "OTHER\nWAYS TO BEAT A TRAP", "filename": "SkillsI.html", "basename": "SkillsI" },
+  { "value": "MAGIC\nITEM GOLD PIECE VALUES", "filename": "MagicItemsI.html", "basename": "MagicItemsI" },
+  { "value": "BODY\nSLOT AFFINITIES", "filename": "MagicItemsI.html", "basename": "MagicItemsI" },
+  { "value": "PSIONIC DISCIPLINES", "filename": "PsionicClasses.html", "basename": "PsionicClasses" },
+  { "value": "PSICRYSTALS", "filename": "PsionicClasses.html", "basename": "PsionicClasses" }
+]
