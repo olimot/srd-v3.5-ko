@@ -23,6 +23,10 @@ const index = async () => {
       }
       return prev;
     }, [] as string[][])
+    .concat([
+      ['Special Qualities', '특성'],
+      ['Area', '범위'],
+    ])
     .sort((a, b) => b[0].length - a[0].length);
 
   const dictConflicts = theDictEntries.filter(innerlist => innerlist.length !== 2);
