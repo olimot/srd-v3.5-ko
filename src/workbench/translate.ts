@@ -26,6 +26,9 @@ const index = async () => {
     .concat([
       ['Special Qualities', '특성'],
       ['Area', '범위'],
+      ['Effect:', '효과:'],
+      ['Target:', '목표물:'],
+      ['Targets:', '목표물:']
     ])
     .sort((a, b) => b[0].length - a[0].length);
 
@@ -64,7 +67,7 @@ const index = async () => {
       dictEntries.forEach(([findWord, replaceWord]) => {
         if (!findWord) return;
         const findRe = new RegExp(
-          `\\b${findWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/\s+/g, '\\s+')}(s|es)?\\b`,
+          `(\\b|^)${findWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/\s+/g, '\\s+')}(s|es)?(\\b|$)`,
           'gi',
         );
         const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
