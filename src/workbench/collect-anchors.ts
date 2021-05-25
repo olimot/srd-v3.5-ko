@@ -1,9 +1,11 @@
 import fs from 'fs-extra';
-import modifyHtmls from './modifyHtmls';
-import documentGroups from '../../public/document-groups.json';
+import createEvaluateAllFunction from './util/createEvaluateAllFunction';
+import basenames from '../../public/index.json';
 
 const collectAnchors = async () => {
-  const result = await modifyHtmls('./public/raw-html-ko', './public/raw-html-ko', () => {
+  const evaluate = createEvaluateAllFunction({ inDir: './public/raw-html' });
+
+  const result = await evaluate(() => {
     const [, groupName, pageName] = document.title.split(' / ');
     return Array.from(document.querySelectorAll('[id]'), element => {
       const headline = (element.tagName === 'SECTION'
@@ -26,16 +28,9 @@ const collectAnchors = async () => {
     });
   });
 
-  const anchorResult = documentGroups.flatMap(({ pages }) => {
-    return pages.flatMap(page => {
-      return result[`${page.basename}.html`].map(v => ({
-        ...v,
-        filename: `${page.basename}.html`,
-        basename: page.basename,
-        hash: `#${v.id}`,
-      }));
-    });
-  });
+  const anchorResult = basenames.flatMap(basename =>
+    result[`${basename}.html`].map(v => ({ ...v, filename: `${basename}.html`, basename, hash: `#${v.id}` })),
+  );
 
   fs.writeJSONSync('./src/anchors.json', anchorResult);
 };
