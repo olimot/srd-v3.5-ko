@@ -68,4 +68,20 @@
     list-style-type: disc;
     margin: 1em 0;
   }
+
+  td {
+    border-bottom: 1px solid #000;
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+
+  i {
+    font-style: italic;
+  }
+
+  b {
+    font-weight: bold;
+  }
 }
