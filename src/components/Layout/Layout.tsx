@@ -14,6 +14,8 @@ const documentGroups = anchors
   .reduce((prev, current) => {
     const groupIndex = prev.findIndex(group => group.groupName === current.groupName);
     if (groupIndex === -1) return [...prev, { groupName: current.groupName, pages: [current] }];
+    const pageIndex = prev[groupIndex].pages.findIndex(page => page.pageName === current.pageName);
+    if (pageIndex !== -1) return prev;
     return [
       ...prev.slice(0, groupIndex),
       { ...prev[groupIndex], pages: [...prev[groupIndex].pages, current] },
@@ -37,6 +39,16 @@ const Layout = ({ children }: { children?: any }) => {
 
   useEffect(() => {
     setSidebarVisible(window.innerWidth >= 1024);
+    const onLinkClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      if (target.tagName !== 'A' || window.innerWidth >= 1024) return;
+      setTimeout(() => {
+        setSidebarVisible(false);
+        setTOCVisible(false);
+      }, 33);
+    };
+    window.addEventListener('click', onLinkClick);
+    return () => window.removeEventListener('click', onLinkClick);
   }, []);
 
   useEffect(() => {
@@ -45,10 +57,10 @@ const Layout = ({ children }: { children?: any }) => {
       let cursor: HTMLElement | null = e.target as HTMLElement;
       if (isSidebarVisible && window.innerWidth < 1024) {
         while (cursor && !cursor.classList.contains(styles.sidebar)) cursor = cursor.parentElement;
-        if (!cursor?.classList.contains(styles.sidebar)) setSidebarVisible(false);
+        if (!cursor) setSidebarVisible(false);
       } else if (isTOCVisible) {
         while (cursor && !cursor.classList.contains(styles.toc)) cursor = cursor.parentElement;
-        if (!cursor?.classList.contains(styles.toc)) setTOCVisible(false);
+        if (!cursor) setTOCVisible(false);
       }
     };
     window.addEventListener('click', dissmissTOC);
@@ -128,10 +140,13 @@ const Layout = ({ children }: { children?: any }) => {
               isTOCVisible === false && styles.tocHidden,
             )}
           >
+            <p>
+              <Link href={`/raw-html/${basename}.html`}>(view unstyled)</Link>
+            </p>
             <h2>In This Article</h2>
             <ul>
               {toc.map(item => (
-                <TocItem key={item.anchor.basename} item={item} />
+                <TocItem key={`${item.anchor.filename}${item.anchor.id}`} item={item} />
               ))}
             </ul>
           </aside>
@@ -142,7 +157,7 @@ const Layout = ({ children }: { children?: any }) => {
         <div>
           <SearchForm className={styles.searchForm} />
           <h2>
-            <Link href="/">개정판 (v.3.5) 시스템 참조 문서</Link>
+            <Link href="/">Revised (v.3.5) System Reference Document</Link>
           </h2>
         </div>
         <ul className={styles.groupList}>

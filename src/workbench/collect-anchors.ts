@@ -1,11 +1,9 @@
 import fs from 'fs-extra';
-import createEvaluateAllFunction from './util/createEvaluateAllFunction';
-import basenames from '../../public/index.json';
+import modifyHtmls from './modifyHtmls';
+import documentGroups from '../../public/document-groups.json';
 
 const collectAnchors = async () => {
-  const evaluate = createEvaluateAllFunction({ inDir: './public/raw-html' });
-
-  const result = await evaluate(() => {
+  const result = await modifyHtmls('./public/raw-html', './public/raw-html', () => {
     const [, groupName, pageName] = document.title.split(' / ');
     return Array.from(document.querySelectorAll('[id]'), element => {
       const headline = (element.tagName === 'SECTION'
@@ -19,8 +17,9 @@ const collectAnchors = async () => {
             ?.trim()
             .toLowerCase()
             .replace(/\s+/, ' ')
-            .replace(/(^\w{1})|([^a-zA-Z]\w{1})/g, match => match.toUpperCase())
-            .replace(/\b(i{1,3}|iv|vi{0,3})\b/gi, match => match.toUpperCase()) || '',
+            .replace(/(^[\wãàáäâẽèéëêìíïîõòóöôùúüûñç]{1})|(\s[\wãàáäâẽèéëêìíïîõòóöôùúüûñç]{1})/g, match => match.toUpperCase())
+            .replace(/\b(i{1,3}|iv|vi{0,3})\b/gi, match => match.toUpperCase())
+            .replace(/’(.)/gi, a => a.toLowerCase()) || '',
         level: parseInt(headline.tagName.substr(1), 10),
         pageName,
         groupName,
@@ -28,9 +27,16 @@ const collectAnchors = async () => {
     });
   });
 
-  const anchorResult = basenames.flatMap(basename =>
-    result[`${basename}.html`].map(v => ({ ...v, filename: `${basename}.html`, basename, hash: `#${v.id}` })),
-  );
+  const anchorResult = documentGroups.flatMap(({ pages }) => {
+    return pages.flatMap(page => {
+      return result[`${page.basename}.html`].map(v => ({
+        ...v,
+        filename: `${page.basename}.html`,
+        basename: page.basename,
+        hash: `#${v.id}`,
+      }));
+    });
+  });
 
   fs.writeJSONSync('./src/anchors.json', anchorResult);
 };
