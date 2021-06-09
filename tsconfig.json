@@ -24,7 +24,8 @@
   "include": [
     "src/**/*.ts",
     "src/**/*.tsx",
-    "src/**/*.js"
+    "src/**/*.js",
+    "public/**/*.js"
   ],
   "exclude": [
     "node_modules"
