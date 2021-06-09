@@ -30,7 +30,7 @@ const App = () => {
           Game Content under the Open Game License, and may use, modify, and distribute it.
         </p>
         <p>
-          Github:<a href="https://github.com/olimot/srd-v3.5">https://github.com/olimot/srd-v3.5</a>
+          Github:<a href="https://github.com/olimot/srd-v3.5-ko">https://github.com/olimot/srd-v3.5-ko</a>
           <br />
           Original Documents:{' '}
           <a href="http://www.wizards.com/default.asp?x=d20/article/srd35">
