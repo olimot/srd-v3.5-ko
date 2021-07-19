@@ -1,0 +1,5313 @@
+untrained	비훈련시
+trained only	훈련 필요
+restriction	제한사항
+flight	비행
+magic	마법
+rank	등급
+great	상급
+greater	상급
+lesser	하급
+less	하급
+mass	광역
+minor	하급
+major	상급
+massive	광역
+bonus	보너스
+penalty	페널티
+item	아이템
+type	유형
+subtype	하위유형
+rapid	재빠른
+accelerated	가속화된
+improved	향상된
+advanced	고난도
+uncanny	기묘한
+mastery	마스터
+aura	오라
+drain	흡수
+animal	동물
+vermin	해충
+undead	언데드
+arcane	비전
+familiar	패밀리어
+spell-like	유사주문
+metamagic	메타마법
+basic rules and legal	기본규칙 및 법적고지
+legal information	법률정보
+the basics	기본 사항
+dice	주사위
+ability scores	능력치
+modifier	수정치
+spellcaster	주문시전자
+the abilities	능력
+strength	근력
+dexterity	민첩
+constitution	건강
+intelligence	지능
+wisdom	지혜
+charisma	매력
+alignment	성향
+good-aligned	선 성향
+evil-aligned	악 성향
+law	질서
+lawful	질서
+lawful good	질서 선
+lawful evil	질서 악
+neutral	중립
+neutral good	중립 선
+neutral evil	중립 악
+chaos	혼돈
+chaotic	혼돈
+chaotic good	혼돈 선
+chaotic evil	혼돈 악
+race	종족
+human	인간
+dwarf	드워프
+dwarves	드워프
+elf	엘프
+elves	엘프
+gnome	노움
+half-elf	하프 엘프
+half-elves	하프 엘프
+half-orc	하프 오크
+halfling	하플링
+character	캐릭터
+class	직업
+feature	특성
+feat	특기
+barbarian	바바리안
+hit die	히트 다이스
+skill points at 1st level	첫 레벨에서 스킬 포인트
+skill points at each level	레벨이 오를 때마다 스킬 포인트
+skill points at each additional level	레벨이 오를 때마다 추가 스킬 포인트
+(ex)	(범)
+(sp)	(주)
+Spell-Like Abilities (Sp) or Psionics (Sp)	유사주문 능력 (주) 또는 사이오닉 (주)
+(su)	(초)
+(ex or su)	(범, 초)
+(su or sp)	(초, 주)
+illiteracy	문맹
+indomitable will	불굴의 의지
+tireless rage	지칠 줄 모르는 격노
+ex-	은퇴 
+bard	음유시인
+bardic	음유시인의
+music	음악
+countersong	대응송
+fascinate	매료
+inspire courage	용기 고취
+inspire competence	적성 고취
+inspire greatness	위대함 고취
+song of freedom	자유의 노래
+inspire heroics	영웅심 고취
+cleric	사제
+deity	신급
+domain	계열
+spontaneous casting	즉시 시전
+druid	드루이드
+companion	동료
+nature sense	자연 감각
+wild empathy	야생 교감
+woodland	삼림지
+trackless step	흔적없는 걸음
+resist nature’s lure	자연의 유혹 저항
+wild shape	야생 변신
+venom immunity	독 면역
+a thousand faces	천의 얼굴
+timeless body	변함없는 신체
+adj.	보정
+trick	요령
+share spell	주문 공유
+evasion	회피
+devotion	전념
+fighter	전사
+monk	수도사
+flurry of blows	질풍 난타
+still mind	평정심
+slow fall	낙하 감속
+purity of body	육체 정화
+wholeness of body	육체의 완전함
+diamond body	만독불침
+abundant step	축지법
+diamond soul	금강불괴
+quivering palm	통배권
+tongue of the sun and moon	해와 달의 입
+empty body	육체 비우기
+perfect self	완전체
+paladin	성기사
+aura of good	선의 오라
+smite evil	악의 처벌
+divine grace	신성한 우아함
+lay on hands	치유의 손길
+divine health	신성 건강
+turn undead	언데드 구마
+code of conduct	행동강령
+empathic link	공감적 연결
+share saving throws	내성 굴림 공유
+ranger	레인저
+combat style	전투 방식
+swift tracker	날랜 추적자
+camouflage	위장
+hide in plain sight	평지 시야에서 숨기
+rogue	도적
+trap	함정
+trapfinding	함정 찾기
+crippling strike	불치의 일격
+defensive roll	방어적 구르기
+opportunist	기회주의자
+slippery mind	약삭빠른 사고방식
+sorcerer	소서러
+wizard	마법사
+spell	주문
+spellbook	주문책
+school	학파
+specialization	전문화
+school specialization	학파 전공
+deliver touch spells	접촉 주문 전달
+speak with master	주인과 대화
+speak with animals of its kind	같은 종의 동물과 대화
+scry on familiar	패밀리어로 염탐
+level	레벨
+multiclass	멀티직업
+skill	스킬
+check	판정
+difficulty class	난이도
+opposed check	대항 판정
+checks without rolls	굴림 없이 판정
+taking 10	10 받기
+taking 20	20 받기
+aid another	타인 보조하기
+ability checks	능력 판정
+key ability	핵심 능력
+appraise	감정
+balance	균형
+bluff	허세
+feinting	속임동작
+climb	등반
+concentration	집중
+craft	제작
+decipher script	문자 해독
+diplomacy	외교
+disable device	장치 무력화
+ranged	원거리
+melee	근접
+pit	구덩이
+rope	밧줄
+disguise	변장
+escape artist	탈출 전문가
+manacle	수갑
+masterwork	명품
+grappler	그래플러
+forgery	위조
+gather information	정보 수집
+handle animal	동물 조련
+heal	치료
+caltrop	마름쇠
+intimidate	위협
+jump	도약
+knowledge	지식
+listen	듣기
+move silently	조용히 이동
+open lock	자물쇠 열기
+profession	전문직
+ride	탑승
+search	탐색
+sense motive	의도 파악
+speak language	언어 말하기
+spellcraft	주문학
+spot	감지
+survival	생존
+swim	수영
+use magic device	마법 장치 사용
+use rope	밧줄 사용
+prerequisites	전제조건
+item creation	아이템 제작
+acrobatic	아크로바틱
+agile	재빠름
+alertness	경계
+animal affinity	동물 친화력
+armor proficiency	갑옷 숙련
+athletic	운동선수
+augment summoning	증강 소환
+blind-fight	장님 전투
+brew potion	포션 제조
+cleave	쪼개기
+combat casting	전투 시전
+combat expertise	전투 숙련
+combat reflexes	전투 반사
+craft magic arms and armor	마법 무기 및 갑옷 제작
+light armor	가벼운 갑옷
+heavy armor	무거운 갑옷
+weapon	무기
+light weapon	가벼운 갑옷
+heavy weapon	무거운 갑옷
+~/day	/일
+~/week	/주
+weapon and armor proficiency	무기와 갑옷 숙련
+craft rod	마법봉 제작
+craft staff	마법지팡이 제작
+craft wand	마법막대 제작
+craft wondrous item	기타 아이템 제작
+deceitful	속임수
+deflect arrows	화살 쳐내기
+deft hands	능숙한 손놀림
+diehard	질긴목숨
+diligent	근면함
+dodge	회피
+empower spell	주문 강화
+endurance	지구력
+enlarge spell	주문 범위 연장
+eschew materials	구성요소 무시
+exotic weapon proficiency	특이 무기 숙련
+extend spell	주문 시간 연장
+far shot	원거리 사격
+forge ring	반지 제작
+heighten spell	주문 레벨 강화
+counterspell	주문반사
+counterspelling	주문반사
+critical	치명타
+shield bash	방패 공격
+unarmed strike	비무장 타격
+investigator	수사관
+iron will	강철의 의지
+leadership	리더십
+lightning reflexes	번개 같은 반사신경
+magical aptitude	마법 재능
+manyshot	다수 사격
+martial weapon proficiency	무예 무기 숙련
+maximize spell	주문 최대화
+mobility	기동성
+mounted archery	기마 궁술
+mounted combat	기마 전투
+natural spell	자연 주문
+negotiator	협상가
+nimble fingers	기민한 손가락
+persuasive	설득력
+point blank shot	영점 사격
+power attack	강한 공격
+precise shot	정밀 사격
+quick draw	빠른 무기 준비
+quicken spell	빠른 주문
+rapid reload	재빠른 장전
+rapid shot	재빠른 사격
+ride-by attack	마상 공격
+run	달리기
+scribe scroll	마법두루마리 제작
+self-sufficient	자급자족
+shield proficiency	방패 숙련
+shot on the run	기동 사격
+silent spell	주문 암송
+simple weapon proficiency	단순 무기 숙련
+simple	단순
+skill focus	스킬 초점
+snatch arrows	화살 잡기
+spell focus	주문 초점
+spell penetration	주문 관통
+spirited charge	맹렬한 돌격
+spring attack	탄성 공격
+stealthy	은신
+still spell	부동 주문
+stunning fist	기절 주먹
+toughness	거칠음
+tower shield proficiency	장방패 숙련
+track	추적
+trample	짓밟기
+two-weapon	쌍수무기
+two-weapon defense	쌍수무기 방어
+two-weapon fighting	쌍수무기 전투술
+weapon finesse	무기 기교
+weapon focus	무기 초점
+weapon specialization	무기 전문화
+whirlwind attack	훨윈드 공격
+widen spell	주문 범위 증가
+equipment	장비
+wealth and money	재산과 화폐
+coins	동전
+wealth other than coins	동전 이외의 재산
+selling loot	전리품 판매
+martial	무예
+martial weapon	무예 무기
+exotic weapon	생소한 무기
+simple weapon	단순 무기
+reach weapon	긴 무기
+double weapon	쌍날 무기
+thrown weapon	투척 무기
+projectile weapon	투사 무기
+one-handed	한손
+two-handed	양손
+orc double	오크 쌍날
+bolas	팔맷돌
+sling	무릿매
+chain	사슬
+spiked	가시
+crossbow	석궁
+dagger	단검
+flail	철퇴
+flail, dire	철퇴, 삼절
+dire flail	삼절 철퇴
+gauntlet	건틀릿
+glaive	글레이브
+guisarme	기삼
+halberd	할버드
+gnome hooked	노움 갈고리
+javelin	투창
+kama	낫
+lance	랜스
+longbow	롱보우
+longspear	롱스피어
+net	그물
+nunchaku	쌍절곤
+quarterstaff	육척봉
+ranseur	랜서
+rapier	레이피어
+sai	사이
+scythe	대낫
+shortbow	숏보우
+shortspear	숏스피어
+shuriken	수리검
+siangham	샹함
+sickle	갈고리낫
+spear	창
+shield	방패
+unarmed	비무장
+sword	검
+bastard	바스타드
+two-bladed	쌍날
+trident	삼지창
+dwarven	드워프
+urgrosh	어그로시
+waraxe	전투도끼
+whip	채찍
+armor	갑옷
+spellcasting	주문시전
+armor spikes	갑옷 가시
+banded mail	띠매듭 갑옷
+breastplate	가슴보호갑
+buckler	버클러
+chain shirt	사슬 조끼
+chainmail	사슬 갑옷
+full plate	판금
+gauntlet, locked	건틀릿, 고정형
+locked gauntlet	고정된 건틀릿
+half-plate	약식 판금
+scale mail	미늘갑옷
+shield bash attack	방패 밀어내기 공격
+shield, tower	방패, 장방패
+tower shield	장방패
+shield spikes	방패 가시
+splint mail	찰갑형 갑옷
+crowbar	쇠지레
+healer	치유사
+adamantine	아다만틴
+darkwood	어둠나무
+iron, cold	철, 냉철
+combat	전투
+statistics	수치
+natural 1	내츄럴 1
+natural 20	내츄럴 20
+attack roll	명중 굴림
+attack	공격
+damage	피해
+armor class	방어도
+enhancement	강화
+deflection	굴절
+touch	접촉
+hit points	히트 포인트
+speed	속도
+saving throw	내성 굴림
+fortitude	인내
+reflex	반사
+will	의지
+initiative	선제권
+surprise	기습
+attacks of opportunity	기회 공격
+attack of opportunity	기회 공격
+action	행동
+round	라운드
+square	칸
+standard action	표준 행동
+total defense	총력 방어
+damage roll	피해 굴림
+supernatural	초자연적
+extraordinary	비범
+move action	이동 행동
+full-round	전체 라운드
+full-round actions	전체 라운드 행동
+full attack	전력 공격
+withdraw	퇴각
+climate	날씨
+terrain	지형
+move 5 feet through difficult terrain	험준한 지형에서 5 피트 이동
+free actions	자유 행동
+drop an item	아이템 버리기
+drop prone	엎드리기
+speak	말하기
+cease concentration on spell	주문 집중 해제
+cast a quickened spell	빠른 주문 시전
+miscellaneous actions	기타 행동
+take 5-foot step	5 피트 이동
+use feat	특기 사용
+use skill	스킬 사용
+injury and death	부상과 죽음
+loss of hit points	히트 포인트 손실
+hit point	히트 포인트
+healing	치료
+temporary hit points	임시 히트 포인트
+special action	특수 행동
+tactical movement	전략적 이동
+encumbrance	과적상태
+measuring distance	거리 측정
+creature	생명체
+fine	극초소형
+diminutive	초소형
+tiny	특소형
+small	소형
+large	대형
+huge	특대형
+gargantuan	거대형
+colossal	초대형
+combat modifiers	전투 수정치
+cover	엄폐
+concealment	은폐
+flanking	협공
+special attacks	특수 공격
+bull rush	황소 쇄도
+charge	돌격
+disarm	무장해제
+feint	속임동작
+grapple	그래플
+overrun	쇄도
+sunder	무기 파괴
+splash weapon	비산 무기
+trip	넘어뜨리기
+special initiative actions	특수 선제권 행동
+delay	지연
+ready	준비
+antimagic	항마
+blindsight	비시각적시야
+blindsense	비감각적감각
+breath weapon	브레스 무기
+charm	매혹
+compulsion	강요
+cold immunity	냉기 내성
+damage reduction	피해 축소
+darkvision	암시야
+death attacks	즉사 공격
+disease	질병
+blinding sickness	실명 질환
+cackle fever	웃음 열병
+demon fever	데몬 열병
+devil chills	악마 열병
+filth fever	오물 열병
+mindfire	뇌화증
+mummy rot	미라썩음증
+red ache	붉은 반점증
+the shakes	경련증
+slimy doom	끈적거림증
+energy drain	에너지 흡수
+negative level	음의 레벨
+etherealness	에테리얼화
+fear	공포
+fire immunity	열 내성
+gaseous form	기체 형태
+gaze	시선
+gaze attacks	시선 공격
+incorporeality	비실체상태
+invisibility	투명화
+level loss	레벨 손실
+low-light vision	저광시야
+paralysis	마비
+poison	독
+perils of using poison	독 사용의 위험성
+poison immunities	독 내성
+polymorph	변이
+psionics	사이오닉
+rays	광선
+regeneration	재생
+resistance to energy	에너지 저항
+scent	냄새
+spell resistance	주문 저항
+tremorsense	열감지
+turn resistance	구마 저항
+ability damaged	능력 손상됨
+ability drained	능력 흡수됨
+blinded	실명
+blown away	날라감
+checked	억제됨
+confused	혼란
+cowering	위축됨
+dazed	멍함
+dazzled	눈부심
+dead	죽음
+deafened	실청
+disabled	행동 불능
+dying	죽어가고 있음
+energy drained	에너지 흡수됨
+entangled	얽힘
+exhausted	탈진
+fascinated	매료됨
+fatigued	피로
+flat-footed	무방비 상태
+frightened	공포
+grappling	그래플링
+helpless	무기력
+incorporeal	비실체
+invisible	투명
+knocked down	넉다운
+nauseated	매스꺼움
+panicked	공황
+paralyzed	마비
+petrified	석화
+pinned	고정당함
+prone	엎드림
+shaken	떨림
+sickened	병걸림
+stable	안정
+staggered	비틀거림
+stunned	기절
+stunning	기절
+turned	구마당함
+unconscious	무의식
+npc classes	NPC 직업
+adept	주문숙련자
+adept spell list	주문숙련자 주문 목록
+aristocrat	귀족
+commoner	평민
+expert	전문가
+warrior	군인
+prestige classes	상위직
+arcane archer	비전 궁수
+requirements	필요조건
+enhance arrow	화살 강화
+imbue arrow	화살 주문부여
+seeker arrow	추적자 화살
+phase arrow	위상 화살
+hail of arrows	화살 우박
+arcane trickster	비전 도적
+ranged legerdemain	원거리 마술
+impromptu sneak attack	즉석 은밀한 공격
+archmage	대마법사
+high arcana	고위급 비전
+arcane fire	비전의 불
+arcane reach	비전의 도달
+element	원소
+shaping	조형
+spell power	주문 강화
+assassin	암살자
+save	내성
+blackguard	고위급도적
+aura of evil	악의 오라
+dark blessing	암흑의 축복
+smite good	선의 처벌
+fiendish servant	핀드 하인
+corrupt weapon	부패의 무기
+fallen paladins	타락한 성기사
+the blackguard’s fiendish servant	고위급도적의 핀드 하인
+blood bond	피의 유대
+dragon disciple	드래곤 제자
+claws and bite	발톱과 이빨
+ability boost	능력 강화
+duelist	결투사
+canny defense	영리한 방어
+improved reaction	향상된 순발력
+enhanced mobility	개선된 기동성
+grace	우아함
+precise strike	정밀 타격
+acrobatic charge	아크로바틱 돌격
+elaborate parry	정교한 받아치기
+dwarven defender	드워프 수호자
+eldritch knight	기괴한 기사
+hierophant	교황
+blast infidel	이교도 심판
+divine reach	신의 도달
+faith healing	믿음의 치료
+gift of the divine	신의 선물
+mastery of energy	에너지 마스터
+power of nature	자연의 권능
+horizon walker	지평선 여행자
+terrain mastery benefits	지형 마스터 효과
+loremaster	현자
+lore	전승
+true lore	진정한 전승
+mystic theurge	신비의 신관
+shadowdancer	그림자춤꾼
+shadow illusion	그림자 환영술
+summon shadow	그림자 소환
+shadow jump	그림자 도약
+thaumaturgist	서마터지스트
+aberration	돌연변이
+archon	아콘
+extraplanar	이세계
+fey	페이
+goblinoid	고블린형
+humanoid	인간형
+improved grab	향상된 잡아채기
+magical beast	마법 짐승
+monstrous humanoid	몬스터 인간형
+outsider	아웃사이더
+pounce	덮치기
+powerful charge	강한 돌격
+rake	갈퀴질
+ray	광선
+reptilian	파충류
+shapechanger	변신형
+sonic attack	음파 공격
+swallow whole	집어 삼키기
+distraction	집중방해
+movement	이동
+overland	지역간
+treasure	전리품
+dungeon	던전
+corridor	통로
+slime	슬라임
+mold	곰팡이
+fungi	버섯
+avalanche	만년설
+siege engine	공성 무기
+plane	이세계
+material plane	물질 세계
+ethereal plane	에테리얼 세계
+plane of shadow	그림자 세계
+astral plane	영적 세계
+elemental plane of air	바람 원소 세계
+elemental plane of earth	대지 원소 세계
+elemental plane of fire	불 원소 세계
+elemental plane of water	물 원소 세계
+negative energy plane	음에너지 세계
+positive energy plane	양에너지 세계
+caster	시전자
+subschool	하위학파
+abjuration	회피술
+conjuration	소환술
+divination	점술
+enchantment	부여술
+evocation	강신술
+illusion	환영술
+figment	환영형상
+glamer	환영위장
+pattern	무늬
+phantasm	환상
+necromancy	강령술
+transmutation	변환술
+descriptor	표지
+components	구성요소
+verbal	음성
+(v)	(음)
+somatic	손동작
+(s)	(손)
+material	물질
+(m)	(물)
+focus	초점
+(f)	(집)
+divine focus	신성 초점
+(df)	(신)
+casting time	시전 시간
+range	거리
+duration	지속시간
+arcane spell	비전 주문
+magical writings	마법 작성
+divine spell	신성 주문
+cantrip	소마법
+cleric domain	사제 계열
+air domain	바람 계열
+animal domain	동물 계열
+chaos domain	혼돈 계열
+death domain	죽음 계열
+destruction domain	파괴 계열
+earth domain	대지 계열
+evil domain	악 계열
+fire domain	불 계열
+good domain	선 계열
+healing domain	치료 계열
+knowledge domain	지식 계열
+law domain	질서 계열
+luck domain	행운 계열
+magic domain	마법 계열
+plant domain	식물 계열
+protection domain	보호 계열
+strength domain	근력 계열
+sun domain	태양 계열
+travel domain	여행 계열
+trickery domain	속임수 계열
+war domain	전쟁 계열
+water domain	물 계열
+orisons	소마법
+acid arrow	산성 화살
+acid fog	산성 안개
+acid splash	산성 거품
+air walk	공중 보행
+alarm	알람
+mental alarm	정신적 알람
+audible alarm	청각적 알람
+align weapon	무기 성향 지정
+alter self	형체 번형
+analyze dweomer	드웨머 분석
+animal growth	동물 성장
+animal messenger	동물 사자
+animal shapes	동물 변신
+animal trance	동물 최면
+animate dead	살아 움직이는 시체
+animate objects	살아 움직이는 물체
+animate plants	살아 움직이는 식물
+animate rope	살아 움직이는 밧줄
+antilife shell	대생명 보호막
+antimagic field	대마법 보호장
+antipathy	반감 부여
+antiplant shell	대식물 보호막
+arcane eye	비전의 눈
+arcane lock	비전 자물쇠
+arcane mark	비전의 징표
+arcane sight	비전 시야
+astral projection	영적 투사
+atonement	속죄
+augury	전조
+awaken	각성
+baleful polymorph	해로운 변이
+bane	파멸
+banishment	추방
+barkskin	나무껍질피부
+bear’s endurance	곰의 지구력
+bestow curse	저주 부여
+binding	결속
+black tentacles	검은 촉수
+blade barrier	칼날 방벽
+blasphemy	신성모독
+bless	축복
+bless water	물 축복
+bless weapon	무기 축복
+blight	마름병
+blindness	실명
+deafness	실청
+blink	깜빡임
+blur	흐릿함
+break enchantment	부여술 파괴
+bull’s strength	황소의 근력
+burning hands	불타는 손
+call lightning	번개 소환
+call lightning storm	번개폭풍 소환
+calm animals	평온한 동물
+calm emotions	평온한 감정
+cat’s grace	고양이의 우아함
+cause fear	공포 유발
+chain lightning	사슬 번개
+changestaff	변화지팡이
+chaos hammer	혼돈의 망치
+charm animal	동물 매혹
+charm monster	몬스터 매혹
+charm person	인간형 매혹
+chill metal	한기 어린 금속
+chill touch	한기 어린 손길
+circle of death	죽음의 마법진
+clairaudience	투청
+clairvoyance	투시
+clenched fist	꽉 쥔 주먹
+cloak of chaos	혼돈의 망토
+clone	복제
+cloudkill	살인구름
+color spray	다색 분사
+command	명령
+command plants	식물 명령
+command undead	언데드 명령
+commune	소통
+commune with nature	자연과 소통
+comprehend languages	언어 이해
+cone of cold	냉기 돌풍
+confusion	혼란
+consecrate	신성화
+contact other plane	이세계와 접촉
+contagion	역병
+contingency	비상사태
+continual flame	지속적인 불꽃
+control plants	식물 조종
+control undead	언데드 조종
+control water	물 조종
+control weather	날씨 조종
+control winds	바람 조종
+create food and water	음식과 물 생성
+create greater undead	최상급 언데드 생성
+create undead	언데드 생성
+create water	물 생성
+creeping doom	스멀거리는 파멸
+crushing despair	짓누르는 절망
+crushing hand	짓누르는 손
+cure critical wounds	치명적인 상처 치유
+cure light wounds	가벼운 상처 치유
+cure minor wounds	사소한 상처 치유
+cure moderate wounds	일반적인 상처 치유
+cure serious wounds	심각한 상처 치유
+curse water	물 저주
+dancing lights	춤추는 빛
+daylight	햇살
+daze	강타
+daze monster	몬스터 강타
+death knell	죽음을 알리는 종
+death ward	죽음의 수호물
+deathwatch	죽음감시자
+deep slumber	깊은 잠
+deeper darkness	깊은 암흑
+delay poison	중독 지연
+delayed blast fireball	지연 폭발 화염구
+demand	요구
+desecrate	황폐화
+destruction	파괴
+detect animals or plants	동식물 탐지
+detect chaos	혼돈 탐지
+detect evil	악 탐지
+detect good	선 탐지
+detect law	질서 탐지
+detect magic	마법 탐지
+detect poison	독 탐지
+detect scrying	염탐 탐지
+detect secret doors	비밀문 탐지
+detect snares and pits	올무와 구덩이 탐지
+detect thoughts	생각 탐지
+detect undead	언데드 탐지
+dictum	어르신의 말씀
+dimension door	차원의 문
+dimensional anchor	차원의 닻
+dimensional lock	차원의 자물쇠
+diminish plants	식물 약화
+discern lies	거짓말 식별
+discern location	장소 식별
+disguise self	변장
+disintegrate	분해
+dismissal	차원 강제퇴거
+dispel chaos	혼돈 무효화
+dispel evil	악 무효화
+dispel good	선 무효화
+dispel law	질서 무효화
+dispel magic	마법 무효화
+displacement	변위
+disrupt undead	언데드 붕괴
+disrupting weapon	무기 붕괴
+divine favor	신의 은총
+divine power	신의 권능
+dominate animal	동물 지배
+dominate monster	몬스터 지배
+dominate person	인간형 지배
+doom	파멸
+dream	꿈꾸기
+eagle’s splendor	독수리의 광휘
+earthquake	지진
+elemental swarm	원소 무리
+endure elements	원소 견디기
+enervation	무기력
+enlarge person	인간형 거대화
+entangle	휘감기
+enthrall	속박
+entropic shield	혼돈의 방패
+erase	삭제
+ethereal jaunt	에테리얼 기행
+expeditious retreat	날쌘 퇴각
+explosive runes	폭발성 룬
+eyebite	눈동자물기
+fabricate	제조
+faerie fire	페어리의 불꽃
+false life	거짓 생명
+false vision	거짓 광경
+feather fall	깃털 낙하
+feeblemind	정신박약
+find the path	길 찾기
+find traps	함정 찾기
+finger of death	죽음의 손가락
+fire seeds	불꽃 씨앗
+fire shield	화염 방패
+fire storm	화염 폭품
+fire trap	화염 함정
+fireball	화염구
+flame arrow	화염 화살
+flame blade	화염 칼날
+flame strike	화염 타격
+flaming sphere	화염의 구
+flare	섬광
+flesh to stone	살에서 돌로
+fly	비행
+floating disk	부유하는 원반
+fog cloud	안개 구름
+forbiddance	금줄
+forcecage	힘의 우리
+forceful hand	강인한 손길
+foresight	예언
+fox’s cunning	여우의 교활함
+freedom	자유
+freedom of movement	이동의 자유
+freezing sphere	빙결의 구
+gate	관문
+planar travel	이세계 여행
+geas/quest	기아스/임무
+geas	기아스
+gentle repose	부드러운 안식
+ghost sound	유령의 소리
+ghoul touch	구울의 손길
+giant vermin	거대 해충
+glibness	입심
+glitterdust	반짝이가루
+globe of invulnerability	무적의 보주
+glyph of warding	수호의 문양
+goodberry	굿베리열매
+good hope	희망
+grasping hand	붙잡는 손
+grease	기름칠
+greater (spell name)	상급 (주문 이름)
+guards and wards	방어와 수호
+guidance	길라잡이
+gust of wind	돌풍
+hallow	신성화
+hallucinatory terrain	환영의 지형
+halt undead	언데드 정지
+harm	해악
+haste	가속
+heal mount	탈것 치료
+heat metal	금속 가열
+helping hand	도움의 손길
+heroes’ feast	영웅의 연회
+heroism	영웅심
+hide from animals	동물로부터 숨기
+hide from undead	언데드로부터 숨기
+hideous laughter	끔찍한 웃음
+hold animal	동물 포박
+hold monster	몬스터 포박
+hold person	인간형 포박
+hold portal	문 잠그기
+holy aura	성스로운 오라
+holy smite	성스러운 처벌
+holy sword	성스러운 검
+holy word	성스러운 말씀
+horrid wilting	지독한 고사
+hypnotic pattern	최면의 무늬
+hypnotism	최면술
+ice storm	얼음 폭풍
+identify	식별
+illusory script	환영 문서
+illusory wall	환영의 벽
+imbue with spell ability	주문의 능력을 부여
+implosion	파열
+imprisonment	감금
+incendiary cloud	방화 구름
+inflict critical wounds	치명적인 상처 가하기
+inflict light wounds	가벼운 상처 가하기
+inflict minor wounds	사소한 상처 가하기
+inflict moderate wounds	일반적인 상처 가하기
+inflict serious wounds	심각한 상처 가하기
+insanity	광기
+insect plague	곤충 역병
+instant summons	즉석 소환
+interposing hand	가로막는 손
+invisibility purge	투명상태 정화
+invisibility sphere	투명의 구
+iron body	강철 육체
+ironwood	강철나무
+irresistible dance	춤의 유혹
+keen edge	예리한 칼날
+knock	똑똑똑
+know direction	방향 알아내기
+legend lore	전설의 지식
+lesser (spell name)	하급 (주문 이름)
+levitate	부유
+lightning bolt	번개 화살
+limited wish	제한된 소원
+liveoak	생참나무
+locate creature	생명체 위치파악
+locate object	물체 위치파악
+longstrider	긴걸음주자
+lullaby	자장가
+mage armor	마법사의 갑옷
+mage hand	마법사의 손
+mage’s disjunction	마법사의 분열
+mage’s faithful hound	마법사의 충직한 사냥개
+mage’s lucubration	마법사의 위대한 기억력
+mage’s magnificent mansion	마법사의 웅장한 저택
+mage’s private sanctum	마법사의 비밀 성소
+mage’s sword	마법사의 검
+magic aura	마법 오라
+magic circle against chaos	혼돈 방어 마법진
+magic circle against evil	악 방어 마법진
+magic circle against good	선 방어 마법진
+magic circle against law	질서 방어 마법진
+magic fang	마법 송곳니
+magic jar	마법 단지
+magic missile	마법 화살
+magic mouth	마법의 입
+magic stone	마법의 돌
+magic vestment	마법의 예복
+magic weapon	마법 무기
+major creation	상급 창조
+major image	상급 환영
+make whole	완전 수리
+mark of justice	정의의 징표
+mass (spell name)	광역 (주문 이름)
+maze	미로
+meld into stone	돌에 스며들기
+mending	수선
+message	메세지
+meteor swarm	유성우
+mind blank	정신 공백
+mind fog	정신 안개
+minor creation	하급 제작
+minor image	하급 환영
+miracle	기적
+mirage arcana	신기루 비전술
+mirror image	환영 복제
+misdirection	눈속임
+mislead	오도
+mnemonic enhancer	기억 증폭기
+modify memory	기억 조작
+moment of prescience	순간 선견
+move earth	지형 조정
+neutralize poison	독성 무효화
+nightmare	밤마귀
+nondetection	탐지방어
+obscure object	물체 숨기기
+obscuring mist	차폐의 안개
+open/close	열기/닫기
+order’s wrath	질서의 격노
+overland flight	장거리 비행
+owl’s wisdom	부엉이의 지혜
+passwall	벽통과
+pass without trace	흔적 없는 이동
+permanency	영구화
+permanent image	영구적인 환영
+persistent image	지속적인 환영
+phantasmal killer	환상의 암살자
+phantom steed	환상의 군마
+phantom trap	환상의 함정
+phase door	위상의 문
+planar ally	이세계 동료 소환
+planar binding	이세계 결속
+plane shift	이세계 전이
+plant growth	식물 성장
+polar ray	극지방의 광선
+polymorph any object	객체 변이
+power word blind	권능의 말씀 눈멃
+power word kill	권능의 말씀 죽음
+power word stun	권능의 말씀 기절
+prayer	기도
+prestidigitation	요술
+prismatic	무지갯빛
+prismatic sphere	무지갯빛의 구
+prismatic spray	무지갯빛 분사
+prismatic wall	무지갯빛 벽
+produce flame	화염 생성
+programmed image	조건적으로 발동하는 환영
+project image	환영 투사
+protection from arrows	화살 방어 마법
+protection from chaos	혼돈 방어 마법
+protection from energy	에너지 방어 마법
+protection from evil	악 방어 마법
+protection from good	선 방어 마법
+protection from law	질서 방어 마법
+protection from spells	주문 방어 마법
+prying eyes	훔쳐보는 눈길
+purify food and drink	음식과 음료 정화
+pyrotechnics	화염술
+quench	진화
+rage	격노
+rainbow pattern	무지개 무늬
+raise dead	시체 되살리기
+ray of enfeeblement	쇠약 광선
+ray of exhaustion	탈진 광선
+ray of frost	서리 광선
+read magic	마법 읽기
+reduce animal	동물 축소
+reduce person	인간형 축소
+refuge	피난
+regenerate	재생
+reincarnate	환생
+remove blindness/deafness	실명/실청 제거
+remove curse	저주 제거
+remove disease	질병 제거
+remove fear	공포 제거
+remove paralysis	마비 제거
+repel metal or stone	금속과 암석 퇴치
+repel vermin	무리 퇴치
+repel wood	나무 퇴치
+repulsion	격퇴
+resilient sphere	탄성의 구
+resistance	저항
+resist energy	에너지 저항
+restoration	복원
+resurrection	부활
+reverse gravity	중력 역전
+righteous might	의로운 권능
+rope trick	밧줄 요령
+rusting grasp	부식의 손아귀
+sanctuary	성역
+scare	겁주기
+scintillating pattern	번쩍이는 무늬
+scorching ray	소이 광선
+screen	가림막
+scrying	염탐
+sculpt sound	소리 조각하기
+searing light	타오르는 빛
+secret chest	비밀 상자
+secret page	비밀 페이지
+secure shelter	안전 가옥
+see invisibility	투명상태 보기
+seeming	외관변경
+sending	송신
+sepia snake sigil	먹빛 뱀의 인장
+sequester	은둔
+shades	그림자술
+shadow conjuration	그림자 소환술
+shadow evocation	그림자 강신술
+shadow walk	그림자 보행
+shambler	휘청거리는 자
+shapechange	형태변경
+shatter	분쇄
+shield of faith	신뢰의 방패
+shield of law	질서의 방패
+shield other	타인의 방패
+shillelagh	실레일리
+shocking grasp	충격의 손아귀
+shout	힘찬 함성
+shrink item	아이템 수축
+silence	침묵
+silent image	침묵의 환영
+simulacrum	복제
+slay living	처단
+sleep	수면
+sleet storm	진눈깨비 폭풍
+slow	둔화
+snare	올무
+soften earth and stone	물렁한 대지와 암석
+solid fog	짙은 안개
+song of discord	불화의 노래
+soul bind	영혼 결속
+sound burst	소리 폭발
+speak with animals	동물과 대화
+speak with dead	시체와 대화
+speak with plants	식물과 대화
+spectral hand	유령의 손
+spell immunity	주문 면역
+spellstaff	주문지팡이
+spell turning	주문 반사
+spider climb	거미 기어오르기
+spike growth	가시 성장
+spike stones	가시 암석
+spiritual weapon	영혼의 무기
+statue	석상
+status	상태확인
+stinking cloud	냄새나는 구름
+stone shape	암석 조형
+stoneskin	돌피부
+stone tell	돌과 대화
+stone to flesh	돌에서 살로
+storm of vengeance	폭풍의 복수
+suggestion	제안
+summon instrument	악기 소환
+summon monster	몬스터 소환
+summon monster i	1레벨 몬스터 소환
+monster i	1레벨 몬스터
+summon monster ii	2레벨 몬스터 소환
+monster ii	2레벨 몬스터
+summon monster iii	3레벨 몬스터 소환
+monster iii	3레벨 몬스터
+summon monster iv	4레벨 몬스터 소환
+monster iv	4레벨 몬스터
+summon monster v	5레벨 몬스터 소환
+monster v	5레벨 몬스터
+summon monster vi	6레벨 몬스터 소환
+monster vi	6레벨 몬스터
+summon monster vii	7레벨 몬스터 소환
+monster vii	7레벨 몬스터
+summon monster viii	8레벨 몬스터 소환
+monster viii	8레벨 몬스터
+summon monster ix	9레벨 몬스터 소환
+monster ix	9레벨 몬스터
+summon nature’s ally	자연의 동료 소환
+summon nature’s ally i	1레벨 자연의 동료 소환
+nature’s ally i	1레벨 자연의 동료
+summon nature’s ally ii	2레벨 자연의 동료 소환
+nature’s ally ii	2레벨 자연의 동료
+summon nature’s ally iii	3레벨 자연의 동료 소환
+nature’s ally iii	3레벨 자연의 동료
+summon nature’s ally iv	4레벨 자연의 동료 소환
+nature’s ally iv	4레벨 자연의 동료
+summon nature’s ally v	5레벨 자연의 동료 소환
+nature’s ally v	5레벨 자연의 동료
+summon nature’s ally vi	6레벨 자연의 동료 소환
+nature’s ally vi	6레벨 자연의 동료
+summon nature’s ally vii	7레벨 자연의 동료 소환
+nature’s ally vii	7레벨 자연의 동료
+summon nature’s ally viii	8레벨 자연의 동료 소환
+nature’s ally viii	8레벨 자연의 동료
+summon nature’s ally ix	9레벨 자연의 동료 소환
+nature’s ally ix	9레벨 자연의 동료
+summon swarm	무리 소환
+sunbeam	태양광선
+sunburst	태양폭발
+symbol of death	죽음의 상징
+symbol of fear	공포의 상징
+symbol of insanity	광기의 상징
+symbol of pain	고통의 상징
+symbol of persuasion	설득의 상징
+symbol of sleep	잠의 상징
+symbol of stunning	기절의 상징
+symbol of weakness	약화의 상징
+sympathetic vibration	공감의 떨림
+sympathy	공감
+telekinesis	염동력
+telekinetic sphere	염동력의 구
+telepathic bond	텔레파시 결속
+teleport	순간이동
+teleport object	물체 순간이동
+teleportation circle	순간이동 마법진
+temporal stasis	시간 동결
+time stop	시간 정지
+tiny hut	조그마한 오두막
+tongues	통역마법
+touch of fatigue	피로의 손길
+touch of idiocy	백치의 손길
+transformation	변형
+transmute metal to wood	금속을 나무로 변성
+transmute mud to rock	진흙을 바위로 변성
+transmute rock to mud	바위를 진흙으로 변성
+transport via plants	식물 경유 공간이동
+trap the soul	영혼의 덫
+tree shape	나무 변신
+tree stride	나무 활보
+true resurrection	진정한 부활
+true seeing	진실의 시야
+true strike	진정한 타격
+undeath to death	불사의 끝
+undetectable alignment	성향 탐지 방어
+unhallow	반신성화
+unholy aura	부정의 오라
+unholy blight	부정의 마름병
+unseen servant	보이지 않는 하인
+vampiric touch	흡혈의 손길
+veil	가리개
+ventriloquism	복화술
+virtue	미덕
+vision	시야
+wail of the banshee	밴시의 통곡
+wall of fire	불의 장벽
+wall of force	힘의 장벽
+wall of ice	얼음 장벽
+wall of iron	강철 장벽
+wall of stone	암석 장벽
+wall of thorns	가시 장벽
+warp wood	나무 왜곡
+water breathing	수중 호흡
+water walk	수면 보행
+waves of exhaustion	탈진의 물결
+waves of fatigue	피로의 물결
+web	거미줄
+weird	괴상한 환상
+whirlwind	훨윈드
+whispering wind	바람의 속삭임
+wind walk	바람 보행
+wind wall	바람 장벽
+wish	소원
+wood shape	목재 조형
+word of chaos	혼돈의 명령
+word of recall	귀환의 명령
+zone of silence	침묵의 영역
+zone of truth	진실의 영역
+magic items	마법 아이템
+magic armor	마법 갑옷
+magic weapons	마법 무기
+potion	물약
+ring	반지
+rod	마법봉
+scroll	두루마리
+staff	마법지팡이
+wand	마법막대
+wondrous item	기타 아이템
+intelligent item	지능있는 아이템
+cursed items	저주 받은 아이템
+body slot affinities	신체부위별 친연성
+body slot affinity	신체부위별 친연성
+specific armors	특정 갑옷
+acid resistance	산 저항
+animated	살아 움직임
+arrow catching	화살 잡음
+arrow deflection	화살 굴절
+bashing	밀어냄
+blinding	실명시킴
+cold resistance	냉기 저항
+electricity resistance	전기 저항
+fire resistance	불 저항
+fortification	인내 강화
+ghost touch	유령 접촉
+glamered	환영위장됨
+invulnerability	흠집내성
+reflecting	반사
+silent moves	조용한 이동
+slick	미끄러움
+sonic resistance	음파 저항
+undead controlling	언데드 조종
+specific shields	특정 방패
+banded mail of luck	행운매듭 갑옷
+dragonhide plate	드래곤비늘 판금
+dwarven plate	드워프 판금
+elven chain	엘프 사슬
+mithral full plate of speed	미스랄 속도의 판금
+mithral shirt	미스랄 조끼
+plate armor of the deep	심연의 판금 갑옷
+rhino hide	코뿔소 생가죽
+absorbing shield	흡수하는 방패
+caster’s shield	시전자의 방패
+darkwood buckler	어둠나무 버클러
+darkwood shield	어둠나무 방패
+lion’s shield	사자의 방패
+mithral heavy shield	무거운 미스랄 방패
+spined shield	척추 방패
+winged shield	날개 달린 방패
+specific weapons	특정 무기
+anarchic	무질서
+axiomatic	공리적
+brilliant energy	화려한 에너지
+disruption	붕괴
+flaming	화염
+flaming burst	화염 폭발
+frost	서리
+holy	성스러운
+icy burst	얼음 폭발
+keen	예리함
+ki focus	기 초점
+merciful	자비로움
+mighty cleaving	힘센 쪼개기
+returning	돌아옴
+seeking	탐색함
+shock	충격
+shocking burst	충격 폭발
+spell storing	주문 저장
+thundering	천둥침
+throwing	투척
+unholy	부정함
+vicious	악의적
+vorpal	보팔
+wounding	상처냄
+adamantine battleaxe	아다만틴 전투도끼
+adamantine dagger	아다만틴 단검
+assassin’s dagger	암살자의 단검
+dagger of venom	독의 단검
+dwarven thrower	드워프의 투척무기
+flame tongue	화염 혀
+frost brand	서리 낙인
+holy avenger	성스러운 복수자
+javelin of lightning	번개의 투창
+life-drinker	생명 흡입 무기
+luck blade	행운의 칼날
+mace of smiting	처벌의 철퇴
+mace of terror	공포의 철퇴
+masterwork cold iron longsword	명품 냉철 롱소드
+nine lives stealer	아홉 생명 탈취자
+oathbow	맹세활
+rapier of puncturing	천공의 레이피어
+screaming bolt	울부짖는 화살
+shatterspike	분쇄가시
+shifter’s sorrow	변신자의 슬픔
+silver dagger	은제 단검
+slaying arrow	도살 화살
+sleep arrow	수면 화살
+sun blade	태양 칼날
+sword of life stealing	생명 탈취의 검
+sword of the planes	이세계의 검
+sword of subtlety	잠행의 검
+scimitar	시미터
+sylvan scimitar	삼림 시미터
+trident of fish command	수중생물 명령의 삼지창
+trident of warning	경고의 삼지창
+oil	기름
+blinking	점멸
+chameleon power	카멜레온 힘
+climbing	등반
+djinni calling	지니 소환
+feather falling	깃털 낙하
+force shield	힘의 방패
+jumping	도약
+mind shielding	정신 방패
+shooting star	별똥별
+swimming	수영
+three wishes	세가지 소원
+water walking	물 위를 걸음
+wizardry	신기함
+x-ray	엑스선
+x-ray vision	엑스선 시야
+charming	매혹
+earth and stone	대지와 암석
+illumination	환상
+passage	통행
+size alteration	크기 변환
+swarming insects	벌레 떼 소환
+amulet of health	건강의 아뮬렛
+amulet of mighty fists	힘쎈 주먹의 아뮬렛
+amulet of natural armor	고유 갑옷의 아뮬렛
+amulet of the planes	이세계의 아뮬렛
+amulet of proof against detection and location	장소와 탐지 방어의 아뮬렛
+apparatus of the crab	게의 기관
+bag of holding	보관의 가방
+bag of tricks	요령의 가방
+bead of force	힘의 구슬
+monk’s belt	수도사의 허리띠
+belt, monk’s	허리띠, 수도사의
+belt of dwarvenkind	드워프류의 허리띠
+belt of giant strength	거인 근력의 허리띠
+blessed book	축복 받은 책
+boat, folding	보트, 접이식
+boots of elvenkind	엘프류의 장화
+boots of levitation	공중부양의 장화
+boots of speed	속도의 장화
+boots of striding and springing	도약과 활보의 장화
+boots of teleportation	순간이동의 장화
+boots of the winterlands	겨울땅의 장화
+boots, winged	장화, 날개 달린
+bottle of air	바람의 병
+bowl of commanding water elementals	물의 원소 명령의 통
+bracelet of friends	친구의 팔찌
+bracers of archery	궁술 팔보호구
+bracers of armor	갑옷의 팔보호구
+brazier of commanding fire elementals	불의 원소 명령의 화로
+brooch of shielding	보호의 브로치
+broom of flying	날으는 빗자루
+candle of invocation	기도의 양초
+candle of truth	진실의 양초
+cape of the mountebank	협잡꾼의 어깨 망토
+carpet of flying	날으는 카페트
+censer of controlling air elementals	바람 원소 조종의 향로
+chaos diamond	혼돈의 다이아몬드
+chime of interruption	방해의 종
+chime of opening	문 여는 종
+circlet of blasting	폭발의 관
+circlet of persuasion	설득의 관
+cloak of arachnida	거미의 망토
+cloak of the bat	박쥐의 망토
+cloak of charisma	매력의 망토
+cloak of displacement, minor	변위의 망토, 하급
+cloak of displacement, major	변위의 망토, 상급
+cloak of elvenkind	엘프류의 망토
+cloak of etherealness	에테리얼화의 망토
+cloak of the manta ray	대왕쥐가오리의 망토
+cloak of resistance	저항의 망토
+crystal ball	결정 구슬
+cube of force	힘의 큐브
+cube of frost resistance	서리 저항의 큐브
+cubic gate	큐브 관문
+darkskull	검두개골
+decanter of endless water	끝없는 물의 유리병
+deck of illusions	환영술 덱
+dimensional shackles	차원 족쇄
+drums of panic	공황의 북
+dust of appearance	출현의 가루
+dust of disappearance	소멸의 가루
+dust of dryness	건조의 가루
+dust of illusion	환영술의 가루
+dust of tracelessness	무자취의 가루
+efficient quiver	효율적인 화살통
+efreeti bottle	이프리티 병
+elemental gem	원소석
+elixir of fire breath	불 숨결의 엘릭서
+elixir of hiding	숨기의 엘릭서
+elixir of love	사랑의 엘릭서
+elixir of sneaking	은신의 엘릭서
+elixir of swimming	수영의 엘릭서
+elixir of truth	진실의 엘릭서
+elixir of vision	시야의 엘릭서
+eversmoking bottle	끝없이 연기나는 병
+eyes of charming	매혹의 눈
+eyes of doom	파멸의 눈
+eyes of the eagle	독수리의 눈
+eyes of petrification	석화의 눈
+figurines of wondrous power	경이로운 힘의 조각상
+bronze griffon	청동 그리폰
+ebony fly	흑단 파리
+golden lions	황금 사자
+ivory goats	상아 염소
+marble elephant	대리석 코끼리
+obsidian steed	흑요석 말
+onyx dog	오닉스 개
+serpentine owl	사문석 부엉이
+silver raven	은 큰까마귀
+feather token	깃털 표식
+anchor	닻
+bird	새
+fan	부채
+swan boat	백조 배
+gauntlets of ogre power	오우거 힘의 건틀릿
+gauntlet of rust	부식의 건틀릿
+gem of brightness	밝음의 돌
+gem of seeing	시야의 돌
+gloves of arrow snaring	화살 올가미 장갑
+gloves of dexterity	민첩의 장갑
+glove of storing	보관의 장갑
+gloves of swimming and climbing	수영과 등반의 장갑
+goggles of minute seeing	일분시야 보호경
+goggles of night	밤의 보호경
+golem manual	골렘 사용설명서
+clay golem manual	진흙 골렘 사용설명서
+flesh golem manual	살덩이 골렘 사용설명서
+iron golem manual	강철 골렘 사용설명서
+stone golem manual	돌 골렘 사용설명서
+hand of glory	영광의 손
+hand of the mage	대마법사의 손
+handy haversack	간편한 잡낭
+harp of charming	매혹의 하프
+hat of disguise	변장 모자
+headband of intellect	지능의 머리띠
+helm of brilliance	화려함의 투구
+helm of comprehend languages and read magic	언어 이해와 마법 읽기의 투구
+helm of telepathy	정신감응의 투구
+helm of teleportation	순간이동의 투구
+helm of underwater action	수중 행동의 투구
+horn of blasting	폭발의 뿔
+horn of fog	안개의 뿔
+horn of goodness/evil	선/악의 뿔
+horn of goodness	선의 뿔
+horn of evil	악의 뿔
+horn of the tritons	해신의 뿔
+horn of valhalla	발할라의 뿔
+horseshoes of speed	속도의 편자
+horseshoes of a zephyr	산들바람 편자
+incense of meditation	명상의 향료
+instant fortress	즉석 요새
+ioun stones	아이운의 돌
+iron bands of binding	결속의 철띠덩어리
+iron flask	철 플라스크
+lantern of revealing	노출의 등불
+lens of detection	탐지의 렌즈
+lyre of building	건설의 리라
+mantle of faith	신뢰의 어깨덧옷
+mantle of spell resistance	주문 저항의 어깨덧옷
+manual of bodily health	신체건강 설명서
+manual of gainful exercise	유익한 운동 설명서
+manual of quickness of action	행동을 빨리하는 방법 설명서
+marvelous pigments	놀라운 안료
+mask of the skull	해골 가면
+mattock of the titans	타이탄의 곡갱이
+maul of the titans	타이탄의 망치
+medallion of thoughts	생각의 메달
+mirror of life trapping	생명 함정의 거울
+mirror of mental prowess	정신 기량의 거울
+mirror of opposition	반대의 거울
+necklace of adaptation	적응의 목걸이
+necklace of fireballs	화염구 목걸이
+orb of storms	폭풍 구슬
+pearl of power	힘의 진주
+pearl of the sirines	시린의 진주
+periapt of health	건강의 호부
+periapt of proof against poison	독 방어의 호부
+periapt of wisdom	지혜의 호부
+periapt of wound closure	상처 봉합 호부
+phylactery of faithfulness	신뢰성의 성구함
+phylactery of undead turning	언데드 구마의 성구함
+pipes of haunting	유령의 파이프
+pipes of pain	고통의 파이프
+pipes of the sewers	시궁창 파이프
+pipes of sounding	소리의 파이프
+portable hole	휴대용 구멍
+restorative ointment	복원 연고
+ring gates	반지 관문
+robe of the archmagi	대마법사 로브
+robe of blending	혼합의 로브
+robe of bones	뼈의 로브
+robe of eyes	눈의 로브
+robe of scintillating colors	눈부신 색의 로브
+robe of stars	별의 로브
+robe of useful items	유용품의 로브
+rope of climbing	등반의 밧줄
+rope of entanglement	얽힘의 밧줄
+salve of slipperiness	미끄러움 연고
+scabbard of keen edges	예리한 칼날의 칼집
+scarab of protection	보호의 풍뎅이
+scarab, golembane	풍뎅이, 골렘파멸
+shrouds of disintegration	붕괴의 수의
+silversheen	은제 광휘
+slippers of spider climbing	거미 등반의 슬리퍼
+sovereign glue	최고존엄 접착제
+stone of alarm	알람의 돌
+stone of controlling earth elementals	대지 원소 조종의 돌
+stone of good luck	행운의 돌
+luckstone	행운석
+stone horse	석마
+courser	준마
+destrier	군마
+stone salve	돌 연고
+strand of prayer beads	기도 염주의 끈
+sustaining spoon	기운의 숟가락
+tome of clear thought	명확한 생각의 고서
+tome of leadership and influence	리더십과 영향의 고서
+tome of understanding	이해의 고서
+unguent of timelessness	시간초월 연고
+universal solvent	범용 용매제
+vest of escape	탈출의 조끼
+vestment, druid’s	제의, 드루이드의
+druid’s vestment	드루이드의 제의
+well of many worlds	다세계의 샘
+wind fan	바람 부채
+wings of flying	날으는 날개
+item ego	아이템 에고
+amulet of inescapable location	탈출불가장소의 아뮬렛
+armor of arrow attraction	화살 끌림의 갑옷
+armor of rage	격노의 갑옷
+bag of devouring	포식의 가방
+boots of dancing	춤의 장화
+bracers of defenselessness	무방비의 팔보호구
+broom of animated attack	살아 움직임 공격의 빗자루
+cloak of poisonousness	독 망토
+crystal hypnosis ball	최면 유리 구슬
+dust of sneezing and choking	재채기와 질식의 가루
+flask of curses	저주의 플라스크
+gauntlets of fumbling	더듬거리는 건틀릿
+helm of opposite alignment	반대 성향의 헬멧
+incense of obsession	집착의 향료
+mace of blood	피의 철퇴
+medallion of thought projection	생각 투사의 메달
+necklace of strangulation	교살의 목걸이
+net of snaring	옭아매는 그물
+periapt of foul rotting	더러운 썩음의 호부
+potion of poison	독의 물약
+robe of powerlessness	무기력의 로브
+robe of vermin	해충의 로브
+ring of clumsiness	어눌함 반지
+scarab of death	죽음의 풍뎅이
+spear, cursed backbiter	창, 저주받은 험담꾼의
+cursed backbiter spear	저주받은 험담꾼의 창
+stone of weight	무게의 돌
+loadstone	짐돌
+–2 sword, cursed	–2 검, 저주 받은
+cursed –2 sword	저주 받은 –2 검
+–2 cursed sword	–2 저주 받은 검
+sword, berserking	검, 광분의
+berserking sword	광분의 검
+vacuous grimoire	공허 마법서
+artifact	유물
+book of infinite spells	무한 주문의 책
+deck of many things	많은 것들의 덱
+comet	혜성
+donjon	아성
+euryale	에우리알레
+fool	광대
+gem	보석
+idiot	백치
+jester	어릿광대
+knight	기사
+skull	해골
+talons	발톱
+throne	왕좌
+vizier	고관
+the void	공허
+hammer of thunderbolts	벼락 망치
+philosopher’s stone	철학자의 돌
+sphere of annihilation	소멸의 구
+staff of the magi	동방박사의 지팡이
+talisman of pure good	순수 선의 부적
+talisman of the sphere	구의 부적
+talisman of reluctant wishes	불편한 소원의 부적
+talisman of ultimate evil	궁극 악의 부적
+the moaning diamond	신음하는 다이아몬드
+the orbs of dragonkind	드래곤류의 구슬
+the saint’s mace	성인의 철퇴
+the shadowstaff	그림자 지팡이
+monster	몬스터
+statistics block	수치 표
+size and type	크기와 유형
+hit dice	히트 다이스
+base attack/grapple	기본 공격/그래플
+manufactured weapons	기성 무기
+space/reach	공간범위/도달범위
+special qualities	특성
+special attacks and special qualities	특수 공격과 특성
+saves	내성 굴림
+nonabilities	비능력
+natural tendencies	자연적 성향
+environment	환경
+organization	집단
+challenge rating	도전 지수
+advancement	성장
+level adjustment	레벨 보정
+aboleth	아볼레스
+aboleth mage	아볼레스 마법사
+achaierai	아체라이
+allip	알립
+angel	천사
+astral deva	영적 데바
+planetar	플레인타르
+solar	솔라
+animated object	살아 움직이는 물체
+ankheg	앙크헤그
+aranea	아라니아
+lantern archon	등불 아콘
+hound archon	사냥개 아콘
+hound archon hero	사냥개 아콘 영웅
+hound archon hero mounts	사냥개 아콘 영웅의 탈것
+trumpet archon	트럼펫 아콘
+arrowhawk	애로우호크
+assassin vine	암살자 포도나무
+athach	아타치
+avoral	아보랄
+azer	애이저
+barghest	바게스트
+basilisk	바실리스크
+abyssal greater basilisk	심연의 최상급 바실리스크
+behir	베히어
+belker	벨커
+blink dog	점멸하는 개
+bodak	보닥
+bralani	브랠라니
+bugbear	버그베어
+bulette	불레
+celestial	천상계
+celestial creature	천상계 생물체
+centaur	켄타우로스
+chaos beast	혼돈 야수
+chimera	키메라
+choker	초커
+chuul	추얼
+cloaker	클로커
+cockatrice	코카트리스
+couatl	코아틀
+darkmantle	암흑맨틀
+delver	굴삭귀
+demon	데몬
+babau	바바우
+balor	발러
+tactics round-by-round	각 라운드별 전술
+bebilith	비빌리스
+dretch	드레치
+glabrezu	글라브레주
+hezrou	헤즈루
+marilith	마릴리스
+nalfeshnee	낼페쉬니
+quasit	콰짓
+retriever	리트리버
+succubus	서큐버스
+vrock	브록
+derro	데로
+destrachan	데스트라찬
+devil	악마
+barbed devil	가시 돋친 악마
+hamatula	하마툴라
+bearded devil	턱수염 악마
+barbazu	바바주
+bone devil	뼈 악마
+osyluth	오실루스
+chain devil	사슬 악마
+kyton	카이톤
+erinyes	에리니에스
+hellcat	지옥고양이
+bezekira	베제키라
+horned devil	뿔난 악마
+cornugon	코누곤
+ice devil	얼음 악마
+gelugon	겔루곤
+imp	임프
+lemure	리뮤어
+pit fiend	핏 핀드
+devourer	포식귀
+digester	소화귀
+dinosaur	공룡
+deinonychus	데이노니쿠스
+elasmosaurus	엘라스모사우루스
+megaraptor	메가랍토르
+triceratops	트리케라톱스
+tyrannosaurus	티라노사우루스
+dire animal	흉폭한 동물
+dire ape	흉폭한 유인원
+dire badger	흉폭한 오소리
+dire bat	흉폭한 박쥐
+dire bear	흉폭한 곰
+dire boar	흉폭한 맷돼지
+dire lion	흉폭한 사자
+dire rat	흉폭한 시궁쥐
+dire shark	흉폭한 상어
+dire tiger	흉폭한 호랑이
+dire weasel	흉폭한 족제비
+dire wolf	흉폭한 늑대
+dire wolverine	흉폭한 울버린
+doppelganger	도플갱어
+dragon, true	진성 드래곤
+dragonhide	드래곤비늘
+chromatic dragons	오색 드래곤
+black dragon	검은 드래곤
+dragon	드래곤
+(water)	(물속성)
+blue dragon	푸른 드래곤
+(earth)	(대지속성)
+green dragon	초록 드래곤
+(air)	(바람속성)
+red dragon	붉은 드래곤
+(fire)	(불속성)
+white dragon	하얀 드래곤
+(cold)	(냉기속성)
+metallic dragons	금속 드래곤
+brass dragon	황동 드래곤
+bronze dragon	청동 드래곤
+copper dragon	구리 드래곤
+gold dragon	금 드래곤
+silver dragon	은 드래곤
+dragon turtle	드래곤 거북이
+dragonne	드래곤느
+drider	드라이더
+dryad	드라이어드
+subraces	하위종족
+deep dwarf	지하 드워프
+duergar	듀에르가
+mountain dwarf	산악 드워프
+eagle, giant	독수리, 거대
+training a giant eagle	거대 독수리 훈련
+elemental	원소
+air elemental	바람 원소
+earth elemental	대지 원소
+fire elemental	불의 원소
+water elemental	물의 원소
+aquatic elf	물의 엘프
+drow	암흑 엘프
+gray elf	회색 엘프
+wild elf	야생 엘프
+wood elf	나무 엘프
+ethereal filcher	에테리얼 좀도둑
+ethereal marauder	에테리얼 약탈자
+ettercap	에터캡
+ettin	에틴
+fiendish creature	핀드 생명체
+formian	포미안
+worker	일꾼
+taskmaster	감독관
+myrmarch	미어마치
+queen	여왕
+frost worm	서리 벌레
+fungus	버섯
+shrieker	비명 버섯
+violet fungus	보랏빛 버섯
+gargoyle	가고일
+kapoacinth	카포아신스
+genie	지니
+djinni	지니
+noble djinn	고귀한 진
+efreeti	이프리티
+janni	자니
+ghaele	게일
+ghost	유령
+ghostly equipment	유령 장비
+ghoul	구울
+lacedon	라세단
+ghast	개스트
+giant	거인
+cloud giant	구름 거인
+fire giant	화염 거인
+frost giant	서리 거인
+frost giant jarl	서리 거인 족장
+hill giant	언덕 거인
+stone giant	암석 거인
+stone giant elders	암석 거인 장로
+storm giant	폭풍 거인
+gibbering mouther	횡설수설귀
+girallon	지랄론
+gnoll	놀
+svirfneblin	스버프네블린
+forest gnome	숲 노움
+goblin	고블린
+golem	골렘
+construction	제작
+clay golem	진흙 골렘
+flesh golem	살덩이 골렘
+iron golem	강철 골렘
+stone golem	돌 골렘
+gorgon	고르곤
+gray render	회색 분쇄자
+grick	그릭
+griffon	그리폰
+training a griffon	그리폰 훈련
+grimlock	그림록
+hag	노파
+annis	아니스
+green hag	녹색의 노파
+sea hag	바다의 노파
+hag covey	노파 무리
+hag eye	노파의 눈알
+half-celestial	하프 천상계
+half-dragon	하프 드래곤
+half-fiend	하프 핀드
+tallfellow	키큰녀석
+deep halfling	지하 하플링
+harpy	하피
+harpy archer	하피 궁수
+hell hound	지옥 사냥개
+nessian warhound	네시안 전투사냥개
+hippogriff	히포그리프
+training a hippogriff	히포그리프 훈련
+hobgoblin	홉고블린
+homunculus	호문쿨루스
+howler	하울러
+training a howler	하울러 훈련
+hydra	히드라
+pyrohydra	파이로히드라
+cryohydra	크리오히드라
+inevitable	필연적 존재
+kolyarut	콜리아루트
+marut	마루트
+zelekhut	젤레흐트
+invisible stalker	투명 추적자
+kobold	코볼트
+kraken	크라켄
+krenshar	크렌샤
+lamia	라미아
+lammasu	라마수
+golden protector	황금 수호자
+celestial half-dragon lammasu	천상계 하프 드래곤 라마수
+leonal	레오날
+lich	리치
+the lich’s phylactery	리치의 부적
+lillend	릴렌드
+lizardfolk	도마뱀인간
+locathah	로카타
+lycanthrope	라이칸스로프
+werebear	곰인간
+wereboar	맷돼지인간
+wererat	시궁쥐인간
+weretiger	호랑이인간
+werewolf	늑대인간
+werewolf lord	늑대인간 군주
+hill giant dire wereboar	언덕 거대 흉폭한 곰인간
+lycanthropy	늑대인간화
+changing form	형태 변환
+curing lycanthropy	늑대인간화 치유
+control shape	형태 조종
+magmin	마그민
+manticore	맨티코어
+medusa	메두사
+mephit	메피트
+air mephit	바람 메피트
+dust mephit	먼지 메피트
+earth mephit	대지 메피트
+fire mephit	불의 메피트
+ice mephit	얼음 메피트
+magma mephit	마그마 메피트
+ooze mephit	습지 메피트
+salt mephit	소금 메피트
+steam mephit	증기 메피트
+water mephit	물의 메피트
+merfolk	인어
+mimic	따라쟁이
+minotaur	미노타우로스
+mohrg	모흐그
+mummy	미라
+mummy lord	미라 군주
+naga	나가
+dark naga	암흑의 나가
+guardian naga	수호의 나가
+spirit naga	정기의 나가
+water naga	물의 나가
+night hag	밤의 노파
+heartstone	심장석
+cauchemar	코슈마루
+nightshade	밤그늘
+nightshade abilities	밤그늘 능력
+nightcrawler	밤렁이
+nightwalker	밤걷는이
+nightwing	밤날개
+nymph	님프
+ogre	오우거
+ogre barbarian	오우거 바바리안
+merrow	메로우
+ogre mage	오우거 마법사
+ooze	늪괴물
+black pudding	검은 푸딩
+elder black pudding	노령의 검은 푸딩
+gelatinous cube	젤라틴 큐브
+gray ooze	회색 늪괴물
+ochre jelly	황토빛 젤리
+orc	오크
+otyugh	오티우
+owl, giant	부엉이, 거대
+training a giant owl	거대 부엉이 훈련
+owlbear	아울베어
+pegasus	페가서스
+training a pegasus	페가서스 훈련
+phantom fungus	유령 버섯
+phase spider	위상 거미
+phasm	패이즘
+planetouched	이세계 혈통
+aasimar	아시마르
+tiefling	티플링
+pseudodragon	유사드래곤
+purple worm	보랏빛 벌레
+rakshasa	락샤사
+rast	래스트
+ravid	래비드
+remorhaz	레모라즈
+roc	로크
+roper	로퍼
+rust monster	녹 괴물
+sahuagin	사후아긴
+sahuagin mutants	사후아긴 변종
+salamander	샐러맨더
+satyr	사티로스
+sea cat	바다 고양이
+shadow mastiff	그림자 마스티프
+shambling mound	휘청거리는 흙덩이
+shield guardian	방패 수호자
+amulet	아뮬렛
+shocker lizard	전기 도마뱀
+skeleton	스켈레톤
+skum	스컴
+spectre	영혼
+sphinx	스핑크스
+androsphinx	안드로스핑크스
+criosphinx	크리오스핑크스
+gynosphinx	지노스핑크스
+hieracosphinx	히어라코스핑크스
+spider eater	거미 포식자
+training a spider eater	거미 포식자 훈련
+sprite	요마
+grig	그리그
+nixie	닉시
+pixie	픽시
+stirge	스터지
+swarm	무리 떼
+vulnerabilities of swarms	무리의 취약성
+bat swarm	박쥐 떼
+centipede swarm	지네 떼
+hellwasp swarm	지옥말벌 떼
+locust swarm	메뚜기 떼
+rat swarm	시궁쥐 떼
+spider swarm	거미 떼
+tarrasque	불가사리
+tendriculos	텐드리쿨로스
+thoqqua	타쿠아
+titan	타이탄
+tojanida	토자니다
+treant	나무정령
+triton	해신
+troglodyte	트로글로다이트
+troll	트롤
+scrag	칼날손톱
+troll hunter	트롤 사냥꾼
+unicorn	유니콘
+celestial charger	천상계 돌격마
+vampire	뱀파이어
+vampire weaknesses	뱀파이어의 약점
+vampire spawn	뱀파이어 스폰
+vampire spawn weaknesses	뱀파이어 스폰 약점
+vargouille	바구일
+wight	시귀
+will-o’-wisp	도깨비불
+winter wolf	겨울 늑대
+worg	검은 늑대
+wraith	망령
+dread wraith	공포의 망령
+wyvern	와이번
+xill	질
+xorn	조른
+yeth hound	이에스 사냥개
+yrthak	이르삭
+zombie	좀비
+ape	유인원
+baboon	개코원숭이
+badger	오소리
+bat	박쥐
+bear, black	곰, 흑곰
+bear, brown	곰, 불곰
+bear, polar	곰, 백곰
+bison	들소
+boar	맷돼지
+camel	낙타
+cat	고양이
+cheetah	치타
+crocodile	악어
+crocodile, giant	악어, 거대
+dog	개
+dog, riding	개, 탈것
+donkey	당나귀
+eagle	독수리
+elephant	코끼리
+hawk	매
+horse	말
+hyena	하이에나
+leopard	표범
+lion	사자
+lizard	도마뱀
+lizard, monitor	도마뱀, 왕도마뱀
+manta ray	대왕쥐가오리
+monkey	원숭이
+mule	노새
+octopus	문어
+octopus, giant	문어, 거대
+owl	부엉이
+pony	조랑말
+pony, war	조랑말, 전투용
+porpoise	쇠돌고래
+rat	시궁쥐
+raven	큰까마귀
+rhinoceros	코뿔소
+shark	상어
+snake	뱀
+constrictor snake	보아 뱀
+constrictor snake, giant	보아 뱀, 거대
+viper snake	독사 뱀
+squid	오징어
+squid, giant	오징어, 거대
+tiger	호랑이
+toad	두꺼비
+weasel	족제비
+whale	고래
+wolf	늑대
+wolverine	울버린
+giant ant	거대 개미
+giant bee	거대 꿀벌
+giant bombardier beetle	거대 폭탄먼지벌레
+giant fire beetle	거대 화염벌레
+giant stag beetle	거대 사슴벌레
+giant praying mantis	거대 사마귀
+giant wasp	거대 장수말벌
+monstrous centipede	괴물 지네
+monstrous scorpion	괴물 스콜피온
+monstrous spider	괴물 거미
+class level	직업 레벨
+template	템플릿
+ability focus	능력 초점
+awesome blow	놀라운 일격
+craft construct	구조물 제작
+empower spell-like ability	유사주문 능력 강화
+flyby attack	공중 공격
+hover	호버링
+natural armor	고유 갑옷
+natural attack	고유 공격
+multiattack	다중공격
+multiweapon fighting	다중무기 공격
+quicken spell-like ability	빠른 유사주문 능력
+snatch	잡아채기
+wingover	급회전 기동
+psionic	사이오닉
+power	파워
+manifest	구현
+manifester	구현자
+revivif cation	소생
+revivification	소생
+psionic malady	사이오닉 질병
+psionic maladies	사이오닉 질병
+ability burn	능력 화재
+cascade flu	폭포 독감
+cerebral parasites	뇌 기생충
+discipline	분야
+subdiscipline	하위분야
+clairsentience	초감각
+metacreativity	재귀창조
+psychokinesis	염동력
+psychometabolism	정신적대사작용
+psychoportation	시공간초월
+teleportation	순간이동
+telepathy	정신감응
+display	표출요소
+auditory	청각적
+mental	정신적
+olfactory	후각적
+visual	시각적
+manifesting time	구현 시간
+swift action	날랜 행동
+immediate action	즉각 행동
+dismissible	해제가능
+aiming a power	파워 조준
+power resistance	파워 저항
+power point	파워 포인트
+psionic race	사이오닉 종족
+dromites	드로마이트
+elans	엘란
+half-giants	하프자이언트
+maenads	매나드
+xephs	제프
+psionic class	사이오닉 직업
+random starting gold	임의 시작 골드
+psion	사이온
+egoist	에고이스트
+kineticist	염동력자
+nomad	유목민
+seer	예언가
+shaper	조형가
+personality	성격
+self-propulsion	자기추진
+share powers	파워 공유
+sighted	시야 감지
+telepathic link	텔레파시 연결
+deliver touch powers	접촉 파워 전달
+telepathic speech	텔레파시 말하기
+sight link	시야 연결
+channel power	파워 채널링
+telepath	정신감응가
+psychic warrior	초자연 군인
+soulknife	영혼칼날
+mind blade	정신칼날
+throw mind blade 	정신칼날 투척
+psychic strike	초자연적 공격
+free draw	정신칼날 순간 뽑기
+shape mind blade	정신칼날 조형
+mind blade enhancement	정신칼날 강화
+bladewind	칼날바람
+knife to the soul	영혼 칼질
+multiple throw	다중 투척
+wilder	야생인
+wild surge	야생의 격정
+psychic enervation	초자연적 쇠약
+elude touch	접촉 피하기
+surging euphoria	격정적인 희열
+volatile mind	휘발성 정신
+psionic prestige classes	사이오닉 상위직
+cerebremancer	뇌술사
+elocater	이탈자
+scorn earth	대지 무시
+opportunistic strike	희망주의적 공격
+dimension step	차원 걸음
+flanker	공격수
+transporter	짐꾼
+capricious step	변덕스런 걸음
+dimension spring attack	차원 탄성 공격
+accelerated action	가속화된 행동
+psionic fist	사이오닉 주먹
+slayer	귀살자
+enemy sense	적 감지
+brain nausea	두뇌 구역감
+lucid buffer	또렷함 완충물
+cerebral blind	뇌적 차단
+breach power resistance	파워 저항 파괴
+cerebral immunity	뇌적 면역
+blast feedback	폭발 피드백
+metamind	초정신
+free manifesting	순간 구현
+cognizance psicrystal	인지 정신결정
+font of power	파워의 성수반
+psion uncarnate	무체 사이온
+incorporeal touch	무형 접촉
+uncarnate armor	무체 갑옷
+shed body	육체 떠나기
+incorporeal subtype	무형 하위유형
+assume equipment	장비 가정
+assume likeness	유사성 가정
+uncarnate bridge	무체의 다리
+uncarnate	무체
+pyrokineticist	열염동력자
+fire lash	화염 채찍
+fire adaptation	화염 적응
+hand afire	불타는 손
+bolt of fire	불의 화살
+weapon afire	불타는 무기
+nimbus	비구름
+firewalk	불걸음
+fear no fire	화염 무쌍
+heat death	죽음 발열
+conflagration	대화재
+thrallherd	세뇌속박술사
+psionic charm	사이오닉 매혹
+psionic dominate	사이오닉 지배
+greater dominate	상급 지배
+superior dominate	최상급 지배
+twofold master	두 우리 주인
+war mind	전쟁 정신
+chain of personal superiority	일인 우월의 사슬
+chain of defensive posture	방어 자세의 사슬
+enduring body	감내하는 육체
+sweeping strike	쓸어내기 공격
+chain of overwhelming force	압도적인 힘의 사슬
+psionic skills	사이오닉 스킬
+psicraft	사이크래프트
+use psionic device	사이오닉 장치 사용하기
+metapsionic	메타사이오닉
+aligned attack	성향 공격
+antipsionic magic	대사이오닉 마법
+autonomous	자율능력
+body fuel	바이오 연료
+boost construct	구조물 가속화
+burrowing power	파고드는 권능
+chain power	사슬의 권능
+chaotic mind	혼돈의 정신
+cloak dance	망토의 춤
+closed mind	정신 폐쇄
+combat manifestation	전투 구현
+craft cognizance crystal	인식의 결정 제작
+craft dorje	도졔 제작
+craft psicrown	사이크라운 제작
+craft psionic arms and armor	사이오닉 무기와 갑옷 제작
+craft psionic construct	사이오닉 구조물 제작
+craft universal item	우주적 아이템 제작
+deadly precision	치명적인 정밀함
+deep impact	거대 충돌
+delay power	파워 지연
+empower power	파워 강화
+enlarge power	파워 범위 연장
+expanded knowledge	지식의 확장
+extend power	파워 시간 연장
+fell shot	타락한 사격
+focused sunder	초점지목 무기 파괴
+force of will	의지의 힘
+ghost attack	유령 공격
+hostile mind	적대적인 마음
+imprint stone	파워스톤 새기기
+inquisitor	이단심문관
+maximize power	파워 최대화
+mental leap	정신 도약
+mental resistance	정신 저항
+metamorphic transfer	변태 전환
+mind over body	육체에 깃든 정신
+narrow mind	속좁은 마음
+open minded	열린 마음
+opportunity power	파워 가능성
+overchannel	오버채널
+power penetration	파워 공격
+power specialization	파워 전문화
+psicrystal affinity	정신결정 친화력
+psicrystal containment	정신결정 봉쇄
+psionic affinity	사이오닉 친화력
+psionic body	사이오닉 육체
+psionic charge	사이오닉 돌격
+psionic dodge	사이오닉 회피
+psionic endowment	사이오닉 자질
+psionic hole	사이오닉 구멍
+psionic meditation	사이오닉 명상
+psionic shot	사이오닉 사격
+psionic talent	사이오닉 재능
+psionic weapon	사이오닉 무기
+quicken power	빠른 파워
+rapid metabolism	재빠른 대사작용
+reckless offense	무모한 공격
+return shot	사격 반사
+scribe tattoo	문신 새기기
+sidestep charge	회피 돌격
+speed of thought	생각의 속도
+split psionic ray	사이오닉 광선 나누기
+stand still	부동 기립
+talented	재능있음
+twin power	쌍둥이 파워
+unavoidable strike	피할수 없는 타격
+unconditional power	무조건적 파워
+up the walls	벽 오르기
+widen power	파워 범위 연장
+wild talent	거친 재능
+wounding attack	상처 공격
+adapt body	신체 적응
+affinity field	친화의 장
+anchored navigation	닻 내린 항해
+apopsi	어팝시
+assimilate	동화
+astral caravan	영적 마차
+astral construct	영적 구조물
+astral seed	영적 씨앗
+astral traveler	영적 여행자
+attraction	끌림
+aura alteration	오라 변경
+aura sight	오라 시야
+aversion	혐오
+baleful teleport	해로운 순간이동
+bend reality	현실 왜곡
+bestow power	파워 부여
+biofeedback	생체 피드백
+bite of the wolf	늑대의 이빨
+body adjustment	신체 보정
+body equilibrium	신체 평형
+body purification	신체 정화
+brain lock	두뇌 잠금
+breath of the black dragon	검은 드래곤의 숨결
+burst	폭발
+call to mind	정신 호출
+call weaponry	무기 호출
+catapsi	캐텁시
+catfall	닻줄
+chameleon	카멜레온
+clairtangent hand	초감각적 손
+clairvoyant sense	투시 감각
+claw of energy	에너지 발톱
+claws of the beast	야수의 발톱
+claws of the vampire	뱀파이어의 발톱
+cloud mind	구름 정신
+compression	압축
+conceal thoughts	생각 감추기
+concealing amorpha	무정형체 감추기
+concussion blast	뇌진탕 폭파
+control air	바람 조종
+control body	신체 조종
+control flames	화염 조종
+control light	빛 조종
+control object	물체 조종
+control sound	소리 조종
+co-opt concentration	공동 집중
+correspond	일치
+create sound	소리 생성
+crisis of breath	위기의 숨결
+crisis of life	위기의 생명
+crystal shard	유리결정 조각
+crystallize	유리결정화
+danger sense	위험 감각
+death urge	죽음 재촉
+deceleration	감속
+decerebrate	뇌활동정지
+déjà vu	데자뷰
+demoralize	사기저하
+destiny dissonance	운명 부조화
+detect hostile intent	호전적 의도 탐지
+detect psionics	사이오닉 탐지
+detect remote viewing	원격 시선 탐지
+detect teleportation	순간이동 탐지
+dimension slide	차원 슬라이딩
+dimension swap	차원 교환
+disable	행동불능화
+dismiss ectoplasm	심령체 강제퇴거
+dispel psionics	사이오닉 무효화
+dispelling buffer	무효화 방패
+dissipating touch	소멸의 손길
+dissolving touch	용해의 손길
+dissolving weapon	용해의 무기
+distract	주의산만
+divert teleport	순간이동 우회
+dominate	지배
+dream travel	꿈 여행
+duodimensional claw	이중차원 발톱
+ecto protection	심령으로부터 보호
+ectoplasmic cocoon	심령 고치
+ectoplasmic form	심령 형태
+ectoplasmic shambler	심령 휘청거리는 자
+ego whip	자아 채찍
+elfsight	엘프 시야
+empathic feedback	공감적 피드백
+empathic transfer	공감적 전환
+empathic transfer, hostile	공감적 전환, 적의
+empathy	교감
+empty mind	텅빈 정신
+energy adaptation	에너지 적응
+energy adaptation, specified	에너지 적응, 명시
+energy ball	에너지 구
+energy bolt	에너지 화살
+energy burst	에너지 폭발
+energy cone	에너지 원뿔
+energy conversion	에너지 전환
+energy current	에너지 흐름
+energy missile	에너지 유도화살
+energy push	에너지 밀치기
+energy ray	에너지 광선
+energy retort	에너지 반박
+energy stun	에너지 기절
+energy wall	에너지 벽
+energy wave	에너지 파도
+entangling ectoplasm	심령 휘감기
+eradicate invisibility	투명상태 근절
+escape detection	탈출 탐지
+evade burst	폭발 회피
+exhalation of the black dragon	검은 드래곤의 날숨
+expansion	확대
+false sensory input	거짓 감각 입력
+far hand	먼 손길
+fate link	운명 연결
+fate of one	하나의 운명
+feat leech	특기 거머리
+fiery discorporation	불 속 탈출
+fission	분열
+float	부유
+force screen	힘의 가림막
+form of doom	파멸의 형상
+fuse flesh	살덩이 융합
+fusion	융합
+genesis	창세
+graft weapon	무기 이식
+grip of iron	강철 손아귀
+hail of crystals	환호하는 유리결정
+hammer	망치
+hustle	빠른 걸음
+hypercognition	초인지
+id insinuation	이드 암시
+immovability	요지부동
+incarnate	현신
+inertial armor	관성 갑옷
+inertial barrier	관성 장벽
+inflict pain	고통 가하기
+intellect fortress	지성 요새
+know direction and location	방향과 장소 알아내기
+leech field	거머리 장
+matter agitation	물질 교반
+matter manipulation	물질 가공
+mental barrier	정신 장벽
+mental disruption	정신 분열
+metaconcert	메타콘서트
+metafaculty	메타패컬티
+metamorphosis	변태
+metaphysical claw	메타피지컬 발톱
+metaphysical weapon	메타피지컬 무기
+microcosm	소우주
+mind blank, personal	정신 공백, 개별
+mind probe	정신 조사
+mind seed	정신 씨앗
+mind switch	정신 개폐
+mind switch, true	정신 개폐, 진성
+mind thrust	정신 추진
+mind trap	정신 함정
+mindlink	정신연결
+mindlink, thieving	정신연결, 훔치기
+mindwipe	정신세탁
+missive	명령서
+my light	나의 빛
+null psionics field	무의 사이오닉 장
+oak body	떡갈나무 육체
+object reading	물체 읽기
+painful strike	고통스런 타격
+personality parasite	성격 기생충
+power leech	파워 거머리
+precognition	예지
+precognition, defensive	예지, 방어적
+precognition, offensive	예지, 공격적
+prescience, offensive	선견, 공격적
+prevenom	선독
+prevenom weapon	선독 무기
+prowess	기량
+psionic blast	사이오닉 폭발
+psionic lion’s charge	사이오닉 사자의 발톱
+psionic lock	사이오닉 자물쇠
+psionic repair damage	사이오닉 피해수리
+psionic revivify	사이오닉 환원
+psionic scent	사이오닉 향기
+psychic chirurgery	초자연적 외과의술
+psychic crush	초자연적 크러쉬
+psychic reformation	초자연적 개혁
+psychic vampire	초자연 뱀파이어
+psychofeedback	사이코피드백
+quintessence	정수
+read thoughts	생각 읽기
+reality revision	현실 수정
+recall agony	고뇌 회상
+recall death	죽음 회상
+reddopsi	레돕시
+remote view trap	원격 보기 함정
+remote viewing	원격 보기
+restore extremity	극한 복원
+retrieve	물체 염동
+schism	분립
+second chance	두번째 기회
+sense link	감각 연결
+sense link, forced	감각 연결, 강제
+sensitivity to psychic impressions	초자연적 노출에 대한 감각
+shadow body	그림자 신체
+share pain	고통 공유
+share pain, forced	고통 공유, 강제
+shatter mind blank	분쇄 정신 공백
+skate	스케이트
+solicit psicrystal	정신결정 간청
+steadfast perception	견고한 인지능력
+stomp	짓밟기
+strength of my enemy	상대방의 근력
+suspend life	생명 연장
+sustenance	생활 유지
+swarm of crystals	유리결정 무리
+synesthete	공감각
+telekinetic force	염력의 힘
+telekinetic maneuver	염력 조작
+telekinetic thrust	염력 밀치기
+telempathic projection	텔렘패식 투사
+teleport trigger	순간이동 트리거
+temporal acceleration	임시 가속
+thicken skin	피부 강화
+thought shield	생각 방패
+time hop	시간 도약
+time regression	시간 회귀
+tornado blast	토네이도 폭파
+touchsight	촉각시야
+tower of iron will	강철 의지의 탑
+trace teleport	순간이동 추적
+true creation	진정한 제작
+true metabolism	진정한 대사작용
+truevenom	진성독
+truevenom weapon	진성독 무기
+ubiquitous vision	편재 시야
+ultrablast	초대형폭파
+vampiric blade	뱀파이어 칼날
+vigor	활력
+wall of ectoplasm	심령의 벽
+wall walker	벽 걷는이
+weapon of energy	에너지 무기
+psi-like	유사사이오닉
+psionic versions	사이오닉 버전
+menu	메뉴
+blue	파랑이
+brain mole	뇌 두더지
+caller in darkness	암흑의 소환사
+cerebrilith	뇌석상
+crysmal	크리스말
+dromite	드로마이트
+elan	엘란
+folugub	폴루굽
+gray glutton	회색 글루톤
+half-giant	하프자이언트
+intellect devourer	지성 포식귀
+maenad	매나드
+neothelid	니오실리드
+phrenic creature	정신계 생명체
+phthisic	사이식
+psicrystal	정신결정
+psion-killer	사이온 암살자
+puppeteer	꼭두각시
+flesh harrower	살덩이 약탈자
+temporal filcher	시간의 좀도둑
+thought eater	생각 포식자
+thought slayer	생각 학살자
+udoroot	우도룻
+unbodied	무육체
+xeph	제프
+aporter	순간이동기
+averter	회피기
+ectoplasmic	외형질
+floating	부유함
+gleaming	빛남
+heartening	격려함
+landing	착지함
+linked	연결됨
+mindarmor	정신방어구
+phasing	위상능력
+quickness	빠름
+radiant	복사성
+time buttress	시간 버티기
+vanishing	감춤
+mentally audible	정신청각적
+bodyfeeder	육체공급기
+coup de grace	쿠 더 그라스
+dislocator	순간전이
+dissipater	방탕아
+great dislocator	상급 순간전이
+lucky	행운
+mindcrusher	정신파쇄기
+mindfeeder	정신공급기
+parrying	받아치기
+power storing	파워 보관
+psibane	정신파멸
+psychic	초자연적
+psychokinetic	염동력
+psychokinetic burst	염동력 폭발
+soulbreaker	영혼파괴자
+sundering	무기파괴
+suppression	제압
+teleporting	순간이동
+cognizance crystal	인식의 결정
+dorje	도졔
+power stone	파워스톤
+psicrown	사이크라운
+psionic tattoo	사이오닉 문신
+universal item	우주적 아이템
+amulet of catapsi	캐텁시 아뮬렛
+boots of landing	착지의 장화
+boots of skating	얼음타기 장화
+boots of stomping	짓밟기 장화
+boots of temporal acceleration	임시가속의 장화
+crawling tattoos	기어다니는 문신
+crystal anchor	유리 닻
+body crystal anchor	육체 유리 닻
+comprehension crystal anchor	이해력의 유리 닻
+creation crystal anchor	제작의 유리 닻
+energy crystal anchor	에너지 유리 닻
+ghost crystal anchor	유령 유리 닻
+mind crystal anchor	정신 유리 닻
+travel crystal anchor	여행 유리 닻
+crystal mask	유리 가면
+crystal mask of detection	탐지의 유리 가면
+crystal mask of discernment	안목의 유리 가면
+crystal mask of dread	두려움의 유리 가면
+crystal mask of insightful detection	통찰력 탐지 유리 가면
+crystal mask of knowledge	지혜의 유리 가면
+crystal mask of languages	언어의 유리 가면
+crystal mask of mindarmor	정신갑옷 유리 가면
+crystal mask of psionic craft	사이오닉 제작의 유리가면
+eyes of expanded vision	확장된 시야의 눈
+eyes of power leech	파워 거머리의 눈
+eyes of power leech, vampiric	파워 거머리의 눈, 뱀파이어의
+vampiric eyes of power leech	파워 거머리 뱀파이어의 눈
+gloves of object reading	물체 읽기 장갑
+gloves of titan’s grip	타이탄 손아귀 장갑
+mirror of mind switch	정신 개폐의 거울
+mirror of suggestion	제안의 거울
+mirror of time hop	시간 도약의 거울
+pearl, brain lock	진주, 두뇌 잠금
+pearl, breath crisis	진주, 숨결 위기
+pearl, mind seed	진주, 정신 씨앗
+pearl, personality parasite	진주, 성격 기생충
+psionatrix	사이온내트릭스
+psionic restraint	사이오닉 굴레
+psychoactive skins	정신활동성 피부
+skin of the chameleon	카멜레온의 피부
+skin of the claw	발톱의 피부
+skin of the defender	방어의 피부
+skin of fiery response	불길응답의 피부
+skin of the hero	영웅의 피부
+skin of iron	철의 피부
+skin of nimbleness	민활함의 피부
+skin of proteus	프로테우스의 피부
+skin of the psion	사이온의 피부
+skin of the spider	거미의 피부
+skin of the troll	트롤의 피부
+shards	유리 조각
+third eyes	세번째 눈
+aware	인지
+conceal	은폐
+concentrate	집중
+powerthieve	파워 절도
+torc of free will	자유 의지의 토크
+torc of leech freedom	거머리 자유의 토크
+torc of power preservation	파워 보존의 토크
+reverse capacitor	역 수용기
+sutra of tranquil thought	고요한 사색의 경전
+annulus	아눌루스
+psicrown of the crystal mind	유리결정 정신의 사이크라운
+crystal, deep	유리결정, 심연
+crystal, mundane	유리결정, 세속
+mind domain	정신 계열
+mind domain spells	정신 계열 주문
+brain spider	뇌 거미
+dweomer of transference	드웨머의 양도
+glossolalia	방언
+mental pinnacle	정신적 첨탑
+probe thoughts	생각 조사
+psychic turmoil	초자연적 혼란
+epic	에픽
+agent retriever	대리 회수꾼
+cosmic descryer	범우주적 관찰자
+divine emissary	신성 사절단
+epic infiltrator	에픽 잠입자
+guardian paramount	최고 수호 지도자
+high proselytizer	고위 전도사
+legendary dreadnought	전설의 무겁자
+perfect wight	완벽 시귀
+union sentinel	유니언 경계병
+craft (alchemy)	제작 (연금술)
+sleight of hand	날렵한 손재주
+tumble	재주넘기
+autohypnosis	자기최면
+stabilize self	자기 정상화
+miscellaneous	기타
+divine feat	신성 특기
+wild feat	야생 특기
+armor skin	갑옷 피부
+augmented alchemy	증강 연금술
+automatic quicken spell	자동 빠른 주문
+automatic silent spell	자동 주문 암송
+automatic still spell	자동 부동 주문
+bane of enemies	적의 파멸
+blinding speed	실명의 속도
+bonus domain	보너스 계열
+bulwark of defense	방어의 보호자
+chaotic rage	혼돈의 격노
+colossal wild shape	초거대 야생 변신
+combat archery	전투 궁술
+craft epic magic arms and armor	에픽 마법 무기와 갑옷 제작
+craft epic rod	에픽 마법봉 제작
+craft epic staff	에픽 마법지팡이 제작
+craft epic wondrous item	에픽 기타 아이템 제작
+deafening song	귀청 터질 듯한 노래
+death of enemies	적의 죽음
+devastating critical	통렬한 치명타
+dexterous fortitude	비상한 인내
+dexterous will	비상한 의지
+diminutive wild shape	아주 작은 야생 변신
+dire charge	흉폭한 돌격
+distant shot	원거리 사격
+dragon wild shape	드래곤 야생 변신
+efficient item creation	효율적인 아이템 제작
+energy resistance	에너지 저항
+enhance spell	주문 증폭
+epic dodge	에픽 회피
+epic endurance	에픽 지구력
+epic expanded knowledge	에픽 지식의 확장
+epic fortitude	에픽 인내
+epic inspiration	에픽 고취
+epic leadership	에픽 지도력
+epic prowess	에픽 기량
+epic psionic focus	에픽 사이오닉 초점
+epic reflexes	에픽 반사신경
+epic reputation	에픽 명성
+epic skill focus	에픽 스킬 초점
+epic speed	에픽 속도
+epic spell focus	에픽 주문 초점
+epic spell penetration	에픽 주문 관통
+epic toughness	에픽 거칠음
+epic weapon focus	에픽 무기 초점
+epic weapon specialization	에픽 무기 전문화
+epic will	에픽 의지
+exceptional deflection	이례적인 굴절
+extended life span	연장된 수명
+familiar spell	패밀리어 주문
+fine wild shape	훌륭한 야생 변신
+forge epic ring	에픽 반지 제작
+gargantuan wild shape	거대한 야생 변신
+group inspiration	단체 고취
+hindering song	방해의 노래
+holy strike	성스러운 타격
+ignore material components	재료 구성요소 무시
+alignment-based casting	성향 기반 시전
+arrow of death	죽음의 화살
+aura of courage	용기의 오라
+aura of despair	절망의 오라
+death attack	즉사 공격
+elemental wild shape	원소 야생 변신
+favored enemy	호적
+ki	기
+ki strike	기 공격
+manifestation	구현
+metapsionics	메타사이오닉
+sneak attack	은밀한 공격
+spell capacity	주문 용량
+incite rage	격노 자극
+infinite deflection	무한 굴절
+inspire excellence	탁월함 고취
+instant reload	즉석 재장전
+intensify spell	주문 심화
+keen strike	예리한 타격
+lasting inspiration	지속적 고취
+legendary climber	전설의 등반가
+legendary commander	전설의 지휘관
+legendary leaper	전설의 도약자
+legendary rider	전설의 기수
+legendary tracker	전설의 추적자
+legendary wrestler	전설의 레슬러
+lingering damage	오래가는 피해
+magical beast companion	마법 야수 동료
+adjustment	보정
+magical beast wild shape	마법 야수 야생 변신
+master staff	마법지팡이 마스터
+master wand	마법막대 마스터
+mighty rage	힘센 격노
+mobile defense	이동형 방어
+multispell	다중주문
+multiweapon rend	다중무기 가르기
+music of the gods	신들의 노래
+negative energy burst	음에너지 폭발
+overwhelming critical	압도하는 치명타
+penetrate damage reduction	관통 피해 감소
+perfect health	완벽한 건강
+perfect multiweapon fighting	완벽한 다중무기 공격
+perfect two-weapon fighting	완벽한 쌍수 무기 전투술
+permanent emanation	영구적 발산
+planar turning	이세계 구마
+plant wild shape	식물 야생 변신
+polyglot	다국어
+positive energy aura	양에너지 오라
+power knowledge	파워 지식
+psicrystal power	정신결정 파워
+ranged inspiration	원거리 고취
+rapid inspiration	재빠른 고취
+reactive countersong	반응형 대응송
+reflect arrows	화살 반사
+righteous strike	정의의 타격
+ruinous rage	감당 못할 격노
+scribe epic scroll	에픽 두루마리 제작
+self-concealment	자기은폐
+shattering strike	분쇄 타격
+sneak attack of opportunity	은밀한 기회 공격
+spectral strike	유령의 타격
+spell knowledge	주문 지식
+spell opportunity	주문 기회
+spell stowaway	무임 주문
+spellcasting harrier	주문시전 몰이꾼
+spontaneous domain access	즉흥 계열 접근
+spontaneous spell	즉흥 주문
+storm of throws	투척 폭풍
+superior initiative	우월한 선제권
+swarm of arrows	화살 무리
+terrifying rage	끔찍한 격노
+tenacious magic	집요 마법
+thundering rage	우레 같은 격노
+trap sense	함정 감각
+two-weapon rend	쌍수 무기 가르기
+accuracy	정확도
+unholy strike	부정의 타격
+vermin wild shape	해충 야생 변신
+vorpal strike	보팔 타격
+widen aura of courage	용기의 오라 범위 확장
+widen aura of despair	절망의 오라 범위 확장
+zone of animation	살아 움직임의 범위
+epic spell development	에픽 주문 개발
+epic spell terms	에픽 주문 용어
+animus blast	애니무스 폭발
+animus blizzard	애니무스 눈보라
+contingent resurrection	부활 예약
+ritual	의식
+create living vault	살아 있는 금고 제작
+crown of vermin	해충의 왕관
+damnation	천벌
+demise unseen	보이지 않는 죽음
+dire winter	흉폭한 겨울
+dragon knight	드래곤 기사
+dragon strike	드래곤 타격
+dreamscape	꿈의 영역
+eclipse	일식월식
+eidolon	허깨비
+enslave	노예화
+epic mage armor	에픽 마법사의 갑옷
+epic repulsion	에픽 격퇴
+epic spell reflection	에픽 주문 반사
+eternal freedom	영원한 자유
+hellball	지옥구
+kinetic control	운동 조종
+let go of me	날 놔줘
+living lightning	살아있는 번개
+lord of nightmares	밤마귀 군주
+mass frog	광역 개구리
+momento mori	모멘토 모리
+mummy dust	미라 먼지
+nailed to the sky	못 박힌 하늘
+origin of species: achaierai	종의 기원: 아체라이
+peripety	운명의 격변
+pestilence	악성 역병
+rain of fire	불꽃 비
+raise island	섬 일으키기
+ruin	파멸
+safe time	안전 시간
+soul dominion	영혼 지배
+soul scry	영혼 염탐
+spell worm	주문 벌레
+summon behemoth	베헤모스 소환
+superb dispelling	최상위 무효화
+time duplicate	시간 중복
+vengeful gaze of god	복수에 불타는 신의 시선
+verdigris	청녹
+verdigris tsunami	청녹 해일
+developing epic spells	에픽 주문 개발하기
+seed:afflict	씨앗: 상처 가하기
+seed:animate	씨앗: 살아 움직이는 물체
+seed:animate dead	씨앗: 살아 움직이는 시체
+seed: armor	씨앗: 갑옷
+seed: banish	씨앗: 추방
+seed: compel	씨앗: 지배
+seed: conceal	씨앗: 감추기
+seed: conjure	씨앗: 창조
+seed: contact	씨앗: 접촉
+seed: delude	씨앗: 환영
+seed: destroy	씨앗: 파괴
+seed: dispel	씨앗: 무효화
+seed: energy	씨앗: 에너지
+seed: foresee	씨앗: 예견
+seed: fortify	씨앗: 강화
+seed: heal	씨앗: 치료
+seed: life	씨앗: 생명
+seed: reflect	씨앗: 반사
+seed: reveal	씨앗: 폭로
+seed: slay	씨앗: 학살
+seed: summon	씨앗: 소환
+seed: transform	씨앗: 변형
+seed: transport	씨앗: 공간이동
+seed: ward	씨앗: 수호물
+epic psionic powers	에픽 사이오닉 파워
+epic psionic seeds	에픽 사이오닉 씨앗
+non-epic	비 에픽
+experience point	경험치
+acid warding	산 방호
+cold warding	냉기 방호
+exceptional arrow deflection	이례적인 화살 굴절
+fire warding	화염 방호
+infinite arrow deflection	무한의 화살 굴절
+lightning warding	번개 방호
+negating	무효화
+sonic warding	음파 방호
+armor of the abyssal horde	심연 군단의 갑옷
+armor of the celestial battalion	천상 대대의 갑옷
+bulwark of the great dragon	위대한 드래곤의 방어벽
+dragonskin armor	드래곤가죽 갑옷
+shapeshifter’s armor	변신자의 갑옷
+warlord’s breastplate	전쟁군주의 가슴보호갑
+acidic blast	산성 폭발
+anarchic power	무질서적 권능
+axiomatic power	공리적 권능
+dread	공포유발
+everdancing	영원의 춤
+fiery blast	화염 폭발
+holy power	성스러운 권능
+icy blast	얼음 폭발
+lightning blast	번개 폭발
+mighty disruption	힘쎈 붕괴
+sonic blast	음파 폭발
+triple-throw	세배 투척
+unerring accuracy	틀림 없는 정확도
+unholy power	부정한 권능
+backstabber	뒷치기꾼
+chaosbringer	혼돈인도자
+elven greatbow	엘프의 그레이트보우
+everwhirling chain	에버훨링 사슬
+finaldeath	영원한 안식
+gripsoul	영혼드잡이
+holy devastator	성스러운 약탈자
+mace of ruin	파멸 철퇴
+quarterstaff of alacrity	활발한 육척봉
+souldrinker	영혼흡입기
+stormbrand	폭풍낙인
+unholy despoiler	부정한 강탈자
+adamant law	아다만트 질서
+chaotic fury	혼돈의 분노
+energy immunity	에너지 면역
+protection	보호
+epic wizardry	에픽 마법사
+ineffable evil	형언할 수 없는 악
+ironskin	쇠피부
+rapid healing	재빠른 치료
+sequestering	격리함
+universal energy immunity	범용 에너지 면역
+universal energy resistance	범용 에너지 저항
+virtuous good	고결한 선
+weaponbreaking	무기파괴
+epic psionics	에픽 사이오닉
+besiegement	포위
+epic absorption	에픽 흡수
+epic cancellation	에픽 상쇄
+epic might	에픽 권세
+epic negation	에픽 무효화
+epic rulership	에픽 통치권
+epic spellcaster	에픽 주문시전자
+epic splendor	에픽 영광
+excellent magic	탁월한 마법
+paradise	낙원
+restless death	안식 없는 죽음
+wyrm	웜
+cosmos	범우주
+domination	지배
+fiery power	불의 권능
+the hierophants	교황
+mighty force	권세의 힘
+nature’s fury	자연의 분노
+planar might	이세계의 권세
+prism	무지갯빛
+rapid barrage	재빠른 탄막
+amulet of epic natural armor	에픽 고유 갑옷의 아뮬렛
+belt of epic strength	에픽 근력의 허리띠
+boots of swiftness	날램 장화
+bracers of epic armor	에픽 갑옷의 팔보호구
+bracers of epic health	에픽 건강의 팔보호구
+bracers of relentless might	끈질긴 권세의 팔보호구
+cabinet of feasting	연회의 캐비넷
+cloak of epic charisma	에픽 매력의 망토
+cloak of epic resistance	에픽 저항의 망토
+gate key	관문 열쇠
+gloves of epic dexterity	에픽 민첩의 장갑
+headband of epic intellect	에픽 지능의 머리띠
+horseshoes of the peerless steed	호적수 없는 군마의 편자
+mantle of epic spell resistance	에픽 주문 저항의 어깨덧옷
+mantle of great stealth	위대한 은신의 어깨덧옷
+periapt of epic wisdom	에픽 지혜의 호부
+everfull purse	줄지 않는 지갑
+libram of gainful conjuration	이득적 소환술의 고서
+libram of ineffable damnation	형언할 수 없는 천벌의 고서
+libram of silver magic	은 마법의 고서
+manual of puissant skill at arms	권세의 무장 기술 고서
+manual of stealthy pilfering	은밀한 좀도둑질 고서
+rogue’s dice	도적의 주사위
+axe of the dwarvish lords	드워프 군주의 도끼
+codex of the infinite planes	무한 세계의 법전
+cup and talisman of the demigod	반신의 성배
+eye of the orc	오크의 눈
+golem armor	골렘 갑옷
+invulnerable coat	흠집내성 외투
+iron gauntlet of war	전쟁 철 건틀릿
+ring of nine facets	아홉면 반지
+abomination	혐오체
+building abominations	혐오체 만들기
+anaxim	아낙심
+atropal	아트로팔
+chichimec	치치멕
+dream larva	꿈 애벌래
+hecatoncheires	헤카톤케이레스
+infernal	지옥계
+phaethon	파에톤
+phane	페인
+xixecal	지젝칼
+behemoth	베헤모스
+behemoth eagle	베헤모스 독수리
+behemoth gorilla	베헤모스 고릴라
+brachyurus	브라키우루스
+colossus	거대조각상
+stone colossus	암석 거대조각상
+flesh colossus	살덩이 거대조각상
+iron colossus	강철 거대조각상
+demilich	데밀리치
+creating soul gems	영혼석 만들기
+devastation vermin	황폐 해충
+devastation centipede	황폐 지네
+devastation spider	황폐 거미
+devastation scorpion	황폐 스코피온
+devastation beetle	황폐 딱정벌레
+force dragon	힘의 드래곤
+prismatic dragon	무지갯빛 드래곤
+elemental,primal	원소, 원시
+primal air elemental	바람 원시 원소
+primal earth elemental	대지 원시 원소
+primal fire elemental	불의 원시 원소
+primal water elemental	물의 원시 원소
+genius loci	게니우스 로키
+gibbering orb	횡설수설 구슬
+gloom	음울귀
+mithral golem	미스랄 골렘
+adamantine golem	아다만틴 골렘
+ha-naga	하 나가
+hagunemnon (protean)	해구넴논 (프로테안)
+hoary hunter	흰머리 사냥꾼
+hoary steed	흰머리 군마
+hunefer	후네퍼
+lavawight	용암시귀
+legendary animal	전설의 동물
+legendary bear	전설의 곰
+legendary tiger	전설의 호랑이
+leshay	레샤이
+living vault	살아있는 금고
+mercane	머케인
+mercane characters	머케인 캐릭터
+mu spore	뮤 스포어
+neh-thalggu (brain collector)	네 살구 (뇌 수집쟁이)
+paragon creature	파라곤 생명체
+creating a paragon creature	파라곤 생명체 만들기
+prismasaurus	무지갯빛 공룡
+pseudonatural troll	유사자연 트롤
+ruin swarm	파멸 무리
+shadow of the void	공허의 그림자
+shape of fire	화염의 형상
+sirrush	시러쉬
+three-headed sirrush	머리셋 시러쉬
+tayellah	테옐라
+thorciasid	소시아시드
+titan,elder	타이탄, 노령
+treant,elder	나무정령, 노령
+umbral blot (blackball)	그늘 얼룩 (검은 구)
+uvuudaum	유뷰더움
+vermiurge	해충마마
+winterwight	겨울시귀
+worm that walks	걷는 벌레
+gathering of maggots	구더기 모으기
+flux slime	흘러넘치는 슬라임
+divine	신성
+divine rank	신성 등급
+divine characteristic	신성 특징
+salient divine ability	특화 신성 능력
+salient divine abilities	특화 신성 능력
+ability name	능력 이름
+alter form	형태 변경
+alter reality	현실 변경
+alter size	크기 변경
+annihilating strike	섬멸 타격
+area divine shield	광역 신성 방패
+automatic metamagic	자동 메타마법
+avatar	화신
+banestrike	파멸격
+battlesense	전투감각
+call creatures	생명체 소환
+clearsight	맑은 시야
+control creatures	생명체 조종
+craft artifact	유물 제작
+create object	물체 생성
+create greater object	최상급 물체 생성
+divine air	신성 바람
+divine archery	신성 궁술
+divine armor	신성 갑옷
+divine bard	신성 음유시인
+divine battle	신성 전투
+divine blast	신성 폭발
+divine blessing	신성 축복
+divine celerity	신성 기민함
+divine creation	신성 제작
+divine dodge	신성 회피
+divine druid	신성 드루이드
+divine earth	신성 대지
+divine fast healing	신성 빠른 치료
+divine fire	신성 불
+divine glibness	신성 입심
+divine inspiration	신성 고취
+divine monk	신성 수도사
+divine paladin	신성 성기사
+divine radiance	신성 광휘
+divine rage	신성 격노
+divine ranger	신성 레인저
+divine recall	신성 회상
+divine rogue	신성 도적
+divine shield	신성 방패
+divine skill focus	신성 스킬 초점
+divine sneak attack	신성 은밀한 공격
+divine spell focus	신성 주문 초점
+divine spellcasting	신성 주문시전
+table: divine spellcasting	표: 신성 주문시전
+divine splendor	신성 영광
+divine storm	신성 폭풍
+divine water	신성 물
+divine weapon focus	신성 무기 초점
+divine weapon	신성 무기
+divine weapon specialization	신성 무기 전문화
+energy storm	에너지 폭풍
+extra domain	추가 계열
+extra energy immunity	추가 에너지 면역
+extra sense enhancement	추가 감각 강화
+footsore	발병남
+free move	자유 이동
+frightful presence	끔찍한 존재
+gift of life	생명의 선물
+grow creature	생명체 성장
+hand of death	죽음의 손길
+increased damage reduction	피해 감소 증가
+increased energy resistance	에너지 저항 증가
+increased spell resistance	주문 저항 증가
+indomitable strength	불굴의 힘
+instant counterspell	즉석 주문반사
+instant move	즉석 이동
+irresistible blows	저항할 수 없는 일격
+irresistible performance	저항할 수 없는 공연
+know death	죽음 알기
+know secrets	비밀 알기
+lay curse	저주 부과
+lay quest	임무 부과
+life and death	삶과 죽음
+life drain	생명 흡수
+mass divine blast	광역 신성 폭발
+mass life and death	광역 삶과 죽음
+master crafter	마스터 제작가
+mind of the beast	야수의 심정
+possess mortal	정신 소유
+power of luck	행운의 권능
+power of truth	진실의 권능
+rejuvenation	회춘
+see magic	마법 보기
+shift form	형태 교대
+speak with creatures	생명체와 대화
+spontaneous wizard spells	자연발생 마법사 주문
+stride	활보
+sunder and disjoin	찢어 분리하기
+supreme initiative	최고 선제권
+true knowledge	진정한 지식
+true shapechange	진정한 형태변경
+undead qualities	언데드의 특성
+wave of chaos	혼돈의 물결
+wound enemy	적 상처입히기
+suggested portfolio elements	추천 포트폴리오 원소
+blindsight,5-ft.radius	실명시야, 5피트 반경
+disguise spell	변장 주문
+divine might	신성 권능
+divine vengeance	신성한 복수
+energy substitution	에너지 대용
+extra music	추가 음악
+eyes in the back of your head	뒷통수 눈알
+fleet of foot	쾌속의 발걸음
+hold the line	전열 유지
+jack of all trades	넓고 얕은 지식
+knock-down	넘어뜨리기
+persistent spell	지속성 주문
+plant control	식물 조종
+plant defiance	식물 거역
+prerequisite	전제조건
+power critical	파워 치명타
+reach spell	주문 도달
+repeat spell	주문 반복
+sacred spell	성스러운 주문
+sharp-shooting	초정밀사격
+normal	보통
+special	특수
+subdual substitution	진압 대용
+superior expertise	최고 전문가
+benefit	이익
+divine domains and spells	신성 계열과 주문
+domains and spells	계열과 주문
+artifice domain	가공 계열
+charm domain	매혹 계열
+community domain	공동체 계열
+creation domain	제작 계열
+darkness domain	암흑 계열
+glory domain	영광 계열
+liberation domain	해방 계열
+madness domain	광기 계열
+nobility domain	고결 계열
+repose domain	안식 계열
+rune domain	룬 계열
+scalykind domain	비늘과 계열
+weather domain	날씨 계열
+granted power	보장된 능력
+armor of darkness	암흑 갑옷
+blacklight	불가시광선
+bolt of glory	영광의 화살
+bolts of bedevilment	광란의 화살
+crown of glory	영광의 왕관
+hardening	굳히기
+maddening scream	미칠듯한 비명
+surelife	생명보장
+touch of madness	광기의 손길
+target	목표물
+targets	목표물
+effect	효과
+effects	효과
+cost	비용
+area	범위
+material component	물질 요소
+divine minions	신성 하수인
+proxies	대리자
+petitioners	소원자
+creating a petitioner	소원자 만들기
+mental immunity	정신 면역
+other immunities	다른 면역들
+planar commitment	현세에 헌신함
+exceptional petitioners	예외적인 소원자
+petitioner	소원자
+additional	추가
+extra	추가
+exception	예외
+score	점수
+crusader	십자군
+benefactor	은인
+rebel	반란군
+judge	판사
+undecided	미정
+free spirit	자유로운 영혼
+dominator	지배자
+malefactor	악인
+destroyer	파괴자
+adulthood	성인
+middle age	중년기
+old	노령
+venerable	고령
+maximum	최대
+base height	기본 키
+height modifier	키 수정치
+base weight	기본 몸무게
+weight modifier	몸무게 수정치
+base attack bonus	기본 공격 보너스
+fort save	인내 내성
+ref save	저항 내성
+will save	의지 내성
+fast	빠른
+fast movement	빠른 이동
+spells per day	일일 주문 개수
+spells known	알고 있는 주문
+type of knowledge	지식의 유형
+domains and class skills	계열과 직업 스킬
+cure	치유
+inflict	상처 가하기
+evil	악
+good	선
+language	언어
+~, and	,
+~, or	,
+nature’s ally	자연의 동료
+basics	기본
+alternative	대체
+unarmored	비무장
+small monk	작은 수도사
+large monk	큰 수도사
+associates	규합하기
+universal	공통
+ability	능력
+master class level	주인 직업 레벨
+increases	올리기
+difficulty	난이도
+example	예
+skill used	스킬 사용함
+task	작업
+opposing skill	반대 스킬
+ability checks and caster level checks	능력 판정과 시전자 레벨 판정
+try again	다시 시도하기
+synergy	시너지
+narrow surface	좁은 지형
+difficult surface	험한 지형
+surface	지형
+being attacked while balancing	균형을 맞추는 중 공격 당함
+feinting in combat	전투 중 속임동작
+creating a diversion to hide	숨기 위해 주의 돌리기
+delivering a secret message	비밀 메세지 전달하기
+circumstance	상황
+example surface or activity	지형이나 활동 예제
+the core mechanic	핵심 메카닉
+~’s	의
+or less	이하
+or lower	이하
+or higher	이상
+or more	이하
+str	근
+dex	민
+con	건
+int	지
+wis	혜
+cha	매
+roll	굴림
+fort	인내
+ref	저항
+trait	특성
+by spell level	주문레벨별
+armor check penalty	갑옷 판정 페널티
+1st	1
+2nd	2
+3rd	3
+4th	4
+5th	5
+6th	6
+7th	7
+8th	8
+9th	9
+0th	0
+1th	1
+2th	2
+3th	3
+(heavy)	(무거움)
+(light)	(가벼움)
+(medium)	(적당함)
+(electricity)	(전기속성)
+list	목록
+and	및
+link	연결
+making your own handholds and footholds	나만의 손잡이나 발판 만들기
+catching yourself when falling	떨어질 때 무언가 잡기
+catching a falling character while climbing	등반 중 떨어지는 캐릭터 잡기
+progress by the day	일일 진행도
+creating masterwork items	명품 아이템 만들기
+influencing npc attitudes	NPC 태도에 영향 주기
+other ways to beat a trap	함정을 파괴하는 다른 방법
+tight space	좁은 공간
+handle an animal	동물 다루기
+teach an animal a trick	동물 요령 가르치기
+train an animal for a purpose	목적을 가지고 동물 가르치기
+rear a wild animal	야생 동물 키우기
+first aid	응급 처치
+long-term care	장기 치료
+treat wound from caltrop, spike growth, or spike stones	마름쇠, 가시 성장, 가시 암석에 생긴 상처 치료
+treat poison	독 치료
+treat disease	질병 치료
+sniping	저격
+demoralize opponent	상대방 사기저하
+long jump	먼 도약
+high jump	높은 도약
+hop up	깡총 뛰기
+jumping down	아래로 도약
+guide with knees	무릎으로 신호
+stay in saddle	말 탄 채 유지
+fight with warhorse	군마와 함께 전투
+soft fall	부드러운 낙마
+leap	도약
+spur mount	탈것 질주시키기
+control mount in battle	전투 중 탈것 조종
+fast mount or dismount	빠른 탑승 및 하차
+hunch	예감
+sense enchantment	부여술 감지
+discern secret message	비밀 메세지 눈치 채기
+speak language (none; trained only)	언어 말하기 (없음; 훈련 필수)
+read lips	입모양 읽기
+activate blindly	모르는 것 작동시키기
+decipher a written spell	쓰여진 주문 해독
+emulate an ability score	능력 점수 모방하기
+emulate an alignment	성향 모방하기
+emulate a class feature	직업 특성 모방하기
+emulate a race	종족모방하기
+use a scroll	두루마리 사용하기
+use a wand	마법막대 사용하기
+secure a grappling hook	그래플링 훅 고정
+bind a character	캐릭터 결속
+raw materials cost	원재료 물질 비용
+time	시간
+effects of metamagic feats on a spell	주문에 들어가는 메타마법 특기의 효과
+multiple metamagic feats on a spell	다중 메타마법 특기
+cohort level	추종자 레벨
+number of followers by level	레벨별 추종자 수
+very soft ground	아주 부드러운 지면
+soft ground	부드러운 지면
+firm ground	단단한 지면
+hard ground	딱딱한 지면
+ammunition	탄약
+light, one-handed, and two-handed melee weapons	가벼운, 한손, 양손 근접 무기
+weapon size	무기 크기
+inappropriately sized weapons	부적절한 크기의 무기
+improvised weapons	임시변통 무기
+range increment	거리 증가
+weight	무게
+arrows	화살
+axe, orc double	도끼, 오크 쌍날
+bullets, sling	탄환, 무릿매
+crossbow, hand	석궁, 손
+crossbow, heavy	석궁, 무거움
+crossbow, light	석궁, 가벼움
+crossbow, repeating	석궁, 연사
+flail or heavy flail	철퇴/무거운 철퇴
+longbow, composite	롱보우, 합성궁
+shield, heavy or light	방패, 무거움/가벼움
+shortbow, composite	숏보우, 합성궁
+spiked shield, heavy or light	가시 방패, 무거움/가벼움
+strike, unarmed	타격, 비무장
+nonproficient with armor worn	비숙련된 갑옷 착용
+sleeping in armor	갑옷 입고 잠 자기
+casting an arcane spell in armor	갑옷 입고 비전 주문 시전
+shield, heavy, wooden or steel	방패, 무거움, 목제/철제
+wooden or steel	목제/철제
+shield, light, wooden or steel	방패, 가벼움, 목제/철제
+don	장착
+don hastily	빠른 장착
+remove	탈착
+candle	양초
+flint and steel	부싯돌과 부싯깃
+grappling hook	그래플링 훅
+ink	잉크
+jug, clay	토기
+lamp, common	램프, 평범함
+lantern, bullseye	랜턴, 방향성
+lantern, hooded	랜턴, 지붕있음
+lock	자물쇠
+ram, portable	램, 휴대용
+rope, hempen	밧줄, 마직물
+rope, silk	밧줄, 비단
+spyglass	작은 망원경
+torch	횃불
+vial	바이알병
+acid	산
+alchemist’s fire	연금술사의 불
+antitoxin	해독제
+everburning torch	영원히 불타는 횃불
+holy water	성스러운 물
+smokestick	연막막대
+sunrod	태양막대
+tanglefoot bag	탱글풋 주머니
+thunderstone	뇌석
+tindertwig	부싯불쏘시개
+alchemist’s lab	연금술사의 연구키트
+artisan’s tools	장인의 도구
+artisan’s tools, masterwork	장인의 도구, 명품
+climber’s kit	등반자 키트
+disguise kit	변장 키트
+healer’s kit	치유사의 키트
+holy symbol, silver or wooden	성스러운 상징, 은제/목제
+unholy symbols	부정함의 상징
+magnifying glass	돋보기
+musical instrument, common or masterwork	악기, 평범함/명품
+scale, merchant’s	저울, 상인의
+spell component pouch	주문 요소 주머니
+spellbook, wizard’s (blank)	주문책, 마법사의 (공백)
+thieves’ tools	도둑질 도구
+thieves’ tools, masterwork	도둑질 도구, 명품
+tool, masterwork	도구, 명품
+water clock	물시계
+artisan’s outfit	장인 복장
+cleric’s vestment	사제 제의
+cold weather outfit	추운 날씨 복장
+courtier’s outfit	궁인 복장
+entertainer’s outfit	예술인 복장
+explorer’s outfit	탐험가 복장
+monk’s outfit	수도사 복장
+noble’s outfit	귀족 복장
+peasant’s outfit	농민 복장
+royal outfit	왕족 복장
+scholar’s outfit	학자 복장
+traveler’s outfit	여행자 복장
+inn	여관
+meal	식사
+barding, medium creature and large creature	마갑, 중형 생명체 및 대형 생명체
+donkey or mule	당나귀/노새
+feed	먹이 주기
+saddle, exotic	안장, 생소한 탈것 전용
+saddle, military	안장, 군용
+saddle, pack	안장, 짐나르기용
+saddle, riding	안장, 탑승용
+carriage	마차
+cart	2륜마차
+galley	갤리
+keelboat	킬보트
+longship	롱쉽
+rowboat	나룻배
+sailing ship	범선
+sled	썰매
+wagon	포장마차
+warship	워쉽
+coach cab	승용마차
+hireling, trained	고용인, 숙달됨
+hireling, untrained	고용인, 미숙함
+messenger	배달부
+road or gate toll	도로나 관문 통행료
+ship’s passage	뱃삯
+mithral	미스랄
+silver, alchemical	은, 연금술용
+automatic misses and hits	자동 미스 및 히트
+minimum damage	최소 피해
+off-hand weapon	주로 쓰지 않는 손에 쥔 무기
+wielding a weapon two-handed	양손 무기 휘두르기
+automatic failures and successes	자동 실패 및 성공
+inaction	아무 행동도 안함
+determining awareness	인지 여부 결정하기
+unaware combatants	인지 못한 전투원
+threatened squares	위협 받는 칸
+provoking an attack of opportunity	기회 공격 유발
+moving	이동함
+performing a distracting act	주의를 돌리는 행동함
+making an attack of opportunity	기회 공격 만들기
+free action	자유 행동
+not an action	행동이 아님
+restricted activity	제한된 활동
+“armed” unarmed attacks	“무장” 비무장 공격
+dealing lethal damage	살상 피해 입히기
+multiple attacks	다중 공격
+shooting or throwing into a melee	근접전 중인 곳에 쏘거나 투척하기
+fighting defensively as a standard action	표준 행동으로써 방어적인 전투하기
+critical hits	치명타 히트
+spells and critical hits	주문 및 치명타 히트
+note	비고
+concentrating to maintain a spell	주문을 유지하기 위해 집중하기
+casting on the defensive	방어 상태에서 주문 시전
+touch spells in combat	전투 중 접촉 주문
+holding the charge	시전 보류
+dismiss a spell	주문 해제
+spell completion items	주문 완료 아이템
+spell trigger, command word, or use-activated items	주문 트리거, 명령 단어, 사용 발동 아이템
+using a spell-like ability on the defensive	방어 상태에서 유사주문 능력 사용하기
+crawling	포복하기
+deciding between an attack or a full attack	공격과 전력 공격 중 결정하기
+fighting defensively as a full-round action	전체 라운드 행동으로써 방어적인 전투하기
+casting a metamagic spell	메타마법 주문 시전
+restricted withdraw	제한된 퇴각
+what hit points represent	히트 포인트가 의미하는 것
+effects of hit point damage	히트 포인트 피해의 효과
+dying (–1 to –9 hit points)	죽어가고 있음 (–1 ~ –9 히트 포인트)
+recovering with help	도움을 받아 회복하기
+recovering without help	도움 없이 회복하기
+natural healing	자연 치료
+magical healing	마법 치료
+healing limits	치료 한계
+increases in constitution score and current hit points	건강 점수 및 현재 히트 포인트의 증가
+dealing nonlethal damage	비살상 피해 입히기
+nonlethal damage with a weapon that deals lethal damage	살상 무기로 비살상 피해 주기
+lethal damage with a weapon that deals nonlethal damage	비살상 무기로 살상 피해 주기
+hampered movement	험난한 이동
+movement in combat	전투 중 이동
+bonuses to speed	속도 보너스
+diagonals	대각선
+closest creature	가장 가까운 생명체
+friend	친구
+opponent	상대방
+ending your movement	이동 마치기
+tumbling	재주넘기
+very small creature	아주 작은 생명체
+square occupied by creature three sizes larger or smaller	세 사이즈 이상 차이나는 생명체가 차지한 칸
+designated exceptions	정해진 예외
+difficult terrain	험한 지형
+obstacle	장애물
+squeezing	끼어서 이동
+accidentally ending movement in an illegal space	갑자기 규칙상 잘못된 공간에서 이동이 끝난 경우
+double movement cost	두배 이동 비용
+minimum movement	최소 이동
+low obstacles and cover	낮은 장애물 및 엄폐
+soft cover	부드러운 엄폐물
+big creatures and cover	큰 생명체와 엄폐
+total cover	전체 엄폐
+varying degrees of cover	다양한 엄폐의 정도
+concealment miss chance	은폐 미스 기회
+total concealment	전체 은폐
+ignoring concealment	은폐 무시
+varying degrees of concealment	다양한 은폐의 정도
+regular attack	일반 공격
+initiating a bull rush	황소 쇄도 시작
+bull rush results	황소 쇄도 결과
+movement during a charge	돌격 중 이동
+attacking on a charge	돌격 중 공격
+weapons readied against a charge	돌격을 상대할 무기 준비
+step	스텝
+step three	스텝 3
+grabbing items	아이템 잡기
+feinting as a move action	이동 행동으로써 속임동작
+special size modifier	특수 크기 수정치
+starting a grapple	그래플 시작하기
+grappling consequences	그래플링 결과
+no threatened squares	위협 받는 칸 없음
+no dexterity bonus	민첩 보너스 없음
+no movement	이동 없음
+if you’re grappling	그래플링 중일 경우
+activate a magic item	마법 아이템 발동
+attack your opponent	상대방 공격
+damage your opponent	상대방 피해
+draw a light weapon	가벼운 무기 뽑기
+escape from grapple	그래플에서 탈출
+retrieve a spell component	물체 염동 주문 요소
+pin your opponent	상대방 고정시키기
+break another’s pin	고정당한 것 풀기
+use opponent’s weapon	상대방의 무기 사용하기
+if you’re pinning an opponent	상대방을 고정시키는 경우
+if you’re pinned by an opponent	상대방에게 고정된 경우
+joining a grapple	그래플 참가
+multiple grapplers	여러 명의 그래플러
+horses in combat	전투에서 말
+combat while mounted	탑승한 상태에서 전투
+casting spells while mounted	탑승한 상태에서 주문 시전하기
+if your mount falls in battle	탈것이 전투 중 쓰러진 경우
+if you are dropped	탈것에서 떨어진 경우
+mounted overrun (trample)	탑승한 상태에서 쇄도 (짓밟기)
+sundering a carried or worn object	들고 있거나 입고 있는 것 파괴
+making a trip attack	넘어뜨리기 공격 만들어내기
+avoiding attacks of opportunity	기회 공격 피해내기
+being tripped (prone)	넘어짐 (엎드림 상태)
+tripping a mounted opponent	탈것에 탑승한 상대방 넘어뜨리기
+tripping with a weapon	무기로 넘어뜨리기
+turning check	구마 판정
+times per day	일일 횟수
+turning damage	구마 피해
+effect and duration of turning	구마의 효과와 지속시간
+destroying undead	언데드 파괴하기
+rebuked	호통받음
+commanded	명령받음
+dispelling turning	구마 무효화하기
+bolstering undead	언데드 강화하기
+turning other creatures	다른 생명체 구마
+initiative consequences of delaying	지연으로 인한 선제권 결과
+readying an action	행동 준비하기
+initiative consequences of readying	준비로 인한 선제권 결과
+distracting spellcasters	주문시전자 집중 방해하기
+readying to counterspell	주문반사 준비하기
+readying a weapon against a charge	돌격을 상대할 무기 준비
+infection	감염
+incubation period	잠복기
+types of diseases	질병의 유형
+becoming even more fearful	더 무서워짐
+contact	접촉
+ingested	섭취됨
+inhaled	흡입됨
+injury	상처를 통함
+initial damage	최초 피해
+secondary damage	두번쨰 피해
+price	가격
+targeted spells	조준하는 주문
+summon familiar	패밀리어 소환
+base class	기본 직업
+mastery of counterspelling	주문반사 마스터
+mastery of elements	원소 마스터
+mastery of shaping	조형 마스터
+poison use	독 사용
+save bonus against poison	독 내성 보너스
+speak with blackguard	고위급도적과 말하기
+natural armor increase	고유 갑옷 강화
+wings	날개
+dragon apotheosis	드래곤의 이상
+defensive stance	방어 자세
+weapon proficiency	무기 숙련
+planar	이세계
+planar terrain mastery	이세계 지형 마스터
+aquatic	수중
+desert	사막
+forest	숲
+hill	언덕
+marsh	늪지대
+mountain	산악
+plains	평지
+underground	지하
+fiery	불
+weightless	무중력
+cold	냉기
+shifting	전이하기
+aligned	성향
+cavernous	동굴
+other	기타
+secret	비밀
+improved ally	향상된 동료
+extended summoning	소환 연장
+contingent conjuration	소환술 예약
+planar cohort	이세계 동료
+alternate form	형태 대체
+air subtype	바람 하위유형
+aquatic subtype	수중 하위유형
+augmented subtype	하위유형 증강
+change shape	형태 바꾸기
+cold subtype	냉기 하위유형
+constrict	수축
+construct type	구조물 유형
+earth subtype	대지 하위유형
+fire subtype	불 하위유형
+averting eyes	회피의 눈길
+wearing a blindfold	안대 쓰기
+movement modes	이동 모드
+burrow	굴파기
+native subtype	토종 하위유형
+natural weapons	고유 무기
+bite	물기
+claw or talon	할퀴기
+gore	들이받기
+slap or slam	후려치기, 뭉개기
+sting	독침 공격
+tentacle	촉수 공격
+plant type	식물 유형
+summon	소환
+standard	표준
+none	없음
+nonstandard	비표준
+goods	물품
+fractional coins	소량의 동전
+% goods or items	% 물품과 아이템
+double goods or items	두배 물품과 아이템
+parenthetical notes	괄호 친 비고
+vulnerability to energy	에너지 취약성
+water subtype	물 하위유형
+encumbrance by armor	갑옷으로 인한 과적상태
+lifting and dragging	들어올리기 및 잡아끌기
+bigger and smaller creatures	더 큰 생명체, 더 작은 생명체
+tremendous strength	굉장한 근력
+modes of movement	이동 모드
+walk	걷기
+forced march	강행군
+mounted movement	탈것으로 이동
+waterborne movement	수상 이동
+minimum forward speed	최소 전진 속도
+move backward	뒤로 이동
+reverse	후진 기동
+turn	회전
+turn in place	제자리 회전
+maximum turn	최대 회전
+up angle	상승 각도
+up speed	상승 속도
+down angle	하강 각도
+down speed	하강 속도
+between down and up	하강과 상승 전환
+hardness	경도
+energy attacks	에너지 공격
+ranged weapon damage	원거리 무기 피해
+ineffective weapons	비효율적인 무기
+vulnerability to certain attacks	특정 공격에 대한 취약성
+damaged objects	피해 받은 물체
+ruined structure	폐허 구조
+occupied structure	점령 구조
+safe storage	안전 금고
+natural cavern complex	자연 동굴의 복잡도
+masonry walls	석조 벽
+superior masonry walls	우수한 석조 벽
+hewn stone walls	거칠게 다듬은 돌 벽
+unworked stone walls	자연 돌 벽
+reinforced walls	보강된 벽
+iron walls	철벽
+paper walls	종이 벽
+wooden walls	나무 벽
+magically treated walls	마법이 깃든 벽
+walls with arrow slits	총안구가 있는 벽
+flagstone	판돌
+uneven flagstone	고르지 못한 판돌
+hewn stone floors	거칠게 다듬은 바닥
+light rubble	가벼운 자갈밭
+dense rubble	조밀한 자갈밭
+smooth stone floors	매끄러운 돌 바닥
+natural stone floors	자연적인 돌 바닥
+slippery	미끄러움
+grate	발판
+ledge	튀어 나온 바위
+transparent floor	투명 바닥
+sliding floors	움직이는 바닥
+wooden doors	목제 문
+stone	돌
+iron	철
+locks, bars, and seals	자물쇠, 빗장, 봉인
+locks	자물쇠
+stuck doors	고장난 문
+barred doors	빗장 걸린 문
+magic seals	마법 봉인
+hinges	경첩
+standard hinges	표준 경첩
+nested hinges	중첩 경첩
+pivots	피벗
+secret doors	비밀 문
+portcullises	쇠창살 관문
+guard post	감시초소
+living quarters	거처
+work area	작업 영역
+shrine	성지
+vault	대피호
+crypt	대피소
+stairs	계단
+gradual stairs	완만한 계단
+steep stairs	가파른 계단
+spiral stairs	나선형 계단
+railings and low walls	계단 손잡이 및 낮은 벽
+bridge	다리
+narrow bridge	좁은 다리
+rope bridge	밧줄 다리
+drawbridge	도개교
+chutes and chimneys	비상탈출로와 굴뚝
+pillar	기둥
+slender pillar	가는 기둥
+wide pillar	두꺼운 기둥
+stalagmite/stalactite	석순/종유석
+tapestry	태피스트리
+pedestal	받침대
+pool	웅덩이
+shallow pool	얕은 웅덩이
+deep pool	깊은 웅덩이
+special pools	특수 웅덩이
+elevator	승강기
+ladders	사다리
+shifting stone or wall	돌이나 벽 밀어 움직이기
+teleporters	순간이동기
+altars	제단
+green slime	초록 슬라임
+yellow mold	노란 곰팡이
+brown mold	갈색 곰팡이
+phosphorescent fungus	인광 버섯
+poor visibility	낮은 가시성
+chance to get lost	길 잃을 확률
+effects of being lost	길을 잃었을 때 효과
+recognizing that you’re lost	길 잃었음을 인지하기
+setting a new course	새로운 경로를 설정하기
+conflicting directions	방향에 대한 갈등
+regaining your bearings	길 잃은 상태 회복하기
+trees	나무
+undergrowth	덤불
+forest canopy	삼림 캐노피
+other forest terrain elements	기타 숲 지형 원소
+stealth and detection in a forest	숲에서의 은신과 탐지
+heat damage	열 피해
+smoke inhalation	연기 흡입
+bogs	습지
+quicksand	흐르는 모래
+effects of quicksand	흐르는 모래의 효과
+rescue	구출
+hedgerows	생울타리
+other marsh terrain elements	기타 늪지대 원소
+stealth and detection in a marsh	늪지대에서의 은신과 탐지
+gradual slope	완만한 경사
+steep slope	가파른 경사
+cliff	절벽
+light undergrowth	가벼운 덤불
+other hills terrain elements	기타 언덕 지형 원소
+stealth and detection in hills	언덕에서의 은신과 탐지
+gradual and steep slopes	완만한 경사와 가파른 경사
+chasm	협곡
+scree	자갈 비탈
+rock wall	바위벽
+cave entrance	동굴 입구
+other mountain terrain features	기타 산악 지형 요소
+stealth and detection in mountains	산악에서의 은신과 탐지
+acclimated characters	적응한 캐릭터
+altitude zones	고도 구역
+low pass	로우 패스
+low peak or high pass	로우 피크 또는 하이패스
+high peak	하이 피크
+ice sheet	판빙
+sand dunes	모래 언덕
+other desert terrain features	기타 사막 지형 요소
+stealth and detection in the desert	사막에서의 은신과 탐지
+trench	참호
+berm	둔덕
+fences	울타리
+other plains terrain features	기타 평지 지형 요소
+stealth and detection in plains	평지에서의 은신과 탐지
+flowing water	흐르는 물
+swept away	씻겨 내려감
+nonflowing water	흐르지 않는 물
+stealth and detection underwater	수중에서의 은신과 탐지
+ranged attacks underwater	수중 원거리 공격
+attacks from land	지상으로부터 공격
+fire	불
+access to resources	자원 접근
+law enforcement	법 집행
+watch towers	감시탑
+catapult, heavy	투석기, 무거움
+catapult, light	투석기, 가벼움
+ballista	발리스타
+ram	램
+siege tower	공성탑
+crowds	군중
+directing crowds	방향성 있는 군중
+rooftops	옥상
+sewers	하수도
+simple house	단순한 주택
+grand house	웅장한 주택
+mansion	대저택
+tower	탑
+keep	아성
+castle	성
+huge castle	특대형 성
+moat with bridge	다리가 있는 해자
+calm	고요함
+cold snap	한파
+downpour	호우
+heat wave	열파
+hot	뜨거움
+moderate	보통
+powerful storm	강력한 폭풍
+precipitation	강수량
+storm	폭풍
+warm	따뜻함
+windy	바람
+snow	눈
+heavy snow	폭설
+sleet	진눈깨비
+hail	우박
+duststorm	먼지폭풍
+snowstorm	눈폭풍
+thunderstorm	뇌우
+powerful storms	강력한 폭풍
+windstorm	바람폭풍
+blizzard	블리자드
+hurricane	허리케인
+tornado	토네이도
+light wind	가벼운 바람
+moderate wind	보통 바람
+strong wind	강한 바람
+severe wind	심한 바람
+hurricane-force wind	허리케인 바람
+falling into water	물 속으로 낙하
+types of traps	함정의 유형
+location	장소
+proximity	근접도
+sound	소리
+timed	지정시각
+no reset	재설정 없음
+repair	수리
+manual	수동
+automatic	자동
+hidden switch	숨겨진 스위치
+hidden lock	숨겨진 자물쇠
+mechanical trap	기계적 함정
+magic device traps	마법 장치 함정
+alchemical item	연금술 아이템
+gas	기체
+liquid	액체
+multiple target	다중 목표물
+never miss	미스 절대불가
+onset delay	시작 지연
+pit spikes	구덩이 가시
+pit bottom	구덩이 바닥
+basic arrow trap	기본 화살 함정
+camouflaged pit trap	위장 구덩이 함정
+deeper pit trap	깊은 구덩이 함정
+fusillade of darts	연발 다트
+poison dart trap	독 다트 함정
+poison needle trap	독 바늘 함정
+portcullis trap	연발 함정
+razor-wire across hallway	복도에 놓인 철사 함정
+rolling rock trap	구르는 돌 함정
+scything blade trap	낫질하는 칼날 함정
+swinging block trap	블록 추 함정
+wall blade trap	벽 칼날 함정
+box of brown mold	갈색 곰팡이 상자
+bricks from ceiling	천장에서 떨어지는 벽돌
+tripping chain	넘어뜨리기 사슬
+well-camouflaged pit trap	잘 위장된 구덩이 함정
+ceiling pendulum	천장에 매달린 추
+extended bane trap	연장된 파멸 함정
+hail of needles	바늘 우박
+poisoned arrow trap	독 화살 함정
+stone blocks from ceiling	천장에서 떨어지는 석재 블록
+collapsing column	붕괴하는 기둥
+poisoned dart trap	독 다트 함정
+wall scythe trap	벽 대낫 함정
+water-filled room trap	물이 채워진 방 함정
+wide-mouth spiked pit trap	넓은 입구 가시 구덩이 함정
+doorknob smeared with contact poison	접촉식 독으로 얼룩진 손잡이
+falling block trap	낙하 블록 함정
+flooding room trap	침수된 방 함정
+moving executioner statue	움직이는 집행자 석상
+poison wall spikes	독 벽 가시
+ungol dust vapor trap	웅골 먼지 증기 함정
+built-to-collapse wall	붕괴용 벽
+compacting room	다지기 방
+fusillade of spears	연발 창
+spiked blocks from ceiling	천장으로부터 떨어지는 가시 블록
+whirling poison blades	회오리 치는 독 칼날
+wide-mouth pit trap	넓은 입구 구덩이 함정
+wyvern arrow trap	와이번 화살 함정
+burnt othur vapor trap	타오르는 어써르 증기 함정
+fusillade of greenblood oil darts	연발 초록빛 피 기름 다트
+lock covered in dragon bile	드래곤 담즘으로 덮힌 자물쇠
+water-filled room	물이 채워진 방
+deathblade wall scythe	죽음칼날 벽 대낫
+insanity mist vapor trap	광기 안개 증기 함정
+drawer handle smeared with contact poison	접촉식 독으로 얼룩진 서랍 손잡이
+dropping ceiling	떨어지는 천장
+wide-mouth spiked pit with poisoned spikes	독 가시가 있는 넓은 입구 가시 구덩이
+crushing room	으깨기 방
+crushing wall trap	으깨기 벽 함정
+poisoned spiked pit trap	독 가시 구덩이 함정
+average damage	평균 피해
+multiple traps	다중 함정
+multiple dependent traps	다중 의존적 함정
+multiple independent traps	다중 독립적 함정
+making the checks	판정하기
+transitive planes	전이 이세계
+inner planes	내부 이세계
+outer planes	외부 이세계
+demiplanes	반이세계
+gravity	중력
+normal gravity	보통 중력
+heavy gravity	강한 중력
+light gravity	약한 중력
+no gravity	무중력
+objective directional gravity	객관적 방향성이 있는 중력
+subjective directional gravity	주관적 방향성이 있는 중력
+normal time	정상 시간
+timeless	시간 초월
+flowing time	흐르는 시간
+erratic time	뷸규칙적인 시간
+shape and size	형태 및 크기
+infinite	무한
+finite shape	유한한 형태
+self-contained shape	스스로를 포함하는 형태
+morphic traits	변형성 특성
+alterable morphic	변경 가능한 변형성
+highly morphic	높은 변형성
+magically morphic	마법적 변형성
+divinely morphic	신성 변형성
+static	정적
+sentient	지각적
+air-dominant	바람 우세
+earth-dominant	대지 우세
+fire-dominant	불 우세
+water-dominant	물 우세
+positive-dominant	양 우세
+negative-dominant	음 우세
+law-aligned/chaos-aligned	질서 성향/혼돈 성향
+mildly aligned	약하게 성향이 있음
+strongly aligned	강하게 성향이 있음
+neutral-aligned	중립 성향
+wild magic	야생 마법
+impeded magic	마법 지연
+enhanced magic	마법 강화
+limited magic	마법 제한
+separate planes	별도의 이세계
+coterminous planes	서로 접한 이세계
+coexistent planes	공존하는 이세계
+layered planes	계층형 이세계
+grappling or pinned	그래플링 또는 고정당함
+vigorous motion	활발한 움직임
+violent motion	격렬한 움직임
+violent weather	격렬한 날씨
+casting defensively	방어적으로 주문하기
+how counterspells work	주문반사 작동원라
+specific exceptions	특정 예외
+dispel magic as a counterspell	주문반사로 마법 무효화하기
+bringing back the dead	죽은 자 되살리기
+preventing revivification	소생 방지하기
+revivification against one’s will	의지에 반하는 소생
+stacking effects	중첩 효과
+different bonus names	다른 보너스 이름
+same effect more than once in different strengths	서로 다른 강도에서 두 번 이상 동일한 효과
+same effect with differing results	결과가 다른 동일한 효과
+one effect makes another irrelevant	한 효과가 나머지를 무관하게 만듭니다
+multiple mental control effects	다중 정신 조종 효과
+spells with opposite effects	반대 효과가 있는 주문
+instantaneous effects	순간 효과
+calling	부름
+creation	창조
+summoning	소환
+personal	개인
+close	가까움
+medium	중간
+long	멂
+unlimited	무제한
+range expressed in feet	피트로 표현된 거리
+target or targets	목표물(들)
+spread	확산형
+emanation	발산형
+cone	원뿔형
+cylinder	원통형
+line	선형
+sphere	구형
+object	물체
+shapeable	조형가능
+line of effect	효과 선
+timed durations	지정 지속시간
+instantaneous	순간
+permanent	영구
+subjects, effects, and areas	주체, 효과, 범위
+touch spells and holding the charge	접촉 주문과 시전 보류
+discharge	방전
+negates	무효
+partial	부분
+half	절반
+disbelief	불신
+harmless	무해함
+succeeding on a saving throw	내성 굴림에 성공
+voluntarily giving up a saving throw	자발적인 내성 굴림 포기
+items surviving after a saving throw	내성 굴림 후 아이템 유지
+rest	휴식
+recent casting limit/rest interruptions	최근 시전 한도/휴식 방해
+preparation environment	준비 환경
+spell preparation time	주문 준비 시간
+spell selection and preparation	주문 선택 및 준비
+spell slots	주문 슬롯
+prepared spell retention	준비된 주문 보유
+death and prepared spell retention	죽음과 준비된 주문 보유
+wizard spells and borrowed spellbooks	마법사 주문과 빌린 주문책
+adding spells to a wizard’s spellbook	마법사의 주문책에 주문 추가하기
+spells gained at a new level	새로운 레벨에 얻는 주문
+spells copied from another’s spellbook or a scroll	다른이의 주문책이나 두루마리에서 복사한 주문
+independent research	독립적인 연구
+writing a new spell into a spellbook	주문책에 새 주문 적기
+space in the spellbook	주문책 공간
+replacing and copying spellbooks	주문책 교체하기와 복사하기
+selling a spellbook	주문책 팔기
+daily readying of spells	주문의 일일 준비
+recent casting limit	최근 시전 한도
+adding spells to a sorcerer’s or bard’s repertoire	소서러나 음유시인의 레퍼토리에 주문 추가하기
+time of day	하루 중 시간
+spontaneous casting of cure and inflict spells	치유 및 상처 가하기 주문의 즉시 시전
+spontaneous casting of summon nature’s ally spells	자연의 동료 소환 주문의 즉시 시전
+natural abilities	고유 능력
+order of presentation	제시 순서
+reverse magical alignment change	마법적으로 변경된 성향을 되돌림
+restore class	직업 복구
+restore cleric or druid spell powers	사제나 드루이드 주문의 힘 복구
+redemption or temptation	구원과 유혹 사이
+chaining	묶임
+slumber	수면
+bound slumber	묶인 수면
+hedged prison	생울타리 감옥
+minimus containment	견제성 축소화
+weakened	약화됨
+killed	죽음
+3 or 4	3 또는 4
+approach	가까이와
+drop	손에서 떨어뜨려
+fall	엎드려
+flee	도망가
+halt	멈춰
+avoid int/cha decrease	지/매 감소 방지
+results of a successful contact	성공적인 접촉 결과
+true answer	정답
+don’t know	모름
+lie	거짓말
+random answer	무작위 답변
+lower water	수위 낮추기
+raise water	수위 올리기
+wind direction	바람 방향
+wind strength	바람의 세기
+lingering aura	오래가는 오라
+target or area	목표물 또는 범위
+each additional round	각 추가 라운드
+slowed	둔화됨
+prune growth	가지치기 성장
+stunt growth	성장 방해
+targeted dispel	목표물 지정 무효화
+area dispel	범위 무효화
+cave, cavern, or tunnel	굴, 동굴, 터널
+open ground	개방된 지형
+structure	구조
+river, lake, or marsh	강, 호수, 늪
+pinned beneath rubble	잔해 아래 고정당함
+comatose	혼수상태
+acorn grenades	도토리 수류탄
+holly berry bombs	호랑가시나무 열매 폭탄
+warm shield	따뜻한 방패
+chill shield	시원한 방패
+alignments identical	성향 동일
+alignments different with respect to either law/chaos or good/evil	질서/혼돈과 선/악 중 한축만 성향 차이 있음
+alignments different with respect to both law/chaos and good/evil	질서/혼돈과 선/악 두축 모두 성향 차이 있음
+barred cage	빗장 걸린 우리
+windowless cell	창문 없는 감방
+calling creatures	생명체 부르기
+blast glyph	폭발 문양
+spell glyph	주문 문양
+lost doors	잊혀진 문
+component	요소
+prepare	준비
+retain	유지
+overgrowth	과성장
+enrichment	비옥화
+fireworks	불꽃놀이
+smoke cloud	연막 구름
+area or target	범위 또는 목표물
+verbal component	음성 요소
+7 to 12	7 ~ 12
+5th through 10th rounds	5 ~ 10 라운드
+sustained force	지속되는 힘
+combat maneuver	전투 기동
+violent thrust	난폭하게 던지기
+familiarity	친숙함
+on target	목표에 정확히 옴
+off target	목표에서 벗어남
+similar area	비슷한 지역
+mishap	불발
+spell completion	주문 완료
+trigger object	물체 트리거
+ice plane	얼음 평면
+hemisphere	반구체
+command word	명령 단어
+use activated	사용 발동
+armor and weapon sizes	갑옷 및 무기 크기
+magic item gold piece values	마법 아이템 금화 가치
+multiple similar abilities	여러 비슷한 능력
+multiple different abilities	여러 다른 능력
+other considerations	기타 고려사항
+caster level for armor and shields	갑옷 및 방패에 대한 시전자 레벨
+shield hardness and hit points	방패 경도 및 히트 포인트
+activation	사용 선언
+wild	야생
+breastplate of command	명령의 가슴보호갑
+caster level for weapons	무기에 대한 시전자 레벨
+ranged weapons and ammunition	원거리 무기 및 탄약
+magic ammunition and breakage	마법 탄약과 부서짐
+light generation	빛 발생
+hardness and hit points	경도 및 히트 포인트
+magic weapons and critical hits	마법 무기 및 치명타 히트
+weapons for unusually sized creatures	비정상적인 크기의 생명체를 위한 무기
+dancing	춤
+defending	방어
+distance	거리
+physical description	물리적 묘사
+identifying potions	물약 식별하기
+animal friendship	동물 우정
+friend shield	친구 방패
+absorption	흡수
+cancellation	상쇄
+enemy detection	적 탐지
+flailing	도리깨질
+flame extinguishing	화염 소화
+immovable rod	움직이지 않는 마법봉
+lordly might	군주 권능
+metal and mineral detection	금속과 광물 탐지
+metamagic, empower	메타마법, 강화
+metamagic, enlarge	메타마법, 범위 연장
+metamagic, extend	메타마법, 시간 연장
+metamagic, maximize	메타마법, 최대화
+metamagic, quicken	메타마법, 빠른 주문
+metamagic, silent	메타마법, 주문 암송
+negation	무효화
+python	파이썬
+rulership	통치권
+security	안보
+splendor	화려함
+thunder and lightning	천둥번개
+viper	바이퍼
+withering	위축
+wonder	의문
+decipher the writing	글귀 해독하기
+activate the spell	주문 발동
+determine effect	효과 결정하기
+scroll mishaps	두루마리 불발
+defense	방어
+life	생명
+tree	나무
+delusion	망상
+opposite effect or target	반대 효과 또는 목표물
+intermittent functioning	간헐적 작동
+unreliable	신뢰불가
+dependent	종속성
+uncontrolled	제어불가
+requirement	요구사항
+drawback	단점
+fates	운명
+flames	불
+key	열쇠
+moon	달
+star	별
+sun	해
+retributive strike	보복 공격
+mucus cloud	점액 구름
+black cloud	검은 구름
+babble	주절거림
+madness	광기
+stun	기절시키기
+blind	실명
+spit acid	산성 침뱉기
+aura of menace	위협의 오라
+light ray	빛의 광선
+trumpet	트럼펫
+electricity ray	전기 광선
+heat	열
+petrifying gaze	석화의 시선
+smoke claws	연막 발톱
+smoke form	연막 형태
+death gaze	죽음의 시선
+vulnerability to sunlight	태양에 취약함
+whirlwind blast	훨윈드 폭발
+corporeal instability	형체 불안정성
+immunity to transformation	변형 면역
+paralytic tentacles	마비 촉수
+amphibious	양서류
+moan	신음
+unnerve	무기력화
+nausea	메스꺼움
+stupor	인사불성
+engulf	집어삼키기
+shadow shift	어둠 전위
+obscure vision	침침한 시야
+dancing images	춤추는 환영
+petrification	석화
+corrosive slime	부식성 슬라임
+protective slime	보호용 슬라임
+summon demon	데몬 소환
+death throes	최후의 발악
+flaming body	화염 신체
+rend armor	갑옷 찢기
+stench	악취
+smite	처벌
+eye rays	시선 광선
+electricity	전기
+find target	목표물 찾기
+dance of ruin	파멸의 춤
+spores	포자
+stunning screech	기절의 비명
+destructive harmonics	파괴의 화음
+flesh	살덩이
+nerves	뇌신경
+immunities	면역
+protection from sonics	음파로부터 보호
+impale	꿰뚫기
+summon devil	악마 소환
+barbed defense	가시 돋친 방어
+infernal wound	지옥의 상처
+beard	턱수염
+battle frenzy	전투 광란
+dancing chains	춤추는 사슬
+unnerving gaze	무기력화 시선
+invisible in light	가시광선상 투명화
+mindless	무의식
+trap essence	함정의 정수
+acid spray	산성 스프레이
+rend	찢기
+ferocity	흉포
+attach	부착
+blood drain	피 흡수
+claw	발톱
+wing	날개
+tail slap	꼬리 후려치기
+crush	으깨기
+tail sweep	꼬리 쓸어내기
+keen senses	예리한 감지
+corrupt water	오염된 물
+charm reptiles	파충류 매혹
+other spell-like abilities	기타 유사주문 능력
+create/destroy water	물 생성/제거
+sound imitation	소리 흉내내기
+icewalking	얼음걷기
+freezing fog	빙결 안개
+summon djinni	지니 소환
+luck bonus	행운 보너스
+detect gems	보석 탐지
+cloudwalking	구름걷기
+capsize	뒤집기
+roar	포효
+tree dependent	나무 종속성
+air mastery	바람 마스터
+earth mastery	대지 마스터
+push	밀기
+earth glide	대지 글라이드
+burn	태우기
+water mastery	물 마스터
+drench	흠뻑 적시기
+vortex	소용돌이
+superior two-weapon fighting	우수한 쌍수무기 전투술
+hive mind	군중 의식
+dominated creature	지배 받는 생명체
+trill	떨림음
+shriek	비명
+freeze	빙결
+change size	크기 변화
+protective aura	보호 오라
+corrupting gaze	부패의 시선
+corrupting touch	부패의 접촉
+draining touch	흡수의 손길
+frightful moan	끔찍한 신음
+horrific appearance	무시무시한 형체
+malevolence	증오
+ghoul fever	구울 열병
+rock throwing	돌 던지기
+rock catching	돌 잡기
+oversized weapon	과대 무기
+gibbering	횡설수설
+spittle	침거품
+ground manipulation	지형 가공
+amorphous	무정형
+immunity to magic	마법 면역
+berserk	광분
+cursed wound	저주받은 상처
+weakness	약화
+mimicry	따라하기
+evil eye	악의 눈
+captivating song	매혹적인 노래
+fiery bite	불타는 이빨
+quills	가시
+howl	하울링
+fists of thunder and lightning	천둥번개의 주먹
+natural invisibility	선천적 투명화
+improved tracking	향상된 추적
+light sensitivity	빛에 민감함
+jet	분출
+ink cloud	먹물 구름
+paralyzing touch	마비의 손길
+hold breath	숨 참기
+bear empathy	곰과의 교감
+curse of lycanthropy	늑대인간화 저주
+lycanthropic empathy	늑대인간과의 교감
+base save bonuses	기본 내성 보너스
+retry	재시도
+combustion	연소
+fiery aura	불의 오라
+melt weapons	무기 녹이기
+spikes	가시
+summon mephit	메피트 소환
+adhesive	접착
+mimic shape	모방 변신
+natural cunning	선척적 교활함
+despair	절망
+resistance to charm	매혹 저항
+guarded thoughts	정신 방어
+spit	침뱉기
+dream haunting	꿈 속 출몰
+flaming hooves	화염 발굽
+smoke	연막
+aversion to daylight	햇살 혐오
+desecrating aura	더럽힘 오라
+summon undead	언데드 소환
+crush item	아이템 으깨기
+prior to combat	전투 시작 전
+blinding beauty	실명시키는 아름다움
+stunning glance	기절시키는 곁눈질
+unearthly grace	섬뜩한 우아함
+split	나누기
+transparent	투명
+superior low-light vision	우수한 저광시야
+resilient	탄성
+paralyzing gaze	마비 시선
+positive energy lash	양에너지 후려치기
+drag	끌기
+strands	발묶기
+rust	녹
+blood frenzy	피의 광란
+freshwater sensitivity	민물에 민감함
+light blindness	빛에 실명
+speak with sharks	상어와 말하기
+water dependent	물 종속성
+pipes	파이프
+create spawn	스폰 생성
+bay	으르렁 거리기
+shadow blend	어둠에 섞이기
+immunity to electricity	전기 면역
+find master	주인 찾기
+guard	경호
+lethal shock	살상 충격
+electricity sense	전기 감지
+immunity to cold	냉기 면역
+damage reduction 5/bludgeoning	피해 축소 5/때려패기
+unnatural aura	비자연적 오라
+sunlight powerlessness	태양광선에 무기력함
+implant	주입하기
+fiddle	피들
+special arrows	특수 화살
+memory loss	기억상실
+inhabit	서식
+augmented critical	증강 치명타
+rush	쇄도
+carapace	껍질
+all-around vision	전방위 시야
+animate trees	살아 움직이는 나무
+double damage against objects	물체 상대로 두배 피해
+children of the night	어둠의 자식들
+repelling a vampire	뱀파이어 퇴치
+slaying a vampire	뱀파이어 도살
+kiss	키스
+freezing bite	빙결의 이빨
+daylight powerlessness	햇살에 무기력함
+lifesense	생명감지
+planewalk	이세계보행
+sonic lance	음파 랜스
+explosion	폭파
+base attack	기본 공격
+single actions only	단일 행동만 가능
+stampede	몰려달리기
+sprint	질주
+acid sting	산성 독침 공격
+increased hit dice	히트 다이스 증가
+elite array	엘리트 배열
+nonelite array	비 엘리트 배열
+ability score improvement	능력 점수 향상
+level adjustment and effective character level	레벨 보정 및 효율적 캐릭터 레벨
+feat acquisition and ability score increases	특기 획득 및 능력 점수 올리기
+base saves	기본 내성 굴림
+starting level of a monster pc	몬스터 PC 시작 레벨
+ability scores for monster pcs	몬스터 PC 능력치
+other statistics for monsters	몬스터 기타 수치
+experience for monsters	몬스터 경험치
+manifesting powers on the defensive	방어 상태에서 파워 구현
+preventing revivif cation	소생 방지하기
+revivif cation against one’s will	의지에 반하는 소생
+psionics–magic transparency	사이오닉–마법 투명성
+multiple effects	다중 효과
+powers and spells with opposite effects	반대 효과가 있는 파워 및 주문
+daily power point acquisition	일일 파워 포인트 획득
+recent manifesting limit/rest interruptions	최근 구현 한도/휴식 방해
+peaceful environment	평화 상태 환경
+regaining power points	파워 포인트 다시 채우기
+death and power points	죽음과 파워 포인트
+powers gained at a new level	새로운 레벨에서 얻는 파워
+a single source	단 하나의 근원
+recharging	재충전
+dispense with displays	표출요소 생략하기
+cone, line, or sphere	원뿔, 선형, 구형
+touch powers and holding the charge	접촉 파워와 시전 보류
+failing a saving throw against mind-affecting powers	정신영향계 파워에 상대하여 내성 굴림에 실패
+power point limit	파워 포인트 한도
+augment	증강
+how to determine bonus power points	보너스 파워 포인트 결정하는 법
+power points/day	파워 포인트/일
+powers known	알려진 파워
+maximum power level known	알려진 최대 파워 레벨
+spells per day/powers known	알려진 일일 주문 개수/파워
+multiclass note	멀티직업 비고
+ignore caltrop wound	마름쇠 상처 무시
+memorize	암기
+resist dying	죽어가고 있음 상태 저항
+resist fear	공포 저항
+tolerate poison	독 견디기
+willpower	의지력
+gain psionic focus	사이오닉 초점 얻기
+address a power stone	파워스톤 정체 밝히기
+use a dorje	도졔 사용하기
+use a power stone	파워스톤 사용하기
+limits on use	사용 한도
+effects of metapsionic feats on a power	파워에 적용되는 메타사이오닉 특기 효과
+precognitionion, offensive	예지, 공격적
+remove compulsion	강요 제거
+decrease	감소
+increase	증가
+sonic	음파
+3rd and subsequent rounds	세번째 라운드 이후
+working manipulated metals	이미 가공된 금속 작업
+single target	단일 목표물
+1st minute	1분
+2nd minute	2분
+3rd minute	3분
+4th minute	4분
+5th minute	5분
+6th+ minute	6분~
+repair psychic damage	초자연적 피해 수리
+transfer knowledge	지식 양도하기
+construct traits	구조물 특성
+astral construct menu a	영적 구조물 메뉴 A
+buff	버프
+celerity	민첩함
+improved slam attack	향상된 뭉개기 공격
+astral construct menu b	영적 구조물 메뉴 B
+energy touch	에너지 접촉
+heavy deflection	센 굴절
+improved buff	향상된 버프
+muscle	근육
+astral construct menu c	영적 구조물 메뉴 C
+concussion	뇌진탕
+extra buff	추가 버프
+extreme damage reduction	극한 피해 축소
+extreme deflection	극한 굴절
+hide mind	정신 숨기기
+power conversion	파워 개조
+steal essence	도둑질 정수
+repletion	만복
+resilience	탄성
+liquefy crystal	유리결정 액화
+null psionic exhalation	무의 사이오닉 발산
+fire acclimated	화염 적응
+powerful build	강한 체격
+body thief	육체 도둑
+vulnerability to protection from evil	악 방어 마법에 취약함
+outburst	급폭발
+naturally psionic	선천적인 사이오닉
+mind feed	정신 먹이
+psicrystal granted abilities	정신결정의 보장된 능력
+immunity to psionics	사이오닉 면역
+host protection	주인 보호
+time filch	시간 도둑질
+eat thoughts	사념 먹기
+mind-consuming gaze	정신 흡수 시선
+double manifest	두배 구현
+plant traits	식물 특성
+power completion	파워 완료
+command thought	정신성 명령
+use-activated	사용 발동
+cost to create	제작 비용
+seeing	보기
+wall	벽
+collision	충돌
+addressing the stone	스톤 정체 밝히기
+brainburn	뇌태우기
+astral legion	영적 세계 군단
+beast	짐승
+cautious warrior	신중한 군인
+discerning watcher	냉철한 파수꾼
+evader	기피자
+fiery ruin	불길 파멸
+temporal juggler	즉석 요술사
+traveler	여행가
+scribing and transferring tattoos	문신 새기기 및 양도하기
+identifying psionic tattoos	사이오닉 문신 식별하기
+psionatrix of clairsentience	초감각 사이온내트릭스
+psionatrix of metacreativity	재귀창조 사이온내트릭스
+psionatrix of psychokinesis	염동력 사이온내트릭스
+psionatrix of psychometabolism	정신적대사작용 사이온내트릭스
+psionatrix of psychoportation	시공간초월 사이온내트릭스
+psionatrix of telepathy	정신감응 사이온내트릭스
+expose	밝히기
+gather	모으기
+penetrate	침투하기
+repudiate	부인하기
+view	보기
+backfire	뒷통수
+exhausting	탈진시킴
+subversive	불온함
+class skill max ranks	직업 스킬 최고 등급
+cross-class skill max ranks	교차직업 스킬 최고 등급
+enchant arrow	화살 마법부여
+saving throw bonus against poison	독 내성 굴림 보너스
+defensive awareness	방어적 인지
+uncanny location	기묘한 장소
+tracking bonus	추적 보너스
+force sphere	힘의 구
+superior planar summoning	우수한 이세계 소환
+naturalization	유입
+enduring gate	항구적 관문
+cosmic connection	범우주적 연결
+granted domain	보장된 계열
+extra smite	추가 처벌
+divine hand	신성한 손길
+cover identity	신분 감추기
+improved cover identity	향상된 신분 감추기
+specialist training	전문가 훈련
+subterfuge	속임수
+espionage	첩보행위
+interaction	상호작용
+far senses	원거리 감지
+uncanny dodge enabler	기묘한 회피 조력자
+evasive preceptor	회피 지도 교사
+adjust probability	확률 보정
+call back	다시 부르심
+proselytize	개종
+unstoppable	막을 수 없음
+unmovable	움직일 수 없음
+shrug off punishment	가혹함 무시
+thick skinned	두꺼운 살가죽
+improved legerdemain	향상된 마술
+shadow form	그림자 형상
+portal guardian	관문의 수호자
+instill suggestion in target	목표물에게 제안 주입시키기
+display false alignment	가짜 성향 보여주기
+disguise surface thoughts	표면적 사념 변장
+quick creation	빠른 제작
+create augmented alchemical item or substance	증강된 연금술 아이템이나 물질 제작
+fanatic	광신도
+extremely tight space	극도로 좁은 공간
+pass through wall of force	힘의 장벽 통과
+forge document without sample	표본 없이 문서 위조
+avoid suspicion	의심 회피
+reduce teaching/training	교육량/훈련량 줄이기
+quicken recovery	회복 가속
+perfect recovery	완벽한 회복
+hide another	다른이 숨기기
+defeat illusion	환영 물리치기
+stand on mount	탈것에서 일어서기
+unconscious control	무의식 조종
+attack from cover	엄폐로부터 공격
+sense magic	마법 감지
+discern partial alignment	부분적 성향 눈치 채기
+discern full alignment	전체 성향 눈치 채기
+detect surface thoughts	표면적 사념 탐지
+identify basic property of magic item	마법 아이템의 기본 속성 식별하기
+identify all properties of magic item	마법 아이템의 모든 속성 식별하기
+quick identification	빠른 식별
+pronounce unfamiliar language	낯선 언어 말하기
+swim up waterfall	폭포를 거슬러 수영
+free stand	자유 일어서기
+climb vertical surface	수직 지형 등반
+ignore falling damage	낙하 피해 무시하기
+quick splicing	빠른 이어붙이기
+tie unique knot	유니크 형태 매듭 묶기
+animate held rope	잡은 밧줄 살아 움직이게 하기
+learn scryer	염탐자 알아내기
+return scrying	염탐 돌려보내기
+break scrying	염탐 부수기
+epic spell slots	에픽 주문 슬롯
+factor	요인
+mitigating factor	완화 요인
+seed	씨앗
+to cast an epic spell	에픽 주문 시전하기
+level of an epic spell	에픽 주문 레벨
+saving throw for an epic spell	에픽 주문 내성 굴림
+to develop	개발하기
+round one	첫째 라운드
+round two	둘째 라운드
+round three	셋째 라운드
+resource cost	자원 비용
+development time	개발 기간
+adding seed dcs	씨앗 DC 추가하기
+determining school	학파 결정하기
+combining descriptors	표지 조합하기
+combining components and casting times	구성요소 및 시전 시간 조합하기
+combining range, targets, area, and effect	거리, 목표물, 범위, 효과 조합하기
+combining durations	지속시간 조합하기
+development is an art	개발은 예술이다
+approval	승인
+additional participants	추가 참가자
+target or effect	목표물이나 효과
+great reflection	상급 반영
+the path	경로
+winter	겨울
+summon creature	생명체 소환
+unique abilities	유니크 능력
+summon iron golem	강철 골렘 소환
+rebuke/command undead	언데드 명령/호통
+negative energy aura	음에너지 오라
+summon nightcrawler	밤렁이 소환
+summon air elemental	바람 원소 소환
+worst nightmare	최악의 밤마귀
+summon nightwalker	밤걷는이 소환
+superior multiweapon fighting	우수한 다중무기 공격
+summon hecatoncheires	헤카톤케이레스 소환
+spell suck	주문 빨아들이기
+learned spell immunity	한번 겪은 주문 면역
+summon fiend	핀드 소환
+fiery touch	불의 접촉
+fiery overrun	불의 쇄도
+summon elder fire elemental	노령의 불의 원소 소환
+oozelike immunities	늪괴물 유사 면역
+stasis touch	시간동결 접촉
+chronal blast	시간대 폭발
+time leach	시간 침출
+summon past time duplicate	과거 시간대 복사체 소환
+null time field	무의 시간의 장
+summon white dragon	하얀 드래곤 소환
+frightful howl	끔찍한 하울링
+savage	흉악함
+magic immunity	마법 면역
+negative energy affinity	음에너지 친화
+rustproof	방청
+perfect automatic still spell	완벽한 자동 부동 주문
+phylactery transference	부적 양도
+squeeze	쥐어짜기
+acid cloud	산성 구름
+age category	나이 범주
+size	크기
+maximize spell-like ability	유사주문 능력 최대화
+immune to force	힘 면역
+deflecting force	힘 굴절
+immune to light and blindness	빛과 실명에 면역
+quiescence	침묵
+alacrity	활발함
+destabilize form	형태 불안정화
+alter shape	모양 변경
+misty breath	안개 숨결
+hunefer rot	후네퍼 부패
+blazefire	타오르는 섬광
+heat aura	열기 오라
+fiery hardness	화염의 견고함
+recognition	인식
+safekeeping	안전보관
+spore cough	포자 기침
+sticky	끈적함
+head-tentacles	머리 촉수
+extract brains	뇌 추출
+dimensional travel	차원 이동
+amorphous physiology	무정형 생리
+manifest maw	목구멍 구현
+prismatic emanations	무지갯빛 발산물
+constant insight	불변의 통찰력
+rotting constriction	부패의 수축
+blightfire	역병의 불길
+cold aura	냉기 오라
+stunning roar	기절의 포효
+headloss resistance	참수 저항
+cocoon	고치
+triple damage against objects	물체 상대로 세배 피해
+disintegrating touch	접촉 분해
+spell immunities	주문 면역
+aura of doom	파멸의 오라
+concealing aura	감춰진 오라
+discorporate	탈출
+possessions	소지품
+bypassing damage reduction	피해 축소 우회하기
+always maximize roll	항상 최대 굴림
+mind-affecting effects	정신영향계 효과
+immortality	불멸
+senses	감지
+remote sensing	원거리 감지
+block sensing	감지 방어
+portfolio	포트폴리오
+portfolio sense	포트폴리오 감지
+automatic actions	자동 행동
+create magic items	마법 아이템 제작
+fright	두려움
+resolve	결의
+grant spells	보장된 주문
+communication	의사소통
+remote communication	원거리 의사소통
+godly realm	신성 왕국
+travel	여행
+using salient divine abilities	특화 신성 능력 사용하기
+notes	비고
+courage	용기
+frenzy	광란
+hope	희망
+love and desire	사랑과 욕망
+general	일반
+rounding fractions	분수의 반올림
+multiplying	곱하기
+abilities and spellcasters	능력치와 주문시전자
+alignment and description	성향 및 묘사
+description	묘사
+the nine alignments	아홉 종류의 성향
+vital statistics	생명 수치
+age	나이
+height and weight	키와 몸무게
+favored class	선호 직업
+small characters	소형 캐릭터
+turn or rebuke undead	언데드 퇴치
+special mount	특수 탈것
+the paladin’s mount	성기사의 탈것
+paladin’s mount basics	성기사의 탈것 기본
+special abilities	특수 능력
+familiar ability descriptions	패밀리어 능력 설명
+skills summary	스킬 개요
+using skills	스킬 사용하기
+trying again	다시 시도하기
+favorable and unfavorable conditions	호조건 및 악조건
+combining skill attempts	스킬 시도를 조합하기
+individual events	개별 사건
+skill descriptions	스킬 설명
+skill name	스킬 이름
+repairing items	아이템 수리
+hide	숨기
+perform	공연
+types of feats	특기 유형
+feat descriptions	특기 설명
+feat name	특기 이름
+extra turning	추가 구마
+improved turning	향상된 구마
+weapons	무기
+weapon categories	무기 분류
+melee and ranged weapons	근접 및 원거리 무기
+weapon qualities	무기 품질
+weapon descriptions	무기 설명
+bolts	석궁화살
+masterwork weapons	명품 무기
+armor qualities	갑옷 품질
+arcane spell failure	비전 주문 실패
+armor descriptions	갑옷 설명
+armor for unusual creatures	비표준 규격 갑옷
+getting into and out of armor	갑옷 장착 및 탈착
+goods and services	재화 및 용역
+adventuring gear	모험 장비
+special substances and items	특수 물질과 아이템
+tools and skill kits	도구와 스킬 키트
+clothing	의류
+food, drink, and lodging	음식, 음료, 숙박
+mounts and related gear	승마와 승마에 관련된 장비
+transport	운송수단
+spellcasting and services	주문시전과 용역
+special weapons materials	특수 무기 재료
+how combat works	전투 진행 방법
+multiplying damage	곱 피해
+actions in combat	전투 내 행동
+cast a spell	주문 시전
+activate magic item	마법 아이템 사용
+use special ability	특수 능력 사용
+spell-like abilities	유사주문 능력
+supernatural abilities	초자연적 능력
+extraordinary abilities	비범 능력
+start/complete full-round action	전체 라운드 행동 시작과 종료
+move	이동
+draw or sheathe a weapon	무기 장착 및 탈착
+ready or loose a shield	방패 준비 또는 해제
+manipulate an item	아이템 시전
+direct or redirect a spell	주문 방향 지정
+stand up	일어서기
+mount/dismount a steed	탈것에 오르고 내리기
+stable characters and recovery	캐릭터 안정화와 회복
+nonlethal damage	비살상 피해
+healing nonlethal damage	치료 비살상 피해
+movement, position, and distance	이동, 위치, 거리
+how far can your character move?	내 캐릭터는 얼마나 이동할 수 있나?
+moving through a square	한 정사각형 이동
+special movement rules	특수 이동 규칙
+big and little creatures in combat	크거나 작은 생명체의 전투
+cover and hide checks	엄폐 및 숨기 판정
+concealment and hide checks	은폐 및 숨기 판정
+helpless defenders	무력화 상태의 상대방
+throw splash weapon	비산 무기 투척
+special abilities and conditions	특수 능력 및 상태이상
+special abilities & conditions	특수 능력 & 상태이상
+ability score loss	능력 점수 손실
+disease descriptions	질병 설명
+when spell resistance applies	주문 저항이 적용되는 조건
+successful spell resistance	주문 저항의 성공
+conditions	상태이상
+definitions of terms	용어 정의
+types, subtypes, and special abilities	생명체의 유형, 하위유형, 특수 능력
+types, subtypes, & special abilities	유형, 하위유형, & 특수 능력
+carrying, movement, and exploration	운반, 이동, 탐험
+carrying, movement, & exploration	운반, 이동, & 탐험
+carrying capacity	운반 수용량
+armor and encumbrance for other base speeds	다른 기본 속도에 대한 갑옷 및 방해물
+local movement	지역 내 이동
+moving in three dimensions	3차원 이동
+tactical aerial movement	전략적 공중 이동
+evasion and pursuit	회피기동 및 추격
+moving around in squares	정사각형 간 이동
+exploration	탐험
+breaking and entering	통로개척
+smashing an object	물체 부수기
+magic armor, shields, and weapons	마법 갑옷, 방패, 무기
+breaking items	아이템 부수기
+monsters with treasure	전리품을 가진 몬스터
+using the treasure table	전리품 테이블 사용하기
+wilderness, weather, and environment	야생, 날씨, 환경
+wilderness, weather, & environment	야생, 날씨, 환경
+types of dungeons	던전 유형
+floors	바닥
+special floors	특수 바닥
+trap floors	함정 바닥
+doors	문
+magic doors	마법 문
+walls, doors, and detect spells	벽, 문, 감지 주문
+rooms	방
+cave-ins and collapses	굴파기 및 붕괴
+wilderness	야생
+getting lost	길잃음
+catching on fire	불 붙음
+sandstorms	모래폭풍
+underwater combat	수중 전투
+floods	홍수
+urban adventures	도시 모험
+weapon and spell restrictions	무기 및 주문 제한
+urban features	도시 요소
+guards and soldiers	경비병과 병사
+city streets	도시의 거리
+above and beneath the streets	거리의 위와 아래
+city buildings	도시의 건물
+buying buildings	건물 구매
+city lights	도시의 광도
+weather	날씨
+rain, snow, sleet, and hail	비, 눈, 진눈깨비, 우박
+fog	안개
+winds	바람
+cold dangers	저온 피해
+ice effects	빙판길 효과
+darkness	암흑
+falling	낙하
+falling damage	낙하 피해
+falling objects	물체 낙하
+heat dangers	고온 피해
+lava effects	용암 효과
+starvation and thirst	굶주림과 목마름
+suffocation	질식
+slow suffocation	천천히 질식
+water dangers	익수 사고
+drowning	숨참기
+elements of a trap	함정의 요소
+trigger	트리거
+reset	초기화
+repairing and resetting mechanical traps	기계적 함정 수리 또는 초기화하기
+bypass	우회
+sample traps	간편 함정
+designing a trap	함정 설계하기
+challenge rating of a trap	함정의 도전 지수
+magic device trap cost	마법 장치 함정 비용
+craft dcs for mechanical traps	기계적 함정 제작에 필요한 Dc
+what is a plane?	이세계란 무엇인가?
+physical traits	물리적 속성
+elemental and energy traits	정령과 에너지 속성
+how planes interact	이세계간 상호작용은 어떻게 하는가?
+plane descriptions	이세계 설명
+magic overview	마법 개요
+casting spells	주문 시전하기
+choosing a spell	주문 선택하기
+spell failure	주문 실패
+the spell’s result	주문의 결과
+combining magical effects	주문 효과 조합하기
+spell descriptions	주문 설명
+name	이름
+shadow	그림자
+aiming a spell	주문 조준하기
+descriptive text	설명 문구
+preparing wizard spells	마법사 주문 준비
+preparing divine spells	신성 주문 준비
+new divine spells	새로운 신성 주문
+aid	보조
+2 aid	2 보조
+mount	탈것 소환
+spells c	주문 (C)
+using items	아이템 사용
+spell trigger	주문 트리거
+magic items on the body	착용 가능한 마법 아이템
+saving throws against magic item powers	마법 아이템이 가진 힘에 대한 내성 굴림
+damaging magic items	마법 아이템의 피해
+repairing magic items	마법 아이템의 수리
+charges, doses, and multiple uses	충전, 용량, 다회 사용
+magic item descriptions	마법 아이템 설명
+creating magic items	마법 아이템 제작
+creating magic armor	마법 갑옷 제작
+creating magic weapons	마법 무기 제작
+creating potions	물약 제작
+creating rings	반지 제작
+creating rods	마법봉 제작
+creating scrolls	두루마리 제작
+creating staffs	마법지팡이 제작
+creating wands	마법막대 제작
+creating wondrous items	기타 아이템 제작
+adding new abilities	새로운 능력 추가
+magic armor and shield special ability descriptions	마법 갑옷과 방패 특수 능력 설명
+shadow, improved	그림자, 향상된
+shadow, greater	그림자, 상급
+magic weapon special ability descriptions	마법 무기 특수 능력 설명
+potion descriptions	물약 설명
+ring descriptions	반지 설명
+rod descriptions	마법봉 설명
+staff descriptions	마법지팡이 설명
+wand descriptions	마법막대 설명
+wondrous item descriptions	기타 아이템 설명
+languages spoken by item	아이템이 사용하는 언어
+special purpose items	특수 목적의 아이템
+purpose	목적
+dedicated power	헌신의 힘
+items against characters	아이템과 캐릭터 간의 갈등
+specific cursed items	특정 저주 받은 아이템
+minor artifact descriptions	하급 유물 설명
+major artifact descriptions	상급 유물 설명
+reading the entries	각 항목 읽기
+abilities	능력
+paladin abilities	성기사 능력
+hound archons as characters	사냥개 아콘을 캐릭터로
+azers as characters	애이저를 캐릭터로
+bugbears as characters	버그베어를 캐릭터로
+creating a celestial creature	셀레스티얼 생물체 만들기
+centaurs as characters	켄타우로스를 캐릭터로
+doppelgangers as characters	도플갱어를 캐릭터로
+creating a fiendish creature	핀드 생명체 만들기
+gargoyles as characters	가고일을 캐릭터로
+jann as characters	잔을 캐릭터로
+creating a ghost	유령 만들기
+hill giants as characters	언덕 거인을 캐릭터로
+stone giants as characters	암석 거인을 캐릭터로
+gnolls as characters	놀을 캐릭터로
+goblins as characters	고블린을 캐릭터로
+grimlocks as characters	그림록을 캐릭터로
+creating a half-celestial	하프 셀레스티얼 만들기
+creating a half-dragon	하프 드래곤 만들기
+creating a half-fiend	하프 핀드 만들기
+creating a lich	리치 만들기
+lizardfolk as characters	도마뱀인간을 캐릭터로
+creating a lycanthrope	라이칸스로프 만들기
+lycanthropy as an affliction	병으로서의 늑대인간화
+lycanthropes as characters	늑대인간을 캐릭터로
+minotaurs as characters	미노타우로스를 캐릭터로
+ogres as characters	오우거를 캐릭터로
+ogre mages as characters	오우거 마법사를 캐릭터로
+orcs as characters	오크를 캐릭터로
+aasimar as characters	아시마르를 캐릭터로
+tieflings as characters	티플링을 캐릭터로
+rakshasas as characters	락샤사를 캐릭터로
+satyrs as characters	사티로스를 캐릭터로
+greater shadow	상급 어둠
+creating a skeleton	스켈레톤 만들기
+pixies as characters	픽시를 캐릭터로
+trolls as characters	트롤을 캐릭터로
+creating a vampire	뱀파이어 만들기
+creating a zombie	좀비 만들기
+improving monsters	몬스터 개량하기
+ability score arrays	능력 점수 배열
+increasing hit dice	히트 다이스 늘리기
+acquired and inherited templates	템플릿 상속과 획득
+reading a template	템플릿 읽기
+adding more than one template	한가지 이상 템플릿 추가하기
+adding class levels	직업 레벨 추가하기
+associated class levels	연관 직업 레벨
+nonassociated class levels	비연관 직업 레벨
+adding hit dice	히트 다이스 추가하기
+increasing size	크기 늘리기
+adding special abilities	특수 능력 추가하기
+monsters as races	몬스터를 종족으로
+psionic powers overview	사이오닉 파워 개요
+manifesting powers	파워 구현
+choosing a power	파워 선택하기
+power failure	파워 실패
+the power’s result	파워의 결과
+combining psionic and magical effects	사이오닉과 마법 효과 조합하기
+adding powers	파워 추가하기
+manifest an unknown power from another’s powers known	다른이의 모르는 파워 구현
+using stored power points	저장된 파워 포인트 사용하기
+psi-like abilities	유사사이오닉 능력
+power descriptions	파워 설명
+new action types	새로운 행동 유형
+age, height, and weight	나이, 키, 몸무게
+the power point reserve	파워 포인트 비축
+abilities and manifesters	능력치와 구현자
+psicrystal ability descriptions	정신결정 능력 능력
+monk abilities	수도사 능력
+bolt	화살복제
+psi-like abilities and feats	유사사이오닉 능력과 특기
+creatures with “psionics” entries	사이오닉 항목이 있는 생명체
+psionic versions of creatures	생명체의 사이오닉 버전
+reading psionic creature entries	사이오닉 생명체 항목 읽기
+creatures with psi-like abilities	유사사이오닉 능력을 가진 생명체
+creating an astral construct	영적 구조물 만들기
+blues as characters	파랑이를 캐릭터로
+dromites as characters	드로마이트를 캐릭터로
+duergar as characters	듀에르가를 캐릭터로
+elans as characters	엘란을 캐릭터로
+half-giants as characters	하프자이언트를 캐릭터로
+maenads as characters	매나드를 캐릭터로
+creating a phrenic creature	정신계 생명체 만들기
+unbodied as characters	무육체를 캐릭터로
+xephs as characters	제프를 캐릭터로
+power trigger	파워 trigger
+saving throws against psionic item powers	사이오닉 아이템이 가진 힘에 대한 내성 굴림
+damaging psionic items	사이오닉 아이템의 피해
+charges and multiple uses	충전과 여러번 사용
+magic items for psionic characters	사이오닉 캐릭터를 위한 마법 아이템
+psionic item descriptions	사이오닉 아이템 설명
+market price	시장 가격
+random psionic items	임의 사이오닉 아이템
+psionic armor and shield special ability descriptions	사이오닉 갑옷 및 방패 특수 능력 설명
+psionic weapon special ability descriptions	사이오닉 무기 특수 능력 설명
+psicrown descriptions	사이크라운 설명
+universal item descriptions	우주적 아이템 설명
+specific cursed item	특정 저주 받은 아이템
+creating psionic items	사이오닉 아이템 제작
+creating dorjes	도르제 제작
+creating power stones	파워스톤 제작
+creating psicrowns	사이크라운 제작
+creating psionic tattoos	사이오닉 문신 제작
+creating universal items	우주적 아이템 제작
+mental pinnaclem	정신적 pinnaclem
+adding a second class	보조 직업 추가하기
+epic class progressions	에픽 직업 성장
+familiars at epic level	에픽 레벨에서 패밀리어
+epic psionic class progressions	에픽 사이오닉 직업 성장
+no epic bonus power progression	에픽 보너스 파워 성장 없음
+psicrystals at epic level	에픽 레벨에서의 정신결정
+epic prestige class progressions	에픽 상위직 진행
+table : the divine emissary	표: 신성 사절단
+using spot to read lips	독순술을 위해 감지 사용하기
+acquiring epic feats	에픽 특기 획득하기
+types of epic feats	에픽 특기의 유형
+additional magic item space	추가 마법 아이템 공간
+great smiting	상급 처벌
+spell slots above 9th level	9 레벨 이후 주문 슬롯
+what are epic spells?	에픽 주문이란 무엇인가?
+acquiring epic spells	에픽 주문 획득하기
+epic spell formulas and calculations	에픽 주문 공식과 계산
+dispelling,epic spells,and antimagic field	무효화, 에픽 주문, 대마법 보호장
+epic spell descriptions	에픽 주문 설명
+seed descriptions	씨앗 설명
+creating epic magic items	에픽 마법 아이템 제작
+epic armor and shield base price	에픽 갑옷과 방패 기본 가격
+epic armor and shield special ability descriptions	에픽 갑옷과 방패 특수 능력 설명
+epic weapon base price	에픽 무기 기본 가격
+epic weapon special ability descriptions	에픽 무기 특수 능력 설명
+nonepic magic item	비 에픽 마법 아이템
+epic ring descriptions	에픽 반지 설명
+epic rod descriptions	에픽 마법봉 설명
+epic staff descriptions	에픽 마법지팡이 설명
+epic wondrous item descriptions	에픽 기타 아이템 설명
+market price modifier	시장가 수정치
+intelligent item abilities	지능있는 아이템 능력
+special purpose power	특별한 목적의 능력
+creating a demilich	데밀리치 만들기
+epic dragon age categories	에픽 드래곤 나이 분류
+epic dragon space and reach	에픽 드래곤 영역과 도달범위
+epic dragon overland flying speeds	에픽 드래곤 대륙 횡단 비행 속도
+force dragons by age	힘의 드래곤의 나이
+force dragon abilities by age	힘의 드래곤 나이 별 능력
+sample force dragon,adult	힘의 드래곤 샘플, 성인
+prismatic dragons by age	무지갯빛 드래곤 나이
+prismatic dragon abilities by age	무지갯빛 드래곤 나이 별 능력
+sample prismatic dragon, old	무지갯빛 드래곤 샘플, 노령
+leshay weapons	레샤이 무기
+creating a pseudonatural creature	유사자연 트롤 만들기
+creating a worm that walks	걷는 벌레 만들기
+obstacles and hazards	방해물과 위험요소
+divine abilities and feats	신성 능력치와 특기
+salient divine ability descriptions	특화 신성 능력 설명
+divine abilities	신성 능력
+emotion	감정
+power word, blind	권능의 말씀, 실명
+power word, kill	권능의 말씀, 죽음
+greater dispelling	상급 무효화
+unbinding	결속해제
+random action	임의 행동
+symbol	상징
+new spells	새로운 주문
+intelligent, cursed, artifacts	지능있는, 저주 받은, 유물
+intelligent, cursed, & artifacts	지능있는, 저주 받은, 유물
+Intelligent, Cursed, and Artifacts	지능있는, 저주 받은, 유물
+type of feat	특기 유형
+vision and light	시야와 빛
+lower than 5,000 feet	5,000 피트 미만
+5,000 to 15,000 feet	5,000 피트 ~ 15,000 피트
+15,000 feet	15,000 초과
+optional element	선택적 원소
+blast	폭발
+ft. deep	ft. 깊이
+trigger object only	물체 트리거 전용
+involuntary change	비자발적 변경
+voluntary change	자발적 변경
+no adjustment	보정 없음
+only summons 1d3 shadows	1d3 그림자유형만 소환 가능
+composed of tiny snakes	특소형 뱀으로 구성됨

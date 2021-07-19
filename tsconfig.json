@@ -9,10 +9,7 @@
     "allowJs": true,
     "jsx": "preserve",
     "experimentalDecorators": true,
-    "lib": [
-      "ES2020",
-      "DOM"
-    ],
+    "lib": ["ES2020", "DOM"],
     "outDir": "dist",
     "resolveJsonModule": true,
     "skipLibCheck": true,
@@ -21,13 +18,6 @@
     "module": "esnext",
     "isolatedModules": true
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    "src/**/*.js",
-    "public/**/*.js"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js"],
+  "exclude": ["node_modules"]
 }
