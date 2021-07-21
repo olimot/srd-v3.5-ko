@@ -98,9 +98,9 @@
   margin: 0 auto;
   margin-top: 56px;
   max-width: 740px;
-
+  transform: none;
   transition: transform 0.2s ease;
-  .blockInit &,
+
   .blockWithSidebar & {
     transform: translateX(284px);
   }
@@ -113,6 +113,7 @@
       margin-right: auto;
     }
   }
+
   @media screen and (min-width: 1280px) {
     max-width: 960px;
   }
