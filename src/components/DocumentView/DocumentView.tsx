@@ -4,19 +4,21 @@ import styles from './DocumentView.module.scss';
 const DocumentView = ({ html }: { html: string }) => {
   useEffect(() => {
     const onScroll = () => {
-      const tocLinks = Array.from(document.querySelectorAll<HTMLElement>('aside a[data-toc-id]'), element => {
+      const tocLinks = Array.from(document.querySelectorAll<HTMLElement>('aside a[data-toc-id]'), (element) => {
         const section = document.getElementById(element.dataset.tocId!)!;
         const distanceToTop = window.scrollY - section.offsetTop;
         return { element, distanceToTop };
       });
       tocLinks.sort((a, b) => Math.abs(a.distanceToTop) - Math.abs(b.distanceToTop));
       const theActive = tocLinks.find(({ distanceToTop }) => distanceToTop > 0) || tocLinks[0];
-      document
-        .querySelectorAll(`aside a.active[data-toc-id]`)
-        .forEach(e => e !== theActive.element && e.classList.remove('active'));
-      theActive.element.classList.add('active');
+      if (theActive) {
+        document
+          .querySelectorAll(`aside a.active[data-toc-id]`)
+          .forEach((e) => e !== theActive.element && e.classList.remove('active'));
+        theActive.element.classList.add('active');
+      }
 
-      document.querySelectorAll(`aside details`).forEach(element => {
+      document.querySelectorAll(`aside details`).forEach((element) => {
         const details = element as HTMLDetailsElement;
         const hasActive = !!details.querySelector('a.active');
         if (!hasActive && details.open && details.dataset.openedByObserver) {

@@ -1,8 +1,9 @@
 .block {
   display: block;
   position: relative;
-  transition: margin-left 0.2s ease;
+  overflow-x: hidden;
   @media screen and (min-width: 1024px) {
+    transition: margin-left 0.2s ease;
     &Init,
     &WithSidebar {
       margin-left: 284px;
@@ -14,13 +15,13 @@
   position: fixed;
   display: grid;
   grid-template-rows: auto 1fr;
-  background: white;
+  background: #f5f5f5;
   top: 0;
   bottom: 0;
   left: -284px;
   box-sizing: border-box;
   width: 284px;
-  border-right: 1px solid #eee;
+  border-right: 1px solid #f5f5f5;
   transition: left 0.2s ease;
   @media screen and (min-width: 1024px) {
     .blockInit & {
@@ -34,12 +35,25 @@
     left: 0;
   }
   h2 {
-    font-size: 1em;
+    font-size: 1.2em;
     margin: 1em 0;
     padding: 0 16px;
+
     a,
     a:visited {
-      color: #934414;
+      display: block;
+      line-height: 1.4em;
+      div {
+        line-height: 1.2em;
+        display: inline-block;
+        padding: 0 0.25em;
+        color: #fff;
+        background-color: #934414;
+      }
+    }
+
+    a:hover {
+      text-decoration: none;
     }
   }
 
@@ -68,6 +82,7 @@
 
   summary,
   li li {
+    line-height: 1.2;
     padding: 2px;
     overflow: hidden;
     white-space: nowrap;
@@ -83,11 +98,18 @@
   margin: 0 auto;
   margin-top: 56px;
   max-width: 740px;
-  transition: margin-left 0.2s ease, margin-right 0.2s ease;
+
+  transition: transform 0.2s ease;
+  .blockInit &,
+  .blockWithSidebar & {
+    transform: translateX(284px);
+  }
 
   @media screen and (min-width: 1024px) {
+    transition: margin-left 0.2s ease, margin-right 0.2s ease;
     .blockInit &,
     .blockWithSidebar & {
+      transform: none;
       margin-right: auto;
     }
   }
@@ -112,16 +134,16 @@
   align-items: center;
   background-color: white;
   padding: 0 16px;
-  transition: left 0.2s ease;
+  transition: transform 0.2s ease;
   @media print {
     display: none;
   }
   .blockWithSidebar & {
-    left: 284px;
+    transform: translateX(284px);
   }
   @media screen and (min-width: 1024px) {
     .blockInit & {
-      left: 284px;
+      transform: translateX(284px);
     }
   }
   h2 {
@@ -226,11 +248,13 @@
   }
 
   h2 {
-    font-size: 1em;
+    font-weight: bold;
+    font-size: 1.1em;
     margin: 0 0 0.5em 0;
   }
   ul {
     margin-left: 0.5em;
+    line-height: 1.2;
   }
   > ul {
     margin-left: 0;

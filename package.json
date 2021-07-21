@@ -13,7 +13,6 @@
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
     "@types/assert": "^1.5.2",
     "@types/mocha": "^5.2.7",
-    "@types/node": "^13.1.6",
     "@types/prettier": "^2.2.3",
     "@typescript-eslint/eslint-plugin": "4.4.1",
     "@typescript-eslint/parser": "^4.6.1",
@@ -41,6 +40,7 @@
     "typescript": "^3.7.4"
   },
   "dependencies": {
+    "@types/node": "^16.4.0",
     "@types/classnames": "^2.2.11",
     "@types/fs-extra": "^9.0.6",
     "@types/jsdom": "^16.2.10",

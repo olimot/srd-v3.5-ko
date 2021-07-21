@@ -10,11 +10,11 @@ import styles from './Layout.module.scss';
 import TocItem from './TocItem';
 
 const documentGroups = anchors
-  .filter(a => a.level === 1)
+  .filter((a) => a.level === 1)
   .reduce((prev, current) => {
-    const groupIndex = prev.findIndex(group => group.groupName === current.groupName);
+    const groupIndex = prev.findIndex((group) => group.groupName === current.groupName);
     if (groupIndex === -1) return [...prev, { groupName: current.groupName, pages: [current] }];
-    const pageIndex = prev[groupIndex].pages.findIndex(page => page.pageName === current.pageName);
+    const pageIndex = prev[groupIndex].pages.findIndex((page) => page.pageName === current.pageName);
     if (pageIndex !== -1) return prev;
     return [
       ...prev.slice(0, groupIndex),
@@ -25,17 +25,12 @@ const documentGroups = anchors
 
 const Layout = ({ children }: { children?: any }) => {
   const router = useRouter();
-  const basename = decodeURIComponent(
-    router.asPath
-      .split('#')[0]
-      .split('/')
-      .pop() || '',
-  );
+  const basename = decodeURIComponent(router.asPath.split('#')[0].split('/').pop() || '');
   const toc = buildTOC(basename);
   const [isSidebarVisible, setSidebarVisible] = useState<boolean | null>(null);
   const [isTOCVisible, setTOCVisible] = useState<boolean | null>(null);
   const { pageName, groupName: pageGroupName } =
-    anchors.find(anchor => anchor.level === 1 && anchor.basename === basename) || {};
+    anchors.find((anchor) => anchor.level === 1 && anchor.basename === basename) || {};
 
   useEffect(() => {
     setSidebarVisible(window.innerWidth >= 1024);
@@ -77,6 +72,12 @@ const Layout = ({ children }: { children?: any }) => {
     >
       <Head>
         <title>v3.5 SRD{pageName && ` - ${pageName}`}</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <div className={styles.pageControls}>
         <button type="button" onClick={() => setSidebarVisible(!isSidebarVisible)}>
@@ -141,11 +142,11 @@ const Layout = ({ children }: { children?: any }) => {
             )}
           >
             <p>
-              <Link href={`/raw-html/${basename}.html`}>(view unstyled)</Link>
+              <Link href={`/raw-html/${basename}.html`}>(스타일 제외 버전 보기)</Link>
             </p>
-            <h2>In This Article</h2>
+            <h2>페이지 목차</h2>
             <ul>
-              {toc.map(item => (
+              {toc.map((item) => (
                 <TocItem key={`${item.anchor.filename}${item.anchor.id}`} item={item} />
               ))}
             </ul>
@@ -157,16 +158,21 @@ const Layout = ({ children }: { children?: any }) => {
         <div>
           <SearchForm className={styles.searchForm} />
           <h2>
-            <Link href="/">Revised (v.3.5) System Reference Document</Link>
+            <Link href="/">
+              <a>
+                <div>Revised (v.3.5)</div>
+                <div>System Reference Document</div>
+              </a>
+            </Link>
           </h2>
         </div>
         <ul className={styles.groupList}>
-          {documentGroups.map(group => (
+          {documentGroups.map((group) => (
             <li key={group.groupName}>
-              <details open={!!group.pages.find(page => page.basename === basename)}>
+              <details open={!!group.pages.find((page) => page.basename === basename)}>
                 <summary>{group.groupName}</summary>
                 <ul className={styles.inGroupList}>
-                  {group.pages.map(page => (
+                  {group.pages.map((page) => (
                     <li key={page.basename}>
                       <Link href={`/docs/${page.basename.split('.')[0]}`} prefetch={false}>
                         <a className={classNames(basename === page.basename && 'active')}>{page.pageName}</a>

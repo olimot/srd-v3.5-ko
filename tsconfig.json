@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2015",
-    "moduleResolution": "node",
+    "moduleResolution": "Node",
     "strict": true,
     "esModuleInterop": true,
     "declaration": true,
@@ -9,15 +9,24 @@
     "allowJs": true,
     "jsx": "preserve",
     "experimentalDecorators": true,
-    "lib": ["ES2020", "DOM"],
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
     "outDir": "dist",
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
-    "module": "esnext",
+    "module": "ESNext",
     "isolatedModules": true
   },
-  "include": ["**/*.ts", "**/*.tsx", "**/*.js"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
