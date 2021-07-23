@@ -25,6 +25,16 @@
   }
 }
 
+.externalLinkGroup {
+  margin: 1em 0;
+}
+
+.externalLink {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .tableOfContents {
   column-count: 1;
   h3 {

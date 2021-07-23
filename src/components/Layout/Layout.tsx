@@ -72,11 +72,10 @@ const Layout = ({ children }: { children?: any }) => {
     >
       <Head>
         <title>v3.5 SRD{pageName && ` - ${pageName}`}</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&display=swap"
+          href="https://cdn.rawgit.com/kattergil/NotoSerifKR-Web/5e08423b/stylesheet/NotoSerif-Web.css"
           rel="stylesheet"
+          type="text/css"
         />
       </Head>
       <div className={styles.pageControls}>

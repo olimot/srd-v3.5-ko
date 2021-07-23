@@ -31,15 +31,20 @@ const App = () => {
           도구 상자입니다. 귀하는 이 자료를 Open Game License에 의거해 Open Game Content로 간주하고 이를 사용, 수정 및
           배포할 수 있습니다.
         </p>
-        <p>
-          Github: <a href="https://github.com/olimot/srd-v3.5-ko">https://github.com/olimot/srd-v3.5-ko</a>
-          <br />
-          원본 문서:{' '}
-          <a href="http://www.wizards.com/default.asp?x=d20/article/srd35">
-            http://www.wizards.com/default.asp?x=d20/article/srd35
-          </a>
-          <br /> (아카이브: <a href="https://archive.org/details/dnd35srd">https://archive.org/details/dnd35srd</a>)
-        </p>
+        <div className={classNames(styles.externalLinkGroup)}>
+          <div className={classNames(styles.externalLink)}>
+            Github: <a href="https://github.com/olimot/srd-v3.5-ko">https://github.com/olimot/srd-v3.5-ko</a>
+          </div>
+          <div className={classNames(styles.externalLink)}>
+            원본 문서:{' '}
+            <a href="http://www.wizards.com/default.asp?x=d20/article/srd35">
+              http://www.wizards.com/default.asp?x=d20/article/srd35
+            </a>
+          </div>
+          <div className={classNames(styles.externalLink)}>
+            (아카이브: <a href="https://archive.org/details/dnd35srd">https://archive.org/details/dnd35srd</a>)
+          </div>
+        </div>
         <div className={styles.tableOfContents}>
           {documentGroups.map((group) => {
             return (
