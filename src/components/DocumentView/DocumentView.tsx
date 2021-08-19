@@ -6,11 +6,12 @@ const DocumentView = ({ html }: { html: string }) => {
     const onScroll = () => {
       const tocLinks = Array.from(document.querySelectorAll<HTMLElement>('aside a[data-toc-id]'), (element) => {
         const section = document.getElementById(element.dataset.tocId!)!;
-        const distanceToTop = window.scrollY - section.offsetTop;
+        const distanceToTop = window.scrollY - section.offsetTop + 16;
         return { element, distanceToTop };
       });
       tocLinks.sort((a, b) => Math.abs(a.distanceToTop) - Math.abs(b.distanceToTop));
       const theActive = tocLinks.find(({ distanceToTop }) => distanceToTop > 0) || tocLinks[0];
+      
       if (theActive) {
         document
           .querySelectorAll(`aside a.active[data-toc-id]`)
