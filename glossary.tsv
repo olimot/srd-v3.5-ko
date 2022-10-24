@@ -1,3 +1,5 @@
+dispell	무효화
+cast	시전
 untrained	비훈련시
 trained only	훈련 필요
 restriction	제한사항
@@ -101,7 +103,7 @@ inspire greatness	위대함 고취
 song of freedom	자유의 노래
 inspire heroics	영웅심 고취
 cleric	사제
-deity	신급
+deity	신
 domain	계열
 spontaneous casting	즉시 시전
 druid	드루이드
@@ -263,8 +265,7 @@ extend spell	주문 시간 연장
 far shot	원거리 사격
 forge ring	반지 제작
 heighten spell	주문 레벨 강화
-counterspell	주문반사
-counterspelling	주문반사
+counterspell	주문 차단
 critical	치명타
 shield bash	방패 공격
 unarmed strike	비무장 타격
@@ -3230,7 +3231,7 @@ increased damage reduction	피해 감소 증가
 increased energy resistance	에너지 저항 증가
 increased spell resistance	주문 저항 증가
 indomitable strength	불굴의 힘
-instant counterspell	즉석 주문반사
+instant counterspell	즉석 주문 차단
 instant move	즉석 이동
 irresistible blows	저항할 수 없는 일격
 irresistible performance	저항할 수 없는 공연
@@ -3730,7 +3731,7 @@ initiative consequences of delaying	지연으로 인한 선제권 결과
 readying an action	행동 준비하기
 initiative consequences of readying	준비로 인한 선제권 결과
 distracting spellcasters	주문시전자 집중 방해하기
-readying to counterspell	주문반사 준비하기
+readying to counterspell	주문 차단 준비하기
 readying a weapon against a charge	돌격을 상대할 무기 준비
 infection	감염
 incubation period	잠복기
@@ -3746,7 +3747,7 @@ price	가격
 targeted spells	조준하는 주문
 summon familiar	패밀리어 소환
 base class	기본 직업
-mastery of counterspelling	주문반사 마스터
+mastery of counterspelling	주문 차단 마스터
 mastery of elements	원소 마스터
 mastery of shaping	조형 마스터
 poison use	독 사용
@@ -4144,9 +4145,9 @@ vigorous motion	활발한 움직임
 violent motion	격렬한 움직임
 violent weather	격렬한 날씨
 casting defensively	방어적으로 주문하기
-how counterspells work	주문반사 작동원라
+how counterspells work	주문 차단 작동원리
 specific exceptions	특정 예외
-dispel magic as a counterspell	주문반사로 마법 무효화하기
+dispel magic as a counterspell	주문 차단으로 마법 무효화하기
 bringing back the dead	죽은 자 되살리기
 preventing revivification	소생 방지하기
 revivification against one’s will	의지에 반하는 소생
@@ -4262,8 +4263,7 @@ holly berry bombs	호랑가시나무 열매 폭탄
 warm shield	따뜻한 방패
 chill shield	시원한 방패
 alignments identical	성향 동일
-alignments different with respect to either law/chaos or good/evil	질서/혼돈과 선/악 중 한축만 성향 차이 있음
-alignments different with respect to both law/chaos and good/evil	질서/혼돈과 선/악 두축 모두 성향 차이 있음
+alignments different with respect to	성향 차이 있음
 barred cage	빗장 걸린 우리
 windowless cell	창문 없는 감방
 calling creatures	생명체 부르기
@@ -5253,7 +5253,7 @@ spell slots above 9th level	9 레벨 이후 주문 슬롯
 what are epic spells?	에픽 주문이란 무엇인가?
 acquiring epic spells	에픽 주문 획득하기
 epic spell formulas and calculations	에픽 주문 공식과 계산
-dispelling,epic spells,and antimagic field	무효화, 에픽 주문, 대마법 보호장
+dispelling, epic spells, and antimagic field	무효화, 에픽 주문, 대마법 보호장
 epic spell descriptions	에픽 주문 설명
 seed descriptions	씨앗 설명
 creating epic magic items	에픽 마법 아이템 제작

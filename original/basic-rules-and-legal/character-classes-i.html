@@ -3,367 +3,374 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,minimum-scale=1.0" />
-    <title>캐릭터 직업 I</title>
+    <title>v3.5 SRD / Basic Rules and Legal / Character Classes I</title>
     <link rel="stylesheet" href="../main.css" />
-    <script src="../main.js" defer></script>
+    <script src="../main.js"></script>
   </head>
   <body>
     <p>
       This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.
     </p>
-    <h1>직업 I</h1>
-    <h2>목차</h2>
+    <h1>CLASSES I</h1>
+    <h2>Table of Contents</h2>
     <ul id="table-of-contents">
       <li>
-        <a href="#barbarian">바바리안</a>
+        <a href="#barbarian">Barbarian</a>
         <ul>
-          <li><a href="#barbarian--class-skills">직업 스킬</a></li>
-          <li><a href="#barbarian--class-features">직업 특성</a></li>
-          <li><a href="#ex-barbarians">은퇴 바바리안</a></li>
+          <li><a href="#barbarian--class-skills">Class Skills</a></li>
+          <li><a href="#barbarian--class-features">Class Features</a></li>
+          <li><a href="#ex-barbarians">Ex-Barbarians</a></li>
         </ul>
       </li>
       <li>
-        <a href="#bard">음유시인</a>
+        <a href="#bard">Bard</a>
         <ul>
-          <li><a href="#bard--class-skills">직업 스킬</a></li>
-          <li><a href="#bard--class-features">직업 특성</a></li>
-          <li><a href="#ex-bards">은퇴 음유시인</a></li>
+          <li><a href="#bard--class-skills">Class Skills</a></li>
+          <li><a href="#bard--class-features">Class Features</a></li>
+          <li><a href="#ex-bards">Ex-Bards</a></li>
         </ul>
       </li>
       <li>
-        <a href="#cleric">사제</a>
+        <a href="#cleric">Cleric</a>
         <ul>
-          <li><a href="#cleric--class-skills">직업 스킬</a></li>
-          <li><a href="#cleric--class-features">직업 특성</a></li>
-          <li><a href="#ex-clerics">은퇴 사제</a></li>
+          <li><a href="#cleric--class-skills">Class Skills</a></li>
+          <li><a href="#cleric--class-features">Class Features</a></li>
+          <li><a href="#ex-clerics">Ex-Clerics</a></li>
         </ul>
       </li>
       <li>
-        <a href="#druid">드루이드</a>
+        <a href="#druid">Druid</a>
         <ul>
-          <li><a href="#druid--class-skills">직업 스킬</a></li>
-          <li><a href="#druid--class-features">직업 특성</a></li>
-          <li><a href="#ex-druids">은퇴 드루이드</a></li>
-          <li><a href="#the-druids-animal-companion">드루이드의 동물 동료</a></li>
+          <li><a href="#druid--class-skills">Class Skills</a></li>
+          <li><a href="#druid--class-features">Class Features</a></li>
+          <li><a href="#ex-druids">Ex-Druids</a></li>
+          <li><a href="#the-druids-animal-companion">The Druid’s Animal Companion</a></li>
           <li>
-            <a href="#alternative-animal-companions">대체 동물 동료</a>
+            <a href="#alternative-animal-companions">Alternative Animal Companions</a>
             <ul>
-              <li><a href="#4th-level-or-higher">4 레벨 이상 (레벨 -3)</a></li>
-              <li><a href="#7th-level-or-higher">7 레벨 이상 (레벨 -6)</a></li>
-              <li><a href="#10th-level-or-higher">10 레벨 이상 (레벨 -9)</a></li>
-              <li><a href="#13th-level-or-higher">13 레벨 이상 (레벨 -12)</a></li>
-              <li><a href="#16th-level-or-higher">16 레벨 이상 (레벨 -15)</a></li>
+              <li><a href="#4th-level-or-higher">4th Level or Higher (Level –3)</a></li>
+              <li><a href="#7th-level-or-higher">7th Level or Higher (Level –6)</a></li>
+              <li><a href="#10th-level-or-higher">10th Level or Higher (Level –9)</a></li>
+              <li><a href="#13th-level-or-higher">13th Level or Higher (Level –12)</a></li>
+              <li><a href="#16th-level-or-higher">16th Level or Higher (Level –15)</a></li>
             </ul>
           </li>
         </ul>
       </li>
       <li>
-        <a href="#fighter">전사</a>
+        <a href="#fighter">Fighter</a>
         <ul>
-          <li><a href="#fighter--class-skills">직업 스킬</a></li>
-          <li><a href="#fighter--class-features">직업 특성</a></li>
+          <li><a href="#fighter--class-skills">Class Skills</a></li>
+          <li><a href="#fighter--class-features">Class Features</a></li>
         </ul>
       </li>
       <li>
-        <a href="#monk">수도사</a>
+        <a href="#monk">Monk</a>
         <ul>
-          <li><a href="#monk--class-skills">직업 스킬</a></li>
-          <li><a href="#monk--class-features">직업 특성</a></li>
-          <li><a href="#ex-monks">은퇴 수도사</a></li>
+          <li><a href="#monk--class-skills">Class Skills</a></li>
+          <li><a href="#monk--class-features">Class Features</a></li>
+          <li><a href="#ex-monks">Ex-Monks</a></li>
         </ul>
       </li>
     </ul>
-    <h2 id="barbarian">바바리안</h2>
-    <p id="barbarian--alignment"><strong>성향:</strong> 질서를 제외한 모든 성향.</p>
-    <p id="barbarian--hit-die"><strong>히트 다이스:</strong> d12.</p>
-    <h3 id="barbarian--class-skills">직업 스킬</h3>
+    <h2 id="barbarian">Barbarian</h2>
+    <p id="barbarian--alignment"><strong>Alignment:</strong> Any nonlawful.</p>
+    <p id="barbarian--hit-die"><strong>Hit Die:</strong> d12.</p>
+    <h3 id="barbarian--class-skills">Class Skills</h3>
     <p>
-      바바리안의 직업 스킬(핵심 능력)은 등반(근), 제작(지), 동물 조련(매), 위협(매), 도약(근), 듣기(혜), 탑승(민),
-      생존(혜), 수영(근)이 있습니다.
+      The barbarian’s class skills (and the key ability for each skill) are Climb (Str), Craft (Int), Handle Animal
+      (Cha), Intimidate (Cha), Jump (Str), Listen (Wis), Ride (Dex), Survival (Wis), and Swim (Str).
     </p>
     <p id="barbarian--class-skills--skill-points-at-1st-level">
-      <strong>첫 레벨에서 스킬 포인트:</strong> (4 + 지 수정치) × 4.
+      <strong>Skill Points at 1st Level:</strong> (4 + Int modifier) x 4.
     </p>
     <p id="barbarian--class-skills--skill-points-at-each-additional-level">
-      <strong>레벨이 오를 때마다 추가 스킬 포인트:</strong> 4 + 지 수정치.
+      <strong>Skill Points at Each Additional Level:</strong> 4 + Int modifier.
     </p>
     <table class="full-width-table">
       <caption>
-        표: 바바리안
+        Table: The Barbarian
       </caption>
       <tbody>
         <tr>
-          <th>레벨</th>
-          <th>기본 공격 보너스</th>
-          <th>인내 내성</th>
-          <th>저항 내성</th>
-          <th>의지 내성</th>
-          <th>특수</th>
+          <th>Level</th>
+          <th>Base Attack Bonus</th>
+          <th>Fort Save</th>
+          <th>Ref Save</th>
+          <th>Will Save</th>
+          <th>Special</th>
         </tr>
         <tr>
-          <td>1</td>
+          <td>1st</td>
           <td>+1</td>
           <td>+2</td>
           <td>+0</td>
           <td>+0</td>
-          <td>빠른 이동, 문맹, 격노 1/일</td>
+          <td>Fast movement, illiteracy, rage 1/day</td>
         </tr>
         <tr>
-          <td>2</td>
+          <td>2nd</td>
           <td>+2</td>
           <td>+3</td>
           <td>+0</td>
           <td>+0</td>
-          <td>기묘한 회피</td>
+          <td>Uncanny dodge</td>
         </tr>
         <tr>
-          <td>3</td>
+          <td>3rd</td>
           <td>+3</td>
           <td>+3</td>
           <td>+1</td>
           <td>+1</td>
-          <td>함정 감각 +1</td>
+          <td>Trap sense +1</td>
         </tr>
         <tr>
-          <td>4</td>
+          <td>4th</td>
           <td>+4</td>
           <td>+4</td>
           <td>+1</td>
           <td>+1</td>
-          <td>격노 2/일</td>
+          <td>Rage 2/day</td>
         </tr>
         <tr>
-          <td>5</td>
+          <td>5th</td>
           <td>+5</td>
           <td>+4</td>
           <td>+1</td>
           <td>+1</td>
-          <td>향상된 기묘한 회피</td>
+          <td>Improved uncanny dodge</td>
         </tr>
         <tr>
-          <td>6</td>
+          <td>6th</td>
           <td>+6/+1</td>
           <td>+5</td>
           <td>+2</td>
           <td>+2</td>
-          <td>함정 감각 +2</td>
+          <td>Trap sense +2</td>
         </tr>
         <tr>
-          <td>7</td>
+          <td>7th</td>
           <td>+7/+2</td>
           <td>+5</td>
           <td>+2</td>
           <td>+2</td>
-          <td>피해 축소 1/—</td>
+          <td>Damage reduction 1/—</td>
         </tr>
         <tr>
-          <td>8</td>
+          <td>8th</td>
           <td>+8/+3</td>
           <td>+6</td>
           <td>+2</td>
           <td>+2</td>
-          <td>격노 3/일</td>
+          <td>Rage 3/day</td>
         </tr>
         <tr>
-          <td>9</td>
+          <td>9th</td>
           <td>+9/+4</td>
           <td>+6</td>
           <td>+3</td>
           <td>+3</td>
-          <td>함정 감각 +3</td>
+          <td>Trap sense +3</td>
         </tr>
         <tr>
-          <td>10</td>
+          <td>10th</td>
           <td>+10/+5</td>
           <td>+7</td>
           <td>+3</td>
           <td>+3</td>
-          <td>피해 축소 2/—</td>
+          <td>Damage reduction 2/—</td>
         </tr>
         <tr>
-          <td>11</td>
+          <td>11th</td>
           <td>+11/+6/+1</td>
           <td>+7</td>
           <td>+3</td>
           <td>+3</td>
-          <td>상급 격노</td>
+          <td>Greater rage</td>
         </tr>
         <tr>
-          <td>12</td>
+          <td>12th</td>
           <td>+12/+7/+2</td>
           <td>+8</td>
           <td>+4</td>
           <td>+4</td>
-          <td>격노 4/일, 함정 감각 +4</td>
+          <td>Rage 4/day, trap sense +4</td>
         </tr>
         <tr>
-          <td>13</td>
+          <td>13th</td>
           <td>+13/+8/+3</td>
           <td>+8</td>
           <td>+4</td>
           <td>+4</td>
-          <td>피해 축소 3/—</td>
+          <td>Damage reduction 3/—</td>
         </tr>
         <tr>
-          <td>14</td>
+          <td>14th</td>
           <td>+14/+9/+4</td>
           <td>+9</td>
           <td>+4</td>
           <td>+4</td>
-          <td>불굴의 의지</td>
+          <td>Indomitable will</td>
         </tr>
         <tr>
-          <td>15</td>
+          <td>15th</td>
           <td>+15/+10/+5</td>
           <td>+9</td>
           <td>+5</td>
           <td>+5</td>
-          <td>함정 감각 +5</td>
+          <td>Trap sense +5</td>
         </tr>
         <tr>
-          <td>16</td>
+          <td>16th</td>
           <td>+16/+11/+6/+1</td>
           <td>+10</td>
           <td>+5</td>
           <td>+5</td>
-          <td>피해 축소 4/—, 격노 5/일</td>
+          <td>Damage reduction 4/—, rage 5/day</td>
         </tr>
         <tr>
-          <td>17</td>
+          <td>17th</td>
           <td>+17/+12/+7/+2</td>
           <td>+10</td>
           <td>+5</td>
           <td>+5</td>
-          <td>지칠 줄 모르는 격노</td>
+          <td>Tireless rage</td>
         </tr>
         <tr>
-          <td>18</td>
+          <td>18th</td>
           <td>+18/+13/+8/+3</td>
           <td>+11</td>
           <td>+6</td>
           <td>+6</td>
-          <td>함정 감각 +6</td>
+          <td>Trap sense +6</td>
         </tr>
         <tr>
-          <td>19</td>
+          <td>19th</td>
           <td>+19/+14/+9/+4</td>
           <td>+11</td>
           <td>+6</td>
           <td>+6</td>
-          <td>피해 축소 5/—</td>
+          <td>Damage reduction 5/—</td>
         </tr>
         <tr>
-          <td>20</td>
+          <td>20th</td>
           <td>+20/+15/+10/+5</td>
           <td>+12</td>
           <td>+6</td>
           <td>+6</td>
-          <td>힘센 격노, 격노 6/일</td>
+          <td>Mighty rage, rage 6/day</td>
         </tr>
       </tbody>
     </table>
-    <h3 id="barbarian--class-features">직업 특성</h3>
-    <p>바바리안의 직업 특성은 다음과 같습니다.</p>
+    <h3 id="barbarian--class-features">Class Features</h3>
+    <p>All of the following are class features of the barbarian.</p>
     <p id="barbarian--class-features--weapon-and-armor-proficiency">
-      <strong>무기와 갑옷 숙련:</strong> 바바리안은 모든 단순 무예 무기, 경량 갑옷, 일반 갑옷, 방패(장방패 제외)에
-      능숙합니다.
+      <strong>Weapon and Armor Proficiency:</strong> A barbarian is proficient with all simple and martial weapons,
+      light armor, medium armor, and shields (except tower shields).
     </p>
     <p id="barbarian--class-features--fast-movement">
-      <strong>빠른 이동 (범):</strong> 바바리안의 육상 속도는 자신의 종족의 표준 속도보다 +10 피트 더 빠릅니다. 이
-      이익은 갑옷을 입지 않았거나, 경량 갑옷, 일반 갑옷을 입었고 무거운 것을 들고 있지 않을 때에만 적용됩니다. 갑옷을
-      입었거나 물건을 들고 있어서 속도를 수정해야 하는 경우 이 보너스를 적용하기 전에 먼저 수정한 후에 이 보너스를
-      적용하십시오.
+      <strong>Fast Movement (Ex):</strong> A barbarian’s land speed is faster than the norm for his race by +10 feet.
+      This benefit applies only when he is wearing no armor, light armor, or medium armor and not carrying a heavy load.
+      Apply this bonus before modifying the barbarian’s speed because of any load carried or armor worn.
     </p>
     <p id="illiteracy">
-      <strong>문맹:</strong> 바바리안 캐릭터만이 자동적으로 읽고 쓰는 방법을 모르는 캐릭터입니다. 바바리안 캐릭터는 2
-      스킬 포인트를 써서 말하기 가능한 모든 언어를 읽고 쓰는 능력을 획득할 수도 있습니다.
+      <strong>Illiteracy:</strong> Barbarians are the only characters who do not automatically know how to read and
+      write. A barbarian may spend 2 skill points to gain the ability to read and write all languages he is able to
+      speak.
     </p>
     <p>
-      멀티직업으로 다른 직업에 레벨을 올린 바바리안은 자동적으로 읽고 쓰는 능력을 얻습니다. 반대로 멀티직업으로 바바리안
-      레벨을 올린 캐릭터는 이미 가지고 있는 읽고 쓰는 능력을 잃지 않습니다.
+      A barbarian who gains a level in any other class automatically gains literacy. Any other character who gains a
+      barbarian level does not lose the literacy he or she already had.
     </p>
     <p id="rage">
-      <strong>격노 (범):</strong> 바바리안은 하루에 특정 횟수만큼 급격한 분노가 가능합니다. 격노 중에, 바바리안은
-      일시적으로 +4 근력 보너스, +4 건강 보너스, 의지 내성 굴림에 +2 의욕 보너스를 얻지만, -2 방어도 페널티도 받습니다.
-      이 건강의 증가는 바바리안의 히트 포인트를 레벨 당 2 포인트씩 증가하지만, 증가한 히트 포인트는 격노가 끝나고 건강
-      점수가 되돌아오면 사라집니다. (이 추가 히트 포인트는 임시 히트 포인트와는 달리 먼저 떨어지지 않습니다) 격노 중,
-      바바리안은 매력, 민첩, 지능 기반의 스킬(균형, 탈출 전문가, 위협, 탑승 제외), 집중 스킬, 또는 참을성이나 집중을
-      요하는 능력을 사용할 수 없고, 주문 시전이나 명령어가 필요한 마법 아이템 사용, 주문 트리거(마법 막대 등), 또는
-      작동하게 하기 위한 주문 완료 (스크롤 등)은 할 수 없습니다. 특기 중에는 전투 숙련, 아이템 제작 특기, 메타마법
-      특기를 사용할 수 없습니다. 격노의 감정은 3 + 캐릭터의 (새로 향상된) 건강 수정치만큼의 수 라운드 동안 지속됩니다.
-      바바리안은 격노를 조기에 끝낼 수도 있습니다. 격노의 끝에는, 바바리안은 격노 수정치와 제약을 잃고 기진맥진한
-      상태(-2 근력 페널티, -2 민첩 페널티, 돌격이나 달리기 불가능)가 현재 조우 기간동안 유지됩니다(17 레벨 바바리안
-      이후는 제외, 17 레벨 이후에는 이런 제약은 더 이상 적용되지 않습니다; 아래 항목 참고).
+      <strong>Rage (Ex):</strong> A barbarian can fly into a rage a certain number of times per day. In a rage, a
+      barbarian temporarily gains a +4 bonus to Strength, a +4 bonus to Constitution, and a +2 morale bonus on Will
+      saves, but he takes a –2 penalty to Armor Class. The increase in Constitution increases the barbarian’s hit points
+      by 2 points per level, but these hit points go away at the end of the rage when his Constitution score drops back
+      to normal. (These extra hit points are not lost first the way temporary hit points are.) While raging, a barbarian
+      cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except for Balance, Escape Artist, Intimidate,
+      and Ride), the Concentration skill, or any abilities that require patience or concentration, nor can he cast
+      spells or activate magic items that require a command word, a spell trigger (such as a wand), or spell completion
+      (such as a scroll) to function. He can use any feat he has except Combat Expertise, item creation feats, and
+      metamagic feats. A fit of rage lasts for a number of rounds equal to 3 + the character’s (newly improved)
+      Constitution modifier. A barbarian may prematurely end his rage. At the end of the rage, the barbarian loses the
+      rage modifiers and restrictions and becomes fatigued (–2 penalty to Strength, –2 penalty to Dexterity, can’t
+      charge or run) for the duration of the current encounter (unless he is a 17th-level barbarian, at which point this
+      limitation no longer applies; see below).
     </p>
     <p>
-      바바리안은 조우 당 단 한번만 급격한 분노를 할 수 있습니다. 1 레벨에서 바바리안은 하루 한번만 그의 격노 능력을
-      사용할 수 있습니다. 4 레벨과 그 이후 4 레벨마다 하루에 한 번 추가로 사용할 수 있습니다 (20 레벨에서는 하루에 최대
-      6 번). 분노에 들어가는 것은 그 자체로 시간이 걸리지 않지만 바바리안은 다른 사람의 행동에 반응하지 않고 자신의 행동
-      중에만 할 수 있습니다.
+      A barbarian can fly into a rage only once per encounter. At 1st level he can use his rage ability once per day. At
+      4th level and every four levels thereafter, he can use it one additional time per day (to a maximum of six times
+      per day at 20th level). Entering a rage takes no time itself, but a barbarian can do it only during his action,
+      not in response to someone else’s action.
     </p>
     <p id="uncanny-dodge">
-      <strong>기묘한 회피 (범):</strong> 2 레벨에서 바바리안은 기습 당하거나 보이지 않는 공격자에게 맞아도 AC에 대한
-      민첩 보너스를 유지합니다(있는 경우). 그러나 그는 움직이지 않으면 AC에 대한 민첩 보너스를 잃습니다. 바바리안이 이미
-      다른 직업의 기묘한 회피를 가지고 있다면, 자동으로 향상된 기묘한 회피(아래 항목 참고)를 얻습니다.
+      <strong>Uncanny Dodge (Ex):</strong> At 2nd level, a barbarian retains his Dexterity bonus to AC (if any) even if
+      he is caught flat-footed or struck by an invisible attacker. However, he still loses his Dexterity bonus to AC if
+      immobilized. If a barbarian already has uncanny dodge from a different class, he automatically gains improved
+      uncanny dodge (see below) instead.
     </p>
     <p id="trap-sense">
-      <strong>함정 감각 (범):</strong> 3 레벨부터 바바리안은 함정을 피하기 위해 반사 내성에 +1 보너스를, 함정 공격에
-      대해 AC에 +1 회피 보너스를 얻습니다. 이 보너스는 이후 3 개의 바바리안 ​​레벨 (6, 9, 12, 15, 18 레벨)마다 +1 씩
-      증가합니다. 여러 직업의 함정 감각에서 얻은 보너스는 중첩됩니다.
+      <strong>Trap Sense (Ex):</strong> Starting at 3rd level, a barbarian gains a +1 bonus on Reflex saves made to
+      avoid traps and a +1 dodge bonus to AC against attacks made by traps. These bonuses rise by +1 every three
+      barbarian levels thereafter (6th, 9th, 12th, 15th, and 18th level). Trap sense bonuses gained from multiple
+      classes stack.
     </p>
     <p id="improved-uncanny-dodge">
-      <strong>향상된 기묘한 회피 (범):</strong> 5 레벨 이상에서 바바리안은 더 이상 협공 받지 않습니다. 이 능력은 로그가
-      협공을 통해 은밀한 공격을 하는 능력을 방어하며, 이는 공격자가 적어도 목표물의 바바리안 직업 레벨보다 4 레벨 높은
-      로그 직업 레벨을 가지고 있는 것이 아니라면 유효합니다. 캐릭터가 이미 두 번째 직업에서 기묘한 회피(위 참고)를
-      가지고 있는 경우, 캐릭터는 자동으로 향상된 기묘한 회피를 얻으며, 기묘한 회피를 제공하는 각 직업에서 비롯된 레벨을
-      중첩하여 로그의 협공이 유효하려면 반드시 필요한 레벨을 결정 짓습니다.
+      <strong>Improved Uncanny Dodge (Ex):</strong> At 5th level and higher, a barbarian can no longer be flanked. This
+      defense denies a rogue the ability to sneak attack the barbarian by flanking him, unless the attacker has at least
+      four more rogue levels than the target has barbarian levels. If a character already has uncanny dodge (see above)
+      from a second class, the character automatically gains improved uncanny dodge instead, and the levels from the
+      classes that grant uncanny dodge stack to determine the minimum level a rogue must be to flank the character.
     </p>
     <p id="damage-reduction">
-      <strong>피해 축소 (범):</strong> 7 레벨에서 바바리안은 피해 축소를 얻습니다. 바바리안이 무기나 자연 공격으로
-      피해를 입을 때마다 받는 피해에서 1을 뺍니다. 10 레벨부터 그 이후 3 레벨마다(10 레벨, 13 레벨, 16 레벨, 19 레벨) 이
-      피해 감소량은 1 점씩 증가합니다. 피해 축소는 피해를 0으로 감소시킬 수 있지만 0 미만은 아닙니다.
+      <strong>Damage Reduction (Ex):</strong> At 7th level, a barbarian gains Damage Reduction. Subtract 1 from the
+      damage the barbarian takes each time he is dealt damage from a weapon or a natural attack. At 10th level, and
+      every three barbarian levels thereafter (13th, 16th, and 19th level), this damage reduction rises by 1 point.
+      Damage reduction can reduce damage to 0 but not below 0.
     </p>
     <p id="greater-rage">
-      <strong>상급 격노 (범):</strong> 11 레벨에서 격노 중에 바바리안의 근력과 건강 보너스는 각각 +6 증가하며, 의지 내성
-      굴림 의욕 보너스는 +3 증가합니다. AC 페널티는 여전히 -2 입니다.
+      <strong>Greater Rage (Ex):</strong> At 11th level, a barbarian’s bonuses to Strength and Constitution during his
+      rage each increase to +6, and his morale bonus on Will saves increases to +3. The penalty to AC remains at –2.
     </p>
     <p id="indomitable-will">
-      <strong>불굴의 의지 (범):</strong> 격노 상태 동안, 14 레벨 이상의 바바리안은 부여술 주문 저항에 의지 내성 굴림에
-      +4 보너스를 받습니다. 이 보너스는 다른 모든 수정치와 중첩되며, 이는 격노로 얻은 내성 굴림 의욕 보너스도
-      포합됩니다.
+      <strong>Indomitable Will (Ex):</strong> While in a rage, a barbarian of 14th level or higher gains a +4 bonus on
+      Will saves to resist enchantment spells. This bonus stacks with all other modifiers, including the morale bonus on
+      Will saves he also receives during his rage.
     </p>
     <p id="tireless-rage">
-      <strong>지칠 줄 모르는 격노 (범):</strong> 17 레벨 이상의 바바리안은 격노 후에 더이상 기진맥진 상태가 되지
-      않습니다.
+      <strong>Tireless Rage (Ex):</strong> At 17th level and higher, a barbarian no longer becomes fatigued at the end
+      of his rage.
     </p>
     <p id="mighty-rage">
-      <strong>힘센 격노 (범):</strong> 20 레벨에서 격노 중에 바바리안의 근력과 건강 보너스은 각각 +8 증가하며, 의지 내성
-      굴림 의욕 보너스은 +4 증가합니다. AC 페널티는 여전히 -2 입니다.
+      <strong>Mighty Rage (Ex):</strong> At 20th level, a barbarian’s bonuses to Strength and Constitution during his
+      rage each increase to +8, and his morale bonus on Will saves increases to +4. The penalty to AC remains at –2.
     </p>
-    <h3 id="ex-barbarians">은퇴 바바리안</h3>
+    <h3 id="ex-barbarians">Ex-Barbarians</h3>
     <p>
-      질서 성향이 되어버린 바바리안은 격노 능력을 잃고 더 이상 바바리안으로서 레벨을 올리지 못합니다. 그 외 나머지
-      바바리안 직업으로서의 이익은 유지됩니다(피해 축소, 빠른 이동, 함정 감각, 기묘한 회피).
+      A barbarian who becomes lawful loses the ability to rage and cannot gain more levels as a barbarian. He retains
+      all the other benefits of the class (damage reduction, fast movement, trap sense, and uncanny dodge).
     </p>
-    <h2 id="bard">음유시인</h2>
-    <p id="bard--alignment"><strong>성향:</strong> 질서를 제외한 모든 성향.</p>
-    <p id="bard--hit-die"><strong>히트 다이스:</strong> d6.</p>
-    <h3 id="bard--class-skills">직업 스킬</h3>
+    <h2 id="bard">Bard</h2>
+    <p id="bard--alignment"><strong>Alignment:</strong> Any nonlawful.</p>
+    <p id="bard--hit-die"><strong>Hit Die:</strong> d6.</p>
+    <h3 id="bard--class-skills">Class Skills</h3>
     <p>
-      음유시인의 직업 스킬(핵심 능력)은 감정(지), 균형(민), 허세(매), 등반(근), 집중(건), 제작(지), 문자 해독(지),
-      외교(매), 변장(매), 탈출 전문가(민), 정보 수집(매), 숨기(민), 도약(근), 지식(모든 지식 스킬 각각에 명시됨) (지),
-      듣기(혜), 조용히 이동(민), 공연 (매), 전문직(혜), 의도 파악(혜), 날렵한 손재주(민), 언어 말하기(n/a), 주문학(지),
-      수영(근), 재주넘기(민), 마법 장치 사용(매)이 있습니다.
+      The bard’s class skills (and the key ability for each skill) are Appraise (Int), Balance (Dex), Bluff (Cha), Climb
+      (Str), Concentration (Con), Craft (Int), Decipher Script (Int), Diplomacy (Cha), Disguise (Cha), Escape Artist
+      (Dex), Gather Information (Cha), Hide (Dex), Jump (Str), Knowledge (all skills, taken individually) (Int), Listen
+      (Wis), Move Silently (Dex), Perform (Cha), Profession (Wis), Sense Motive (Wis), Sleight of Hand (Dex), Speak
+      Language (n/a), Spellcraft (Int), Swim (Str), Tumble (Dex), and Use Magic Device (Cha).
     </p>
     <p id="bard--class-skills--skill-points-at-1st-level">
-      <strong>첫 레벨에서 스킬 포인트:</strong> (6 + 지 수정치) × 4.
+      <strong>Skill Points at 1st Level:</strong> (6 + Int modifier) x4.
     </p>
     <p id="bard--class-skills--skill-points-at-each-additional-level">
-      <strong>레벨이 오를 때마다 추가 스킬 포인트:</strong> 6 + 지 수정치.
+      <strong>Skill Points at Each Additional Level:</strong> 6 + Int modifier.
     </p>
     <table class="full-width-table">
       <caption>
-        표: 음유시인
+        Table: The Bard
       </caption>
       <tbody>
         <tr>
@@ -385,32 +392,32 @@
               "
             ></span
             ><span style="background-color: #fff; display: inline-block; z-index: 1; position: relative; padding: 0 8px"
-              >일일 주문 개수
+              >Spells per Day
             </span>
           </th>
         </tr>
         <tr>
-          <th>레벨</th>
-          <th>기본 공격<br />보너스</th>
-          <th>인내<br />내성</th>
-          <th>반사<br />내성</th>
-          <th>의지<br />내성</th>
-          <th>특수</th>
+          <th>Level</th>
+          <th>Base Attack Bonus</th>
+          <th>Fort Save</th>
+          <th>Ref Save</th>
+          <th>Will Save</th>
+          <th>Special</th>
           <th>0</th>
-          <th>1</th>
-          <th>2</th>
-          <th>3</th>
-          <th>4</th>
-          <th>5</th>
-          <th>6</th>
+          <th>1st</th>
+          <th>2nd</th>
+          <th>3rd</th>
+          <th>4th</th>
+          <th>5th</th>
+          <th>6th</th>
         </tr>
         <tr>
-          <td>1</td>
+          <td>1st</td>
           <td>+0</td>
           <td>+0</td>
           <td>+2</td>
           <td>+2</td>
-          <td>음유시인의 음악, 음유시인의<br />지식, 대응송,<i>매료</i>, 용기 고취 +1</td>
+          <td>Bardic music, bardic knowledge, countersong, <i>fascinate,</i> inspire courage +1</td>
           <td>2</td>
           <td>—</td>
           <td>—</td>
@@ -420,7 +427,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>2</td>
+          <td>2nd</td>
           <td>+1</td>
           <td>+0</td>
           <td>+3</td>
@@ -435,12 +442,12 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>3</td>
+          <td>3rd</td>
           <td>+2</td>
           <td>+1</td>
           <td>+3</td>
           <td>+3</td>
-          <td>적성 고취</td>
+          <td>Inspire competence</td>
           <td>3</td>
           <td>1</td>
           <td>—</td>
@@ -450,7 +457,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>4</td>
+          <td>4th</td>
           <td>+3</td>
           <td>+1</td>
           <td>+4</td>
@@ -465,7 +472,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>5</td>
+          <td>5th</td>
           <td>+3</td>
           <td>+1</td>
           <td>+4</td>
@@ -480,12 +487,12 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>6</td>
+          <td>6th</td>
           <td>+4</td>
           <td>+2</td>
           <td>+5</td>
           <td>+5</td>
-          <td style="font-style: italic">제안</td>
+          <td style="font-style: italic">Suggestion</td>
           <td>3</td>
           <td>3</td>
           <td>2</td>
@@ -495,7 +502,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>7</td>
+          <td>7th</td>
           <td>+5</td>
           <td>+2</td>
           <td>+5</td>
@@ -510,12 +517,12 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>8</td>
+          <td>8th</td>
           <td>+6/+1</td>
           <td>+2</td>
           <td>+6</td>
           <td>+6</td>
-          <td>용기 고취 +2</td>
+          <td>Inspire courage +2</td>
           <td>3</td>
           <td>3</td>
           <td>3</td>
@@ -525,12 +532,12 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>9</td>
+          <td>9th</td>
           <td>+6/+1</td>
           <td>+3</td>
           <td>+6</td>
           <td>+6</td>
-          <td>위대함 고취</td>
+          <td>Inspire greatness</td>
           <td>3</td>
           <td>3</td>
           <td>3</td>
@@ -540,7 +547,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>10</td>
+          <td>10th</td>
           <td>+7/+2</td>
           <td>+3</td>
           <td>+7</td>
@@ -555,7 +562,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>11</td>
+          <td>11th</td>
           <td>+8/+3</td>
           <td>+3</td>
           <td>+7</td>
@@ -570,12 +577,12 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>12</td>
+          <td>12th</td>
           <td>+9/+4</td>
           <td>+4</td>
           <td>+8</td>
           <td>+8</td>
-          <td style="font-style: italic">자유의 노래</td>
+          <td style="font-style: italic">Song of freedom</td>
           <td>3</td>
           <td>3</td>
           <td>3</td>
@@ -585,7 +592,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>13</td>
+          <td>13th</td>
           <td>+9/+4</td>
           <td>+4</td>
           <td>+8</td>
@@ -600,12 +607,12 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>14</td>
+          <td>14th</td>
           <td>+10/+5</td>
           <td>+4</td>
           <td>+9</td>
           <td>+9</td>
-          <td>용기 고취 +3</td>
+          <td>Inspire courage +3</td>
           <td>4</td>
           <td>3</td>
           <td>3</td>
@@ -615,12 +622,12 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>15</td>
+          <td>15th</td>
           <td>+11/+6/+1</td>
           <td>+5</td>
           <td>+9</td>
           <td>+9</td>
-          <td>영웅심 고취</td>
+          <td>Inspire heroics</td>
           <td>4</td>
           <td>4</td>
           <td>3</td>
@@ -630,7 +637,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>16</td>
+          <td>16th</td>
           <td>+12/+7/+2</td>
           <td>+5</td>
           <td>+10</td>
@@ -645,7 +652,7 @@
           <td>0</td>
         </tr>
         <tr>
-          <td>17</td>
+          <td>17th</td>
           <td>+12/+7/+2</td>
           <td>+5</td>
           <td>+10</td>
@@ -660,12 +667,12 @@
           <td>1</td>
         </tr>
         <tr>
-          <td>18</td>
+          <td>18th</td>
           <td>+13/+8/+3</td>
           <td>+6</td>
           <td>+11</td>
           <td>+11</td>
-          <td style="font-style: italic">광역 제안</td>
+          <td style="font-style: italic">Mass suggestion</td>
           <td>4</td>
           <td>4</td>
           <td>4</td>
@@ -675,7 +682,7 @@
           <td>2</td>
         </tr>
         <tr>
-          <td>19</td>
+          <td>19th</td>
           <td>+14/+9/+4</td>
           <td>+6</td>
           <td>+11</td>
@@ -690,12 +697,12 @@
           <td>3</td>
         </tr>
         <tr>
-          <td>20</td>
+          <td>20th</td>
           <td>+15/+10/+5</td>
           <td>+6</td>
           <td>+12</td>
           <td>+12</td>
-          <td>용기 고취 +4</td>
+          <td>Inspire courage +4</td>
           <td>4</td>
           <td>4</td>
           <td>4</td>
@@ -708,7 +715,7 @@
     </table>
     <table class="half-width-table">
       <caption>
-        표: 음유시인의 아는 주문
+        Table: Bard Spells Known
       </caption>
       <tbody>
         <tr>
@@ -725,22 +732,22 @@
               "
             ></span
             ><span style="background-color: #fff; display: inline-block; z-index: 1; position: relative; padding: 0 8px"
-              >알고 있는 주문
+              >Spells Known
             </span>
           </th>
         </tr>
         <tr>
-          <th>레벨</th>
+          <th>Level</th>
           <th>0</th>
-          <th>1</th>
-          <th>2</th>
-          <th>3</th>
-          <th>4</th>
-          <th>5</th>
-          <th>6</th>
+          <th>1st</th>
+          <th>2nd</th>
+          <th>3rd</th>
+          <th>4th</th>
+          <th>5th</th>
+          <th>6th</th>
         </tr>
         <tr>
-          <td>1</td>
+          <td>1st</td>
           <td>4</td>
           <td>—</td>
           <td>—</td>
@@ -750,7 +757,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>2</td>
+          <td>2nd</td>
           <td>5</td>
           <td>2<sup>1</sup></td>
           <td>—</td>
@@ -760,7 +767,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>3</td>
+          <td>3rd</td>
           <td>6</td>
           <td>3</td>
           <td>—</td>
@@ -770,7 +777,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>4</td>
+          <td>4th</td>
           <td>6</td>
           <td>3</td>
           <td>2<sup>1</sup></td>
@@ -780,7 +787,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>5</td>
+          <td>5th</td>
           <td>6</td>
           <td>4</td>
           <td>3</td>
@@ -790,7 +797,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>6</td>
+          <td>6th</td>
           <td>6</td>
           <td>4</td>
           <td>3</td>
@@ -800,7 +807,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>7</td>
+          <td>7th</td>
           <td>6</td>
           <td>4</td>
           <td>4</td>
@@ -810,7 +817,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>8</td>
+          <td>8th</td>
           <td>6</td>
           <td>4</td>
           <td>4</td>
@@ -820,7 +827,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>9</td>
+          <td>9th</td>
           <td>6</td>
           <td>4</td>
           <td>4</td>
@@ -830,7 +837,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>10</td>
+          <td>10th</td>
           <td>6</td>
           <td>4</td>
           <td>4</td>
@@ -840,7 +847,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>11</td>
+          <td>11th</td>
           <td>6</td>
           <td>4</td>
           <td>4</td>
@@ -850,7 +857,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>12</td>
+          <td>12th</td>
           <td>6</td>
           <td>4</td>
           <td>4</td>
@@ -860,7 +867,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>13</td>
+          <td>13th</td>
           <td>6</td>
           <td>4</td>
           <td>4</td>
@@ -870,7 +877,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>14</td>
+          <td>14th</td>
           <td>6</td>
           <td>4</td>
           <td>4</td>
@@ -880,7 +887,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>15</td>
+          <td>15th</td>
           <td>6</td>
           <td>4</td>
           <td>4</td>
@@ -890,7 +897,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>16</td>
+          <td>16th</td>
           <td>6</td>
           <td>5</td>
           <td>4</td>
@@ -900,7 +907,7 @@
           <td>2<sup>1</sup></td>
         </tr>
         <tr>
-          <td>17</td>
+          <td>17th</td>
           <td>6</td>
           <td>5</td>
           <td>5</td>
@@ -910,7 +917,7 @@
           <td>3</td>
         </tr>
         <tr>
-          <td>18</td>
+          <td>18th</td>
           <td>6</td>
           <td>5</td>
           <td>5</td>
@@ -920,7 +927,7 @@
           <td>3</td>
         </tr>
         <tr>
-          <td>19</td>
+          <td>19th</td>
           <td>6</td>
           <td>5</td>
           <td>5</td>
@@ -930,7 +937,7 @@
           <td>4</td>
         </tr>
         <tr>
-          <td>20</td>
+          <td>20th</td>
           <td>6</td>
           <td>5</td>
           <td>5</td>
@@ -941,215 +948,229 @@
         </tr>
         <tr>
           <td colspan="8">
-            <sup>1</sup> 이 레벨의 보너스 주문을 받으려면, 음유시인은 충분히 높은 매력 점수가 있어야 함.
+            <sup>1</sup> Provided the bard has a high enough Charisma score to have a bonus spell of this level.
           </td>
         </tr>
       </tbody>
     </table>
-    <h3 id="bard--class-features">직업 특성</h3>
-    <p>음유시인의 직업 특성은 다음과 같습니다.</p>
+    <h3 id="bard--class-features">Class Features</h3>
+    <p>All of the following are class features of the bard.</p>
     <p id="bard--class-features--weapon-and-armor-proficiency">
-      <strong>무기와 갑옷 숙련:</strong> 음유시인은 모든 단순 무기, 롱소드, 레이피어, 곤봉, 숏소드, 숏보우, 채찍.
-      음유시인 에 능숙하며 경량 갑옷 및 방패(장방패 제외)에도 능숙합니다. 음유시인은 보통 비전 주문 실패 기회가 발생하는
-      경량 갑옷을 입었더라도 음유시인 주문을 시전 할 수 있습니다. 하지만, 비전 주문 시전자와 마찬가지로 음유시인도 일반
-      갑옷이나 중량 갑옷을 입었거나 방패를 사용하면 신체 요소(대부분 필요)를 필요로 하는 비전 주문은 실패 기회가
-      발생합니다. 멀티 직업 음유시인은 다른 직업에서 받은 보통 비전 주문 실패 기회는 여전히 발생합니다.
+      <strong>Weapon and Armor Proficiency:</strong> A bard is proficient with all simple weapons, plus the longsword,
+      rapier, sap, short sword, shortbow, and whip. Bards are proficient with light armor and shields (except tower
+      shields). A bard can cast bard spells while wearing light armor without incurring the normal arcane spell failure
+      chance. However, like any other arcane spellcaster, a bard wearing medium or heavy armor or using a shield incurs
+      a chance of arcane spell failure if the spell in question has a somatic component (most do). A multiclass bard
+      still incurs the normal arcane spell failure chance for arcane spells received from other classes.
     </p>
     <p id="bard--class-features--spells">
-      <strong>주문:</strong> 음유시인 비전 주문을 시전 하며, 이는 음유시인 주문 목록에 있습니다. 음유시인은 알고 있는
-      주문이라면 사전에 준비할 필요 없이 바로 시전 할 수 있습니다. 모든 음유시인 주문은 음성 요소 (노래하기, 낭송하기,
-      음악)가 있습니다. 배우거나 주문 시전을 위해서 음유시인은 매력 점수가 적어도 10 + 주문 레벨이어야 합니다. 음유시인
-      주문 상대 시 내성 굴림 난이도 등급은 10 + 주문 레벨 + 음유시인의 매력 수정치입니다.
+      <strong>Spells:</strong> A bard casts arcane spells, which are drawn from the bard spell list. He can cast any
+      spell he knows without preparing it ahead of time. Every bard spell has a verbal component (singing, reciting, or
+      music). To learn or cast a spell, a bard must have a Charisma score equal to at least 10 + the spell. The
+      Difficulty Class for a saving throw against a bard’s spell is 10 + the spell level + the bard’s Charisma modifier.
     </p>
     <p>
-      다른 주문시전자와 마찬가지로, 음유시인은 하루에 정해진 수만큼 각 주문 레벨의 주문을 시전 할 수 있습니다. 기본 일일
-      주문 할당은 표: 음유시인에 있습니다. 추가로 음유시인은 높은 매력 점수를 가질 경우 하루마다 보너스 주문을 받습니다.
-      표: 음유시인의 아는 주문이 주어진 주문 레벨에서 하루마다 쓸 수 있는 주문이 0 이라고 표시 되어 있다면, 매력 점수에
-      기반해 주어진 주문 레벨에 해당하는 보너스 주문만 받습니다.
+      Like other spellcasters, a bard can cast only a certain number of spells of each spell level per day. His base
+      daily spell allotment is given on Table: The Bard. In addition, he receives bonus spells per day if he has a high
+      Charisma score. When Table: Bard Spells Known indicates that the bard gets 0 spells per day of a given spell
+      level, he gains only the bonus spells he would be entitled to based on his Charisma score for that spell level.
     </p>
     <p>
-      음유시인의 주문 선택은 극히 제한적입니다. 음유시인은 당신이 선택한 4 개의 0 레벨 주문을 알고 플레이를 시작합니다.
-      대부분의 새로운 음유시인 레벨에서 그는 표: 음유시인의 아는 주문에 표시 된 대로 하나 이상의 새로운 주문을 얻습니다.
-      (하루 주문과 달리, 음유시인이 아는 주문의 수는 매력 점수에 영향을 받지 않습니다. 표: 음유시인의 아는 주문의 숫자는
-      고정되어 있습니다.)
+      The bard’s selection of spells is extremely limited. A bard begins play knowing four 0-level spells of your
+      choice. At most new bard levels, he gains one or more new spells, as indicated on Table: Bard Spells Known.
+      (Unlike spells per day, the number of spells a bard knows is not affected by his Charisma score; the numbers on
+      Table: Bard Spells Known are fixed.)
     </p>
     <p>
-      음유시인은 5 레벨에 도달하고 그 이후 3 레벨 (8, 11 등)마다 음유시인이 이미 알고 있는 주문 대신 새로운 주문을
-      배우도록 선택할 수 있습니다. 사실상 음유시인은 새 주문과 교환하여 이전 주문을 "잃어버립니다". 새로운 주문의 레벨은
-      교환 되는 주문 레벨과 동일해야 하며 음유시인이 발동할 수 있는 최고 레벨의 음유시인 주문보다 2 레벨 이상 낮아야
-      합니다. 음유시인은 특정 레벨에서 하나의 주문만 교환할 수 있으며, 해당 레벨에서 새로 아는 주문을 얻는 동시에 주문을
-      교환할지 여부를 선택해야 합니다.
+      Upon reaching 5th level, and at every third bard level after that (8th, 11th, and so on), a bard can choose to
+      learn a new spell in place of one he already knows. In effect, the bard “loses” the old spell in exchange for the
+      new one. The new spell’s level must be the same as that of the spell being exchanged, and it must be at least two
+      levels lower than the highest-level bard spell the bard can cast. A bard may swap only a single spell at any given
+      level, and must choose whether or not to swap the spell at the same time that he gains new spells known for the
+      level.
     </p>
     <p>
-      위에서 언급 했듯이 음유시인은 미리 주문을 준비할 필요가 없습니다. 그는 자신이 아는 모든 주문을 발동할 수 있으며,
-      해당 주문의 레벨에 대해 하루에 할당된 주문을 아직 사용하지 않았다고 가정합니다.
+      As noted above, a bard need not prepare his spells in advance. He can cast any spell he knows at any time,
+      assuming he has not yet used up his allotment of spells per day for the spell’s level.
     </p>
     <p id="bardic-knowledge">
-      <strong>음유시인의 지식:</strong> 음유시인은 자신의 음유시인 레벨 + 지능 수정치에 해당하는 보너스로 특별한
-      음유시인의 지식 판정을 수행하여 지역 유명 인사, 전설 아이템 또는 주목할 만한 장소에 대한 관련 정보를 알고 있는지
-      확인할 수 있습니다. (음유시인이 지식 (역사) 등급이 5 이상인 경우는 판정에서 +2 보너스를 얻습니다.)
+      <strong>Bardic Knowledge:</strong> A bard may make a special bardic knowledge check with a bonus equal to his bard
+      level + his Intelligence modifier to see whether he knows some relevant information about local notable people,
+      legendary items, or noteworthy places. (If the bard has 5 or more ranks in Knowledge (history), he gains a +2
+      bonus on this check.)
     </p>
     <p>
-      음유시인의 지식 판정 성공은 마법 아이템의 힘을 드러내지는 않지만 일반적인 기능에 대한 힌트를 줄 수 있습니다.
-      음유시인은 이 판정에서 10 받기나 20 받기 선언이 불가능합니다. 이런 종류의 지식은 본질적으로 무작위입니다.
+      A successful bardic knowledge check will not reveal the powers of a magic item but may give a hint as to its
+      general function. A bard may not take 10 or take 20 on this check; this sort of knowledge is essentially random.
     </p>
     <table data-debug="no-caption" class="full-width-table">
       <tbody>
         <tr>
           <th>DC</th>
-          <th>지식의 유형</th>
+          <th>Type of Knowledge</th>
         </tr>
         <tr>
           <td>10</td>
-          <td>흔함, 최소 술 자리에서 적잖은 수가 알고 있음; 지역 사람들에게 알려진 흔한 전설.</td>
+          <td>Common, known by at least a substantial minority drinking; common legends of the local population.</td>
         </tr>
         <tr>
           <td>20</td>
-          <td>흔하지 않지만 가능, 일부는 알고 있는 전설.</td>
+          <td>Uncommon but available, known by only a few people legends.</td>
         </tr>
         <tr>
           <td>25</td>
-          <td>모호함, 소수만이 알고 있음, 찾기 어려움.</td>
+          <td>Obscure, known by few, hard to come by.</td>
         </tr>
         <tr>
           <td>30</td>
           <td>
-            극히 모호함, 극히 소수만이 알고 있음, 알고 있던 자들에게서도 잊혀짐, 그 지식의 중요성을 이해하지 못하는
-            사람만이 알고 있는 지식.
+            Extremely obscure, known by very few, possibly forgotten by most who once knew it, possibly known only by
+            those who don’t understand the significance of the knowledge.
           </td>
         </tr>
       </tbody>
     </table>
     <p id="bardic-music">
-      <strong>음유시인의 음악:</strong> 음유시인 레벨 당 하루에 한 번씩 음유시인은 자신의 노래나 시를 사용하여 주변
-      사람들에게 마법 효과를 낼 수 있습니다(원하는 경우 일반적으로 자신을 포함). 이러한 능력은 음유시인의 범주에 속하고
-      설명은 노래 또는 악기 만을 말하고 있지만 시를 낭송하고, 노래를 부르고, 서정을 부르고, 멜로디를 부르고, 휘파람을
-      불고, 악기만 연주하거나, 극중 대사를 섞어서 악기를 연주하는 것으로도 활성화가 가능합니다. 각 능력은 최소 음유시인
-      레벨과 공연 스킬의 최소 등급 수치가 모두 필요합니다. 음유시인이 적어도 하나의 공연 스킬에 필요한 등급 수치가
-      없으면 필요한 등급을 획득 할 때까지 음유시인의 음악 능력을 얻지 못합니다.
+      <strong>Bardic Music:</strong> Once per day per bard level, a bard can use his song or poetics to produce magical
+      effects on those around him (usually including himself, if desired). While these abilities fall under the category
+      of bardic music and the descriptions discuss singing or playing instruments, they can all be activated by reciting
+      poetry, chanting, singing lyrical songs, singing melodies, whistling, playing an instrument, or playing an
+      instrument in combination with some spoken performance. Each ability requires both a minimum bard level and a
+      minimum number of ranks in the Perform skill to qualify; if a bard does not have the required number of ranks in
+      at least one Perform skill, he does not gain the bardic music ability until he acquires the needed ranks.
     </p>
     <p>
-      음유시인의 음악 효과를 시작하는 것은 표준 행동입니다. 일부 음유시인의 음악 능력에는 집중이 필요합니다. 즉,
-      음유시인이 능력을 유지하려면 매 라운드마다 표준 행동을 취해야 합니다. 집중이 필요 없는 음유시인의 음악을
-      사용하더라도 음유시인은 주문을 발동하거나 주문 완료(예: 두루마리)로 마법 아이템을 활성화하거나 마법의 단어(예:
-      지팡이)로 마법 아이템을 활성화할 수 없습니다. 언어적 요소로 주문을 발동하는 것과 마찬가지로, 실청 상태에서는
-      음유시인 음악을 사용하려고 할 때 실패 할 확률이 20%입니다. 그가 실패하더라도 시도는 여전히 그의 일일 한도에
-      포함됩니다.
+      Starting a bardic music effect is a standard action. Some bardic music abilities require concentration, which
+      means the bard must take a standard action each round to maintain the ability. Even while using bardic music that
+      doesn’t require concentration, a bard cannot cast spells, activate magic items by spell completion (such as
+      scrolls), or activate magic items by magic word (such as wands). Just as for casting a spell with a verbal
+      component, a deaf bard has a 20% chance to fail when attempting to use bardic music. If he fails, the attempt
+      still counts against his daily limit.
     </p>
     <p id="countersong">
-      <em>대응송 (초):</em> 공연 스킬 등급이 3 이상인 음유시인은 자신의 음악이나 시를 사용하여 소리에 의존하는 마법
-      효과에 대응할 수 있습니다(단순히 음성 구성 요소가 있는 주문은 아님). 대응송의 매 라운드마다 공연 판정을 합니다.
-      음유 시인으로부터 30 피트 이내에서 음파 또는 언어에 따른 마법 공격의 영향을 받는 모든 생물(음유시인 자신 포함)은
-      내성 굴림을 굴린 후 내성 굴림과 음유시인의 공연 판정 중 더 높은 값을 사용할 수 있습니다. 대응송의 거리 내에 있는
-      생물이 비순간적인 음파 또는 언어 의존적 마법 공격의 영향을 받고 있는 경우, 대응송을 들을 때마다 공연 판정을 또
-      다른 내성 굴림으로 사용합니다. 대응송은 내성 굴림을 허용하지 않는 효과에 대해서는 효과가 없습니다. 음유시인은 10
-      라운드 동안 대응송을 유지할 수 있습니다.
+      <em>Countersong (Su):</em> A bard with 3 or more ranks in a Perform skill can use his music or poetics to counter
+      magical effects that depend on sound (but not spells that simply have verbal components). Each round of the
+      countersong, he makes a Perform check. Any creature within 30 feet of the bard (including the bard himself ) that
+      is affected by a sonic or language-dependent magical attack may use the bard’s Perform check result in place of
+      its saving throw if, after the saving throw is rolled, the Perform check result proves to be higher. If a creature
+      within range of the countersong is already under the effect of a noninstantaneous sonic or language-dependent
+      magical attack, it gains another saving throw against the effect each round it hears the countersong, but it must
+      use the bard’s Perform check result for the save. Countersong has no effect against effects that don’t allow
+      saves. The bard may keep up the countersong for 10 rounds.
     </p>
     <p id="fascinate">
-      <em>매료 (주):</em> 공연 스킬 등급이 3 이상인 음유시인은 자신의 음악이나 시를 사용하여 하나 이상의 생물을 그에게
-      매료시킬 수 있습니다. 매료될 생물은 각각 90 피트 이내에서 음유시인을 보고 들을 수 있고, 그에게 주의를 기울일 수
-      있어야 합니다. 음유시인도 그 생물을 볼 수 있어야 합니다. 근처 전투 또는 기타 위험으로 주의가 산만해지면 능력이
-      작동하지 않습니다. 음유시인이 1 레벨 이상을 달성 할 때마다 3 레벨마다 이 능력을 한 번 사용하여 추가 생물 하나를
-      목표로 지정할 수 있습니다.
+      <em>Fascinate (Sp):</em> A bard with 3 or more ranks in a Perform skill can use his music or poetics to cause one
+      or more creatures to become fascinated with him. Each creature to be fascinated must be within 90 feet, able to
+      see and hear the bard, and able to pay attention to him. The bard must also be able to see the creature. The
+      distraction of a nearby combat or other dangers prevents the ability from working. For every three levels a bard
+      attains beyond 1st, he can target one additional creature with a single use of this ability.
     </p>
     <p>
-      이 능력을 사용하기 위해 음유시인은 공연 판정을 합니다. 그의 판정 결과는 영향을 받은 각 생명체의 효과에 대한 의지
-      내성에 대한 DC입니다. 생명체의 내성 굴림이 성공하면 음유시인은 24시간 동안 다시 그 생명체를 매혹 시킬 수 없습니다.
-      내성 굴림이 실패하면 음유시인이 계속 연주하고 집중하는 한 (음유시인 레벨 당 최대 1 라운드까지) 다른 행동을 취하지
-      않고 조용히 앉아 노래를 듣습니다. 매료된 상태에서는 스킬 판정에서 -4 페널티를 받고 듣기 및 감지 판정을 해야
-      합니다. 잠재적인 위협이 있을 때 음유시인이 또 다른 공연 판정을 해야 하며, 생명체가 새로운 공연 판정 결과와 동일한
-      DC에 대한 새로운 내성 굴림을 허용하도록 합니다.
+      To use the ability, a bard makes a Perform check. His check result is the DC for each affected creature’s Will
+      save against the effect. If a creature’s saving throw succeeds, the bard cannot attempt to fascinate that creature
+      again for 24 hours. If its saving throw fails, the creature sits quietly and listens to the song, taking no other
+      actions, for as long as the bard continues to play and concentrate (up to a maximum of 1 round per bard level).
+      While fascinated, a target takes a –4 penalty on skill checks made as reactions, such as Listen and Spot checks.
+      Any potential threat requires the bard to make another Perform check and allows the creature a new saving throw
+      against a DC equal to the new Perform check result.
     </p>
     <p>
-      누군가가 무기를 뽑거나, 주문을 시전하거나, 원거리 무기를 목표물에 조준하는 것과 같은 명백한 위협은 자동으로 효과를
-      해제합니다. <i>매료</i>는 부여술(충동), 정신영향계 능력입니다.
+      Any obvious threat, such as someone drawing a weapon, casting a spell, or aiming a ranged weapon at the target,
+      automatically breaks the effect. <i>Fascinate</i> is an enchantment (compulsion), mind-affecting ability.
     </p>
     <p id="inspire-courage">
-      <em>용기 고취 (초):</em> 공연 스킬 등급이 3 이상인 음유시인은 노래나 시를 사용하여 동료(자신 포함)에게 용기를
-      고취해 공포에 대항하고 전투 능력을 향상시킬 수 있습니다. 영향을 받으려면 아군이 음유시인의 노래를 들을 수 있어야
-      합니다. 이 효과는 아군이 음유시인의 노래를 듣는 동안 지속되며 그 후 5 라운드 동안 지속됩니다. 영향을 받은 아군은
-      매혹 및 공포 효과에 대한 내성 굴림에 +1 의욕 보너스를 받고 공격 및 무기 피해 판정에 +1 의욕 보너스를 받습니다. 8
-      레벨과 이후 6 레벨마다 이 보너스는 1 씩 증가합니다 (8일에 +2, 14일에 +3, 20일에 +4). 용기 고취는 정신영향계
-      능력입니다.
+      <em>Inspire Courage (Su):</em> A bard with 3 or more ranks in a Perform skill can use song or poetics to inspire
+      courage in his allies (including himself ), bolstering them against fear and improving their combat abilities. To
+      be affected, an ally must be able to hear the bard sing. The effect lasts for as long as the ally hears the bard
+      sing and for 5 rounds thereafter. An affected ally receives a +1 morale bonus on saving throws against charm and
+      fear effects and a +1 morale bonus on attack and weapon damage rolls. At 8th level, and every six bard levels
+      thereafter, this bonus increases by 1 (+2 at 8th, +3 at 14th, and +4 at 20th). Inspire courage is a mind-affecting
+      ability.
     </p>
     <p id="inspire-competence">
-      <em>적성 고취 (초): </em> 3 레벨 이상의 음유시인, 공연 스킬 6 등급 이상은 자신의 음악이나 시를 사용하여 아군이
-      작업을 성공하도록 도울 수 있습니다. 아군은 30 피트 이내에 음유시인을 보고 들을 수 있어야 합니다. 음유시인도 아군을
-      볼 수 있어야 합니다.
+      <em>Inspire Competence (Su):</em> A bard of 3rd level or higher with 6 or more ranks in a Perform skill can use
+      his music or poetics to help an ally succeed at a task. The ally must be within 30 feet and able to see and hear
+      the bard. The bard must also be able to see the ally.
     </p>
     <p>
-      아군은 음유시인의 음악을 계속 듣는 한 특정 스킬의 스킬 판정에 대해 +2 역량 보너스를 받습니다. 이 능력을 특정
-      용도로 사용하는 것은 불가능합니다. 이 효과는 음유시인이 집중되는 동안 최대 2분까지 지속됩니다. 음유시인은 자신에게
-      적성을 고취 시킬 수 없습니다. 적성 고취는 정신영향계 능력입니다.
+      The ally gets a +2 competence bonus on skill checks with a particular skill as long as he or she continues to hear
+      the bard’s music. Certain uses of this ability are infeasible. The effect lasts as long as the bard concentrates,
+      up to a maximum of 2 minutes. A bard can’t inspire competence in himself. Inspire competence is a mind-affecting
+      ability.
     </p>
     <p id="suggestion">
-      <em>제안 (주):</em> 9 등급 이상의 공연 스킬을 가진 6 레벨 이상의 음유시인은 매료된 생명체(위 참고)에게
-      <i>제안</i>(주문)을 만들 수 있습니다. 이 능력을 사용하는 것은 <i>매료</i> 효과에 대한 집중을 깨지 않으며,
-      <i>매료</i> 효과에 두번째 내성 굴림도 허용하지 않습니다.
+      <em>Suggestion (Sp):</em> A bard of 6th level or higher with 9 or more ranks in a Perform skill can make a
+      <i>suggestion</i> (as the spell) to a creature that he has already fascinated (see above). Using this ability does
+      not break the bard’s concentration on the <i>fascinate</i> effect, nor does it allow a second saving throw against
+      the <i>fascinate</i> effect.
     </p>
     <p>
-      <i>제안</i>을 만드는 것은 음유시인의 음악 공연 일일 제한량 계산 시 포함되지 않습니다. 의지 내성 굴림(DC 10 + 1/2
-      음유시인의 레벨 + 음유시인의 매 수정치)이 성공하면 효과를 무시할 수 있습니다. 이 능력은 오직 한 생명체에만 사용
-      가능합니다(다만 하단의 <i>광역 제안</i>도 참고). <i>제안</i>은 부여술(충동), 마음에 영향을 미치는, 언어 의존적
-      능력입니다.
+      Making a <i>suggestion</i> doesn’t count against a bard’s daily limit on bardic music performances. A Will saving
+      throw (DC 10 + 1/2 bard’s level + bard’s Cha modifier) negates the effect. This ability affects only a single
+      creature (but see <i>mass suggestion</i>, below). <i>Suggestion</i> is an enchantment (compulsion),
+      mind-affecting, language dependent ability.
     </p>
     <p id="inspire-greatness">
-      <em>위대함 고취 (초):</em> 공연 스킬 12 등급 이상, 9 레벨 이상의 음유시인은 음악이나 시를 사용하여 자신이나 30
-      피트 이내의 고취 받기 원하는 아군에게 위대함을 고취해 추가 전투 능력을 부여 할 수 있습니다. 9 레벨 이후 3
-      레벨마다, 능력 사용 시 한 명의 추가 아군을 목표로 할 수 있습니다 (12 레벨에 2명, 15 레벨에 3명, 18 레벨 이후 4명).
-      위대함을 불러 일으키려면 음유시인이 노래하고 아군은 그의 노래를 들어야 합니다. 이 효과는 아군이 음유시인의 노래를
-      듣는 동안 지속되며 그 후 5 라운드 동안 지속됩니다. 위대함으로 영감을 받은 생물은 2 개의 보너스 히트 다이스(d10s),
-      그에 상응하는 임시 체력 수 (이 보너스 히트 다이스에 대상의 건강 수정치 적용), 공격 판정에 +2 적성 보너스와 인내
-      내성에 대한 1 개의 적성 보너스를 받습니다. 보너스 히트 다이스는 히트 다이스에 의존하는 주문의 효과를 결정하기 위해
-      일반 히트 다이스로 계산됩니다. 위대함 고취는 정신영향계 능력입니다.
+      <em>Inspire Greatness (Su):</em> A bard of 9th level or higher with 12 or more ranks in a Perform skill can use
+      music or poetics to inspire greatness in himself or a single willing ally within 30 feet, granting him or her
+      extra fighting capability. For every three levels a bard attains beyond 9th, he can target one additional ally
+      with a single use of this ability (two at 12th level, three at 15th, four at 18th). To inspire greatness, a bard
+      must sing and an ally must hear him sing. The effect lasts for as long as the ally hears the bard sing and for 5
+      rounds thereafter. A creature inspired with greatness gains 2 bonus Hit Dice (d10s), the commensurate number of
+      temporary hit points (apply the target’s Constitution modifier, if any, to these bonus Hit Dice), a +2 competence
+      bonus on attack rolls, and a +1 competence bonus on Fortitude saves. The bonus Hit Dice count as regular Hit Dice
+      for determining the effect of spells that are Hit Dice dependant. Inspire greatness is a mind-affecting ability.
     </p>
     <p id="song-of-freedom">
-      <em>자유의 노래 (주):</em> 공연 스킬에서 15 등급 이상의 12 레벨 이상의 음유시인은 음악이나 시를 사용하여
-      <i>부여술 파괴</i> 주문에 해당하는 효과를 만들 수 있습니다 (시전자 레벨은 캐릭터의 음유시인 레벨과 동일). 이
-      능력을 사용하려면 1분 동안 중단 없는 집중과 음악이 필요하며 30 피트 이내의 단일 대상에 대해 작동합니다. 음유시인은
-      자신에게 <i>자유의 노래</i> 를 사용할 수 없습니다.
+      <em>Song of Freedom (Sp):</em> A bard of 12th level or higher with 15 or more ranks in a Perform skill can use
+      music or poetics to create an effect equivalent to the <i>break enchantment</i> spell (caster level equals the
+      character’s bard level). Using this ability requires 1 minute of uninterrupted concentration and music, and it
+      functions on a single target within 30 feet. A bard can’t use <i>song of freedom</i> on himself.
     </p>
     <p id="inspire-heroics">
-      <em>영웅심 고취 (초):</em> 기술에서 18 등급 이상의 15 레벨 이상의 음유시인은 음악이나 시를 사용하여 자신이나 30
-      피트 이내의 고취 받기 원하는 동료에게 엄청난 영웅심을 불러 일으킬 수 있습니다. 15 음유시인 레벨 이후 3 레벨마다
-      추가 생물 하나에서 영웅을 불러 일으킬 수 있습니다. 영웅심을 고취하려면 음유시인이 노래하고 아군은 음유시인이 한
-      라운드 동안 노래하는 것을 들어야 합니다. 그렇게 영감을 받은 생물은 내성 굴림에 +4 사기 보너스를 얻고 AC에 +4 회피
-      보너스를 얻습니다. 효과는 아군이 음유시인의 노래를 듣는 동안 지속되며 그 후 최대 5 라운드까지 지속됩니다. 영웅심
-      고취는 정신영향계 능력입니다.
+      <em>Inspire Heroics (Su):</em> A bard of 15th level or higher with 18 or more ranks in a Perform skill can use
+      music or poetics to inspire tremendous heroism in himself or a single willing ally within 30 feet. For every three
+      bard levels the character attains beyond 15th, he can inspire heroics in one additional creature. To inspire
+      heroics, a bard must sing and an ally must hear the bard sing for a full round. A creature so inspired gains a +4
+      morale bonus on saving throws and a +4 dodge bonus to AC. The effect lasts for as long as the ally hears the bard
+      sing and for up to 5 rounds thereafter. Inspire heroics is a mind-affecting ability.
     </p>
     <p id="mass-suggestion">
-      <em>광역 제안 (주):</em> 이 능력은 위의 제안 과 같은 기능을 하지만, 공연 스킬 21 등급을 가진 18 레벨 이후의
-      음유시인은 매료당한 생명체 다수에게 동시에 제안 할 수 있습니다.광역 제안 은 부여술(충동), 마음에 영향을 미치는,
-      언어 의존적 능력입니다.
+      <em>Mass Suggestion (Sp):</em> This ability functions like <i>suggestion,</i> above, except that a bard of 18th
+      level or higher with 21 or more ranks in a Perform skill can make the <i>suggestion</i> simultaneously to any
+      number of creatures that he has already fascinated (see above). <i>Mass suggestion</i> is an enchantment
+      (compulsion), mind-affecting, language-dependent ability.
     </p>
-    <h3 id="ex-bards">은퇴 음유시인</h3>
+    <h3 id="ex-bards">Ex-Bards</h3>
     <p>
-      질서 성향이 되어버린 음유시인은 더 이상 음유시인으로서 레벨을 올리지 못합니다. 그 외 나머지 음유시인 직업으로서의
-      이익은 유지됩니다.
+      A bard who becomes lawful in alignment cannot progress in levels as a bard, though he retains all his bard
+      abilities.
     </p>
-    <h2 id="cleric">사제</h2>
+    <h2 id="cleric">Cleric</h2>
     <p id="cleric--alignment">
-      <strong>성향:</strong> 사제의 성향은 그가 믿는 신의 성향과 한 단계만 차이 날 수 있습니다(따라서 질서-혼돈 축 또는
-      선-악 축 중 하나에서 한 단계 떨어져 있을 수 있지만 둘 다는 불가능합니다). 성직자는 그의 신의 성향도 중립적이지
-      않은 한 중립적이지 않을 수 있습니다.
+      <strong>Alignment:</strong> A cleric’s alignment must be within one step of his deity’s (that is, it may be one
+      step away on either the lawful–chaotic axis or the good–evil axis, but not both). A cleric may not be neutral
+      unless his deity’s alignment is also neutral.
     </p>
-    <p id="cleric--hit-die"><strong>히트 다이스:</strong> d8.</p>
-    <h3 id="cleric--class-skills">직업 스킬</h3>
+    <p id="cleric--hit-die"><strong>Hit Die:</strong> d8.</p>
+    <h3 id="cleric--class-skills">Class Skills</h3>
     <p>
-      사제의 직업 스킬(핵심 능력)은 집중(건), 제작(지), 외교(매), 치료(혜), 지식(비전)(지), 지식(역사)(지),
-      지식(종교)(지), 종교(이세계)(지), 전문직(혜), 그리고 주문학(지)입니다.
+      The cleric’s class skills (and the key ability for each skill) are Concentration (Con), Craft (Int), Diplomacy
+      (Cha), Heal (Wis), Knowledge (arcana) (Int), Knowledge (history) (Int), Knowledge (religion) (Int), Knowledge (the
+      planes) (Int), Profession (Wis), and Spellcraft (Int).
     </p>
     <p id="domains-and-class-skills">
-      <strong>계열 및 직업 스킬:</strong> 동물이나 식물 계열을 선택한 사제는 사제 위 직업 스킬 목록에 지식(자연)(지)를
-      추가합니다. 지식 계열을 선택한 사제는 모든 지식(지) 스킬을 목록에 추가합니다. 여행 계열을 선택한 사제는 생존(혜)를
-      목록에 추가합니다. 요령 계열은 선택한 사제는 허세(매), 변장(매), 그리고 숨기(민)을 목록에 추가합니다. 더 많은
-      정보를 위해서 하단에 신, 계열, 그리고 계열 주문을 참고.
+      <strong>Domains and Class Skills:</strong> A cleric who chooses the Animal or Plant domain adds Knowledge (nature)
+      (Int) to the cleric class skills listed above. A cleric who chooses the Knowledge domain adds all Knowledge (Int)
+      skills to the list. A cleric who chooses the Travel domain adds Survival (Wis) to the list. A cleric who chooses
+      the Trickery domain adds Bluff (Cha), Disguise (Cha), and Hide (Dex) to the list. See Deity, Domains, and Domain
+      Spells, below, for more information.
     </p>
     <p id="cleric--class-skills--skill-points-at-1st-level">
-      <strong>첫 레벨에서 스킬 포인트:</strong> (2 + 지 수정치) × 4.
+      <strong>Skill Points at 1st Level:</strong> (2 + Int modifier) x 4.
     </p>
     <p id="cleric--class-skills--skill-points-at-each-additional-level">
-      <strong>레벨이 오를 때마다 추가 스킬 포인트:</strong> 2 + 지 수정치.
+      <strong>Skill Points at Each Additional Level:</strong> 2 + Int modifier.
     </p>
     <table class="full-width-table">
       <caption>
@@ -1175,35 +1196,35 @@
               "
             ></span
             ><span style="background-color: #fff; display: inline-block; z-index: 1; position: relative; padding: 0 8px"
-              >일일 주문 개수<sup style="font-weight: 700">1</sup>
+              >Spells per Day<sup style="font-weight: 700">1</sup>
             </span>
           </th>
         </tr>
         <tr>
-          <th>레벨</th>
-          <th>기본 공격<br />보너스</th>
-          <th>인내<br />내성</th>
-          <th>저항<br />내성</th>
-          <th>의지<br />내성</th>
-          <th>특수</th>
+          <th>Level</th>
+          <th>Base Attack Bonus</th>
+          <th>Fort Save</th>
+          <th>Ref Save</th>
+          <th>Will Save</th>
+          <th>Special</th>
           <th>0</th>
-          <th>1</th>
-          <th>2</th>
-          <th>3</th>
-          <th>4</th>
-          <th>5</th>
-          <th>6</th>
-          <th>7</th>
-          <th>8</th>
-          <th>9</th>
+          <th>1st</th>
+          <th>2nd</th>
+          <th>3rd</th>
+          <th>4th</th>
+          <th>5th</th>
+          <th>6th</th>
+          <th>7th</th>
+          <th>8th</th>
+          <th>9th</th>
         </tr>
         <tr>
-          <td>1</td>
+          <td>1st</td>
           <td>+0</td>
           <td>+2</td>
           <td>+0</td>
           <td>+2</td>
-          <td>언데드 퇴치</td>
+          <td>Turn or rebuke undead</td>
           <td>3</td>
           <td>1+1</td>
           <td>—</td>
@@ -1216,7 +1237,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>2</td>
+          <td>2nd</td>
           <td>+1</td>
           <td>+3</td>
           <td>+0</td>
@@ -1234,7 +1255,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>3</td>
+          <td>3rd</td>
           <td>+2</td>
           <td>+3</td>
           <td>+1</td>
@@ -1252,7 +1273,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>4</td>
+          <td>4th</td>
           <td>+3</td>
           <td>+4</td>
           <td>+1</td>
@@ -1270,7 +1291,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>5</td>
+          <td>5th</td>
           <td>+3</td>
           <td>+4</td>
           <td>+1</td>
@@ -1288,7 +1309,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>6</td>
+          <td>6th</td>
           <td>+4</td>
           <td>+5</td>
           <td>+2</td>
@@ -1306,7 +1327,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>7</td>
+          <td>7th</td>
           <td>+5</td>
           <td>+5</td>
           <td>+2</td>
@@ -1324,7 +1345,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>8</td>
+          <td>8th</td>
           <td>+6/+1</td>
           <td>+6</td>
           <td>+2</td>
@@ -1342,7 +1363,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>9</td>
+          <td>9th</td>
           <td>+6/+1</td>
           <td>+6</td>
           <td>+3</td>
@@ -1360,7 +1381,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>10</td>
+          <td>10th</td>
           <td>+7/+2</td>
           <td>+7</td>
           <td>+3</td>
@@ -1378,7 +1399,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>11</td>
+          <td>11th</td>
           <td>+8/+3</td>
           <td>+7</td>
           <td>+3</td>
@@ -1396,7 +1417,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>12</td>
+          <td>12th</td>
           <td>+9/+4</td>
           <td>+8</td>
           <td>+4</td>
@@ -1414,7 +1435,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>13</td>
+          <td>13th</td>
           <td>+9/+4</td>
           <td>+8</td>
           <td>+4</td>
@@ -1432,7 +1453,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>14</td>
+          <td>14th</td>
           <td>+10/+5</td>
           <td>+9</td>
           <td>+4</td>
@@ -1450,7 +1471,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>15</td>
+          <td>15th</td>
           <td>+11/+6/+1</td>
           <td>+9</td>
           <td>+5</td>
@@ -1468,7 +1489,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>16</td>
+          <td>16th</td>
           <td>+12/+7/+2</td>
           <td>+10</td>
           <td>+5</td>
@@ -1486,7 +1507,7 @@
           <td>—</td>
         </tr>
         <tr>
-          <td>17</td>
+          <td>17th</td>
           <td>+12/+7/+2</td>
           <td>+10</td>
           <td>+5</td>
@@ -1504,7 +1525,7 @@
           <td>1+1</td>
         </tr>
         <tr>
-          <td>18</td>
+          <td>18th</td>
           <td>+13/+8/+3</td>
           <td>+11</td>
           <td>+6</td>
@@ -1522,7 +1543,7 @@
           <td>2+1</td>
         </tr>
         <tr>
-          <td>19</td>
+          <td>19th</td>
           <td>+14/+9/+4</td>
           <td>+11</td>
           <td>+6</td>
@@ -1540,7 +1561,7 @@
           <td>3+1</td>
         </tr>
         <tr>
-          <td>20</td>
+          <td>20th</td>
           <td>+15/+10/+5</td>
           <td>+12</td>
           <td>+6</td>
@@ -1560,66 +1581,69 @@
         <tr>
           <td colspan="16">
             <div>
-              <sup>1</sup> 표시된 수의 1 레벨부터 9레벨 주문의 일일 주문 개수에 추가로, 사제는 1 레벨부터 시작하여 각
-              주문 레벨의 계열 주문을 얻습니다.
+              <sup>1</sup> In addition to the stated number of spells per day for 1st- through 9th-level spells, a
+              cleric gets a domain spell for each spell level, starting at 1st.
             </div>
             <div>
-              표 안에 항목 내에&nbsp; “+1”은 그렇게 얻은 주문을 나타냅니다. 계열 주문은 높은 지혜 능력치로 사제가 받은
-              보너스 주문과는 별개로 추가로 받습니다.
+              The “+1” in the entries on this table represents that spell. Domain spells are in addition to any bonus
+              spells the cleric may receive for having a high Wisdom score.
             </div>
           </td>
         </tr>
       </tbody>
     </table>
-    <h3 id="cleric--class-features">직업 특성</h3>
-    <p>사제의 직업 특성은 다음과 같습니다.</p>
+    <h3 id="cleric--class-features">Class Features</h3>
+    <p>All of the following are class features of the cleric.</p>
     <p id="cleric--class-features--weapon-and-armor-proficiency">
-      <strong>무기와 갑옷 숙련:</strong> 사제는 모든 간단한 무기에, 모든 유형의 갑옷(경량, 중간, 중량)에, 그리고
-      방패(장방패 제외)에 능숙합니다.
+      <strong>Weapon and Armor Proficiency:</strong> Clerics are proficient with all simple weapons, with all types of
+      armor (light, medium, and heavy), and with shields (except tower shields).
     </p>
     <p>
-      전쟁 계열을 선택한 사제는 사제가 믿는 신의 무기와 관련된 무기 초점 피트를 보너스 피트로 받습니다. 만약 그 무기가
-      무예 무기 카테고리일 경우 무예 무기 숙련 피트 또한 보너스 피트로 받습니다.
+      A cleric who chooses the War domain receives the Weapon Focus feat related to his deity’s weapon as a bonus feat.
+      He also receives the appropriate Martial Weapon Proficiency feat as a bonus feat, if the weapon falls into that
+      category.
     </p>
     <p id="aura">
-      <strong>오라 (범):</strong> 혼돈, 악, 선, 또는 질서 신의 사제는 신의 성향에 맞는 특정한 강력한 오라를 가집니다.
-      (자세한 내용은 <i>악 탐지</i> 주문을 참고). 이와 비슷하게, 특정한 신을 섬기기로 하지 않았지만 혼돈, 악, 선, 또는
-      질서 계열을 선택한 사제는 그 성향에 따라 강력한 오라를 가집니다.
+      <strong>Aura (Ex):</strong> A cleric of a chaotic, evil, good, or lawful deity has a particularly powerful aura
+      corresponding to the deity’s alignment (see the <i>detect evil</i> spell for details). Clerics who don’t worship a
+      specific deity but choose the Chaotic, Evil, Good, or Lawful domain have a similarly powerful aura of the
+      corresponding alignment.
     </p>
     <p id="cleric--class-features--spells">
-      <strong>주문:</strong> 사제는 사제 주문 목록 중에 있는 주문을 시전 할 수 있습니다. 하지만 사제의 성향으로 인해
-      그의 도덕적 신념 또는 종족 신념에 반하는 특정 주문들은 시전이 제한 될 수 있습니다; 하단의 혼돈, 악, 선, 또는 질서
-      주문을 참고하십시오. 사제는 반드시 사전에 미리 주문을 선택하고 준비해야 합니다. (하단 참고)
+      <strong>Spells:</strong> A cleric casts divine spells, which are drawn from the cleric spell list. However, his
+      alignment may restrict him from casting certain spells opposed to his moral or ethical beliefs; see Chaotic, Evil,
+      Good, and Lawful Spells, below. A cleric must choose and prepare his spells in advance (see below).
     </p>
     <p>
-      주문을 준비하고 시전 하기 위해서는 사제는 반드시 지혜 능력치가 10 + 주문 레벨 이상이어야 합니다. 사제 주문에
-      대응하는 내성 굴림의 난이도는 10 + 주문 레벨 + 사제의 지혜 수정치 입니다.
+      To prepare or cast a spell, a cleric must have a Wisdom score equal to at least 10 + the spell level. The
+      Difficulty Class for a saving throw against a cleric’s spell is 10 + the spell level + the cleric’s Wisdom
+      modifier.
     </p>
     <p>
-      다른 주문시전자와 마찬가지로 사제는 하루에 각 레벨 별로 정해진 수의 주문 만을 시전 할 수 있습니다. 사제의 기본
-      하루 주문 할당량은 표: 사제에 주어져 있습니다. 추가로, 사제는 지혜 능력치가 높을 경우 매일 보너스 주문을 받습니다.
-      사제는 또한 시전 할 수 있는 레벨 하나 당 계열 주문 하나를 얻습니다. 사제가 계열 주문 슬롯 하나에 주문 하나를
-      준비할 때 반드시 사제가 가지고 있는 두 계열 중 하나에서 와야 합니다 (하단에 신, 계열, 계열 주문 참고).
+      Like other spellcasters, a cleric can cast only a certain number of spells of each spell level per day. His base
+      daily spell allotment is given on Table: The Cleric. In addition, he receives bonus spells per day if he has a
+      high Wisdom score. A cleric also gets one domain spell of each spell level he can cast, starting at 1st level.
+      When a cleric prepares a spell in a domain spell slot, it must come from one of his two domains (see Deities,
+      Domains, and Domain Spells, below).
     </p>
     <p>
-      사제는 주문을 위해 명상 또는 기도를 합니다. 사제는 반드시 하루 중 시간을 선택하고 1시간 이상을 사용하여 조용한
-      묵상이나 간청 기도를 올려야 사제의 당일 주문 할당량을 충전할 수 있습니다. 휴식을 위해 사용한 시간은 사제가 주문을
-      준비할 수 있는 지에 영향을 끼치지 않습니다. 사제가 자신의 시전 가능한 레벨의 주문 목록에 있는 주문은 준비하고 시전
-      할 수 있지만 어떤 주문을 사용할 지는 반드시 사제의 당일 명상에서 선택해야 합니다.
+      Clerics meditate or pray for their spells. Each cleric must choose a time at which he must spend 1 hour each day
+      in quiet contemplation or supplication to regain his daily allotment of spells. Time spent resting has no effect
+      on whether a cleric can prepare spells. A cleric may prepare and cast any spell on the cleric spell list, provided
+      that he can cast spells of that level, but he must choose which spells to prepare during his daily meditation.
     </p>
     <p id="deity-domains-and-domain-spells">
-      <strong>신, 계열, 계열 주문:</strong> 사제가 믿는 신은 사제의 성향에도 영향을 끼치며 어떤 마법을 사용할 수 있는
-      지, 사제의 가치관, 그리고 다른 이에게 어떻게 보이는 지에도 영향을 끼칩니다. 사제는 그가 믿는 신이 갖고 있는 계열
-      중 두 개를 선택할 수 있습니다. 사제는 오로지 자신의 성향과 일치하는 성향 계열(혼돈 계열, 악 계열, 선 계열, 질서
-      계열)만 선택할 수 있습니다.
+      <strong>Deity, Domains, and Domain Spells:</strong> A cleric’s deity influences his alignment, what magic he can
+      perform, his values, and how others see him. A cleric chooses two domains from among those belonging to his deity.
+      A cleric can select an alignment domain (Chaos, Evil, Good, or Law) only if his alignment matches that domain.
     </p>
     <p>
-      사제가 특정한 한 신에게만 헌신하는 것이 아닐 경우에도 여전히 사제는 자신의 자신의 영적인 경향과 능력을 드러내는 두
-      가지의 계열을 선택해야 합니다. 이 경우에도 성향 계열에 대한 제한은 적용 됩니다.
+      If a cleric is not devoted to a particular deity, he still selects two domains to represent his spiritual
+      inclinations and abilities. The restriction on alignment domains still applies.
     </p>
     <p>
-      각 계열은 사제에게 1 주문 레벨 부터 자신이 시전 할 수 있는 각 주문 레벨에 있는 그 계열 주문에 대한 접근과 함께
-      보장된 능력을 줍니다. 사제는 자신이 선택한 두 계열 모두에서 보장된 능력을 받습니다.
+      Each domain gives the cleric access to a domain spell at each spell level he can cast, from 1st on up, as well as
+      a granted power. The cleric gets the granted powers of both the domains selected.
     </p>
     <p>
       With access to two domain spells at a given spell level, a cleric prepares one or the other each day in his domain
@@ -2190,7 +2214,7 @@
     </p>
     <p>
       A druid can also use this ability to influence a magical beast with an Intelligence score of 1 or 2, but she takes
-      a -4 penalty on the check.
+      a –4 penalty on the check.
     </p>
     <p id="woodland-stride">
       <strong>Woodland Stride (Ex):</strong> Starting at 2nd level, a druid may move through any sort of undergrowth
@@ -2276,7 +2300,7 @@
           <th>Special</th>
         </tr>
         <tr>
-          <td>1st-2nd</td>
+          <td>1st–2nd</td>
           <td>+0</td>
           <td>+0</td>
           <td>+0</td>
@@ -2284,7 +2308,7 @@
           <td>Link, share spells</td>
         </tr>
         <tr>
-          <td>3rd-5th</td>
+          <td>3rd–5th</td>
           <td>+2</td>
           <td>+2</td>
           <td>+1</td>
@@ -2292,7 +2316,7 @@
           <td>Evasion</td>
         </tr>
         <tr>
-          <td>6th-8th</td>
+          <td>6th–8th</td>
           <td>+4</td>
           <td>+4</td>
           <td>+2</td>
@@ -2300,7 +2324,7 @@
           <td>Devotion</td>
         </tr>
         <tr>
-          <td>9th-11th</td>
+          <td>9th–11th</td>
           <td>+6</td>
           <td>+6</td>
           <td>+3</td>
@@ -2308,7 +2332,7 @@
           <td>Multiattack</td>
         </tr>
         <tr>
-          <td>12th-14th</td>
+          <td>12th–14th</td>
           <td>+8</td>
           <td>+8</td>
           <td>+4</td>
@@ -2316,7 +2340,7 @@
           <td></td>
         </tr>
         <tr>
-          <td>15th-17th</td>
+          <td>15th–17th</td>
           <td>+10</td>
           <td>+10</td>
           <td>+5</td>
@@ -2324,7 +2348,7 @@
           <td>Improved evasion</td>
         </tr>
         <tr>
-          <td>18th-20th</td>
+          <td>18th–20th</td>
           <td>+12</td>
           <td>+12</td>
           <td>+6</td>
@@ -2391,7 +2415,7 @@
     <p id="multiattack">
       <em>Multiattack:</em> An animal companion gains Multiattack as a bonus feat if it has three or more natural
       attacks and does not already have that feat. If it does not have the requisite three or more natural attacks, the
-      animal companion instead gains a second attack with its primary natural weapon, albeit at a -5 penalty.
+      animal companion instead gains a second attack with its primary natural weapon, albeit at a –5 penalty.
     </p>
     <p id="the-druids-animal-companion--improved-evasion">
       <em>Improved Evasion (Ex):</em> When subjected to an attack that normally allows a Reflex saving throw for half
@@ -2404,7 +2428,7 @@
       indicated adjustment to the druid’s level (in parentheses) for purposes of determining the companion’s
       characteristics and special abilities.
     </p>
-    <h4 id="4th-level-or-higher">4th Level or Higher (Level -3)</h4>
+    <h4 id="4th-level-or-higher">4th Level or Higher (Level –3)</h4>
     <ul style="list-style: none; padding-inline-start: 0">
       <li>Ape (animal)</li>
       <li>Bear, black (animal)</li>
@@ -2422,7 +2446,7 @@
       <li>Snake, Large viper (animal)</li>
       <li>Wolverine (animal)</li>
     </ul>
-    <h4 id="7th-level-or-higher">7th Level or Higher (Level -6)</h4>
+    <h4 id="7th-level-or-higher">7th Level or Higher (Level –6)</h4>
     <ul style="list-style: none; padding-inline-start: 0">
       <li>Bear, brown (animal)</li>
       <li>Dire wolverine</li>
@@ -2437,7 +2461,7 @@
       <li>Snake, Huge viper (animal)</li>
       <li>Tiger (animal)</li>
     </ul>
-    <h4 id="10th-level-or-higher">10th Level or Higher (Level -9)</h4>
+    <h4 id="10th-level-or-higher">10th Level or Higher (Level –9)</h4>
     <ul style="list-style: none; padding-inline-start: 0">
       <li>Bear, polar (animal)</li>
       <li>Dire lion</li>
@@ -2446,13 +2470,13 @@
       <li>Snake, giant constrictor (animal)</li>
       <li>Whale, orca<sup style="font-weight: 700">1</sup>(animal)</li>
     </ul>
-    <h4 id="13th-level-or-higher">13th Level or Higher (Level -12)</h4>
+    <h4 id="13th-level-or-higher">13th Level or Higher (Level –12)</h4>
     <ul style="list-style: none; padding-inline-start: 0">
       <li>Dire bear</li>
       <li>Elephant (animal)</li>
       <li>Octopus, giant<sup style="font-weight: 700">1</sup>(animal)</li>
     </ul>
-    <h4 id="16th-level-or-higher">16th Level or Higher (Level -15)</h4>
+    <h4 id="16th-level-or-higher">16th Level or Higher (Level –15)</h4>
     <ul style="list-style: none; padding-inline-start: 0">
       <li>Dire shark<sup style="font-weight: 700">1</sup></li>
       <li>Dire tiger</li>
@@ -2707,7 +2731,7 @@
           <td>+2</td>
           <td>+2</td>
           <td>Bonus feat, flurry of blows, unarmed strike</td>
-          <td>-2/-2</td>
+          <td>–2/–2</td>
           <td>1d6</td>
           <td>+0</td>
           <td>+0 ft.</td>
@@ -2719,7 +2743,7 @@
           <td>+3</td>
           <td>+3</td>
           <td>Bonus feat, evasion</td>
-          <td>-1/-1</td>
+          <td>–1/–1</td>
           <td>1d6</td>
           <td>+0</td>
           <td>+0 ft.</td>
@@ -2990,10 +3014,10 @@
     <p id="flurry-of-blows">
       <strong>Flurry of Blows (Ex):</strong> When unarmored, a monk may strike with a flurry of blows at the expense of
       accuracy. When doing so, she may make one extra attack in a round at her highest base attack bonus, but this
-      attack takes a -2 penalty, as does each other attack made that round. The resulting modified base attack bonuses
+      attack takes a –2 penalty, as does each other attack made that round. The resulting modified base attack bonuses
       are shown in the Flurry of Blows Attack Bonus column on Table: The Monk. This penalty applies for 1 round, so it
       also affects attacks of opportunity the monk might make before her next action. When a monk reaches 5th level, the
-      penalty lessens to -1, and at 9th level it disappears. A monk must use a full attack action to strike with a
+      penalty lessens to –1, and at 9th level it disappears. A monk must use a full attack action to strike with a
       flurry of blows.
     </p>
     <p>
@@ -3046,27 +3070,27 @@
           <th>Damage<br />(Large Monk)</th>
         </tr>
         <tr>
-          <td>1st-3rd</td>
+          <td>1st–3rd</td>
           <td>1d4</td>
           <td>1d8</td>
         </tr>
         <tr>
-          <td>4th-7th</td>
+          <td>4th–7th</td>
           <td>1d6</td>
           <td>2d6</td>
         </tr>
         <tr>
-          <td>8th-11th</td>
+          <td>8th–11th</td>
           <td>1d8</td>
           <td>2d8</td>
         </tr>
         <tr>
-          <td>12th-15th</td>
+          <td>12th–15th</td>
           <td>1d10</td>
           <td>3d6</td>
         </tr>
         <tr>
-          <td>16th-19th</td>
+          <td>16th–19th</td>
           <td>2d6</td>
           <td>3d8</td>
         </tr>
